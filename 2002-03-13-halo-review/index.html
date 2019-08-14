@@ -7,12 +7,18 @@
     <title>EuroGamer - serving you a fresh slice of gaming morning, noon and night</title>
 
     <style type="text/css">
+        * {
+            -webkit-font-smoothing: none;
+            -moz-osx-font-smoothing: none;
+            font-smooth: never
+        }
+
         body {
             color: #000000;
-            FONT-FAMILY: verdana, geneva, arial, sans-serif;
+            FONT-FAMILY: Verdana, Geneva, sans-serif;
             FONT-SIZE: 11px;
             LINE-HEIGHT: 16px;
-            max-width: 1280px;
+            max-width: 1024px;
             margin: 0 auto
         }
         
@@ -38,19 +44,19 @@
         .headlines {
             font-size: 11pt;
             font-weight: bold;
-            font-family: Trebuchet MS, Verdana, Arial
+            font-family: 'Trebuchet MS', Verdana, Arial
         }
         
         .screenshotheadlines {
             font-size: 10pt;
             font-weight: bold;
-            font-family: Trebuchet MS, Verdana, Arial
+            font-family: 'Trebuchet MS', Verdana, Arial
         }
         
         .featureheadlines {
             font-size: 11pt;
             font-weight: bold;
-            font-family: Trebuchet MS, Verdana, Arial
+            font-family: 'Trebuchet MS', Verdana, Arial
         }
         
         .fournews {
@@ -177,7 +183,7 @@
                                     <form action="https://www.eurogamer.net/search.php" method="get"><img src="img/right-horiz-bar.gif" width="100" height="1">
                                         <br> Search :&nbsp;
                                         <br>
-                                        <input type="text" name="q" size="13">
+                                        <input type="text" name="q" style="width: 100%">
                                         <br>
                                         <input class="formnoborder" type="image" border="0" src="img/go-button.jpg" width="25" height="17" type="submit">
                                         <br><a href="https://www.eurogamer.net/search.php">Advanced Search</a>
