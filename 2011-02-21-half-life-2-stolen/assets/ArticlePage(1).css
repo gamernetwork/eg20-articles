@@ -1,0 +1,97 @@
+.affiliates-sidebar
+{
+	position: relative;
+	width: 318px;
+	margin-bottom: 6px;
+}
+
+.affiliates-sidebar a.affiliate
+{
+	right: 0px;
+	width: 254px;
+}
+
+.affiliates-sidebar a.affiliate.zavvi
+{
+	height: 76px;
+	top: 12px;
+	background-image: url(/web/20110228022858im_/http://www.eurogamer.net/img/Affiliates/zavvi-article-large.png);
+}
+
+.affiliates-sidebar a.affiliate.zavvi.small
+{
+	top: 4px;
+	height: 51px;
+	background-image: url(/web/20110228022858im_/http://www.eurogamer.net/img/Affiliates/zavvi-article-small.png);
+}
+
+.affiliates-sidebar a.affiliate.zavvi.small span
+{
+	top: 7px;
+}
+
+.affiliates-sidebar a.affiliate.getgames.small
+{
+	top: 58px;
+	height: 35px;
+	background-image: url(/web/20110228022858im_/http://www.eurogamer.net/img/Affiliates/getgames-article-small.png);
+}
+
+.affiliates-sidebar a.affiliate.getgames.small span
+{
+	top: 5px;
+}
+
+.affiliates-sidebar a.affiliate.zavvi span,
+.affiliates-sidebar a.affiliate.getgames span
+{
+	top: 20px;
+}
+
+.affiliates-sidebar a.affiliate.getgames
+{
+	height: 76px;
+	background-image: url(/web/20110228022858im_/http://www.eurogamer.net/img/Affiliates/getgames-article-large.png);
+}
+
+img.packshot
+{
+	border: 1px solid #323232;
+	margin: 0;
+	padding: 0;
+	display:block;
+	height:100px;
+	width:70px;
+}
+
+img.packshot.getgames {
+	height:100px;
+	width:100px;
+}
+
+#facebook-like-button
+{
+	height: 24px;
+}
+
+/*
+     FILE ARCHIVED ON 02:28:58 Feb 28, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:18:58 Aug 14, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  RedisCDXSource: 15.402
+  PetaboxLoader3.datanode: 209.068 (4)
+  CDXLines.iter: 25.37 (3)
+  LoadShardBlock: 232.269 (3)
+  load_resource: 144.595
+  exclusion.robots: 0.27
+  exclusion.robots.policy: 0.252
+  PetaboxLoader3.resolve: 96.345
+  captures_list: 280.293
+  esindex: 0.014
+*/

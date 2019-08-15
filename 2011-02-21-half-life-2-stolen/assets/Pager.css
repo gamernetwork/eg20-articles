@@ -1,0 +1,114 @@
+/* pager */
+.pager {
+	padding: 8px;
+	background-color: #f7f7f8;
+	font-weight: bold;
+	color: #666666;
+	margin-bottom: 12px;
+	border-top: 1px solid #f0f0f0;
+	border-bottom: 1px solid #e0e0e0;
+	position: relative;
+}
+.pager big {
+	color: #c0c0c0;
+}
+
+.pager p {
+	font-weight: bold;
+	margin: 0px !important;
+	padding: 0px;	
+}
+.pager h4 {
+	font-size: 1em;
+	font-family: Verdana, Tahoma, sans-serif;
+	margin-bottom: 0.2em;
+	border-bottom: 1px solid #c0c0c0;
+}
+.pager form.slim {
+	padding: 0px;
+	display: inline;
+	margin: 0px;
+}
+.pager .summary {
+	margin-bottom: 0.1em;
+	margin-top: 0.1em;
+}
+
+.alphas {
+	padding: 8px;
+	background-color: #f7f7f8;
+	font-weight: bold;
+	color: #666666;
+	border-bottom: 1px solid #f0f0f0;
+	width: 656px;
+}
+.pager a {
+}
+.alphas a {
+	padding: 3px 4px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	border: 1px solid #f7f7f8;
+}
+.alphas a:hover {
+	background-color: #f0f0f8;
+	border-color: #a0e0ff;
+	text-decoration: none;
+}
+.alphas a.current {
+	background-color: #e0e8f0;
+	border-color: #90c0f0;
+}
+.pager a.current:link ,
+.pager a.current:visited ,
+.pager a.current:hover ,
+.pager a.current:active ,
+.alphas a.current:link ,
+.alphas a.current:visited ,
+.alphas a.current:hover ,
+.alphas a.current:active {
+	color: #303030;
+}
+
+.alphas a.current ,
+.pager a.current {
+	background-color: #e0e8f0;
+	font-weight: bold !important;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.pager a.button {
+	background-color: #0069F2; 
+	color: white;
+	font-weight: bold;
+	-moz-border-radius: 3px;
+}
+
+p.summary
+{
+	padding-bottom: 0px !important;
+	padding-bottom: 3px;
+}
+
+/*
+     FILE ARCHIVED ON 02:28:46 Feb 28, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:18:58 Aug 14, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 761.045
+  exclusion.robots: 0.181
+  load_resource: 71.394
+  esindex: 0.014
+  PetaboxLoader3.datanode: 744.656 (4)
+  RedisCDXSource: 0.883
+  exclusion.robots.policy: 0.169
+  PetaboxLoader3.resolve: 53.204
+  CDXLines.iter: 18.793 (3)
+  LoadShardBlock: 735.927 (3)
+*/
