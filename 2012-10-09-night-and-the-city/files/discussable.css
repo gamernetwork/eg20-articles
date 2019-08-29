@@ -1,0 +1,730 @@
+@import url(/web/20121017094745cs_/http://static.eurogamer.net/styles/Eurogamer/carousel.css);
+
+/* ---- Top of the page tools -------------------- */
+
+#blanket
+{
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	opacity: 0.75;
+	z-index: 12;
+}
+
+#overlay
+{
+	position: fixed;
+	display: none;
+	float: left;
+	clear: both;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	background-color: black;
+	box-shadow: 0 0 20px rgba(0,0,0,0.75);
+	z-index: 13;
+}
+
+#loader
+{
+	display: none;
+	position: fixed;
+	background-color: #202020;
+	color: white;
+	opacity: 0.9;
+	padding: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+	z-index: 14;
+}
+
+#overlay img
+{
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+	background-color: black;
+}
+
+#content div.social
+{
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0 0 5px 0;
+	border: none;
+}
+
+#content div.social.top
+{
+	margin: 0 0 15px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#content div.social > div
+{
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+#content .copy div.social > div *
+{
+	max-width: none !important;
+}
+
+#content div.social > .facebook
+{
+	padding-right: 15px;
+}
+#content div.social > .reddit
+{
+	margin-top: 1px;
+}
+
+#content div.header
+{
+	float: left;
+	clear: left;
+	background-color: transparent;
+	word-wrap: break-word;
+}
+
+#content #sidebar li.tools p
+{
+	margin: 0;
+	padding: 4px 0 0 0;
+}
+
+li.tools p a.tool
+{
+	margin: -3px 0 0 0;
+	float: right;
+}
+
+ul.tools
+{
+	position: relative;
+	display: block;
+	float: left;
+	clear: both;
+	list-style: none;
+	padding: 10px 10px 5px 10px;
+	background-color: #f0f1f6;
+}
+
+ul.tools li
+{
+	display: block;
+	float: left;
+}
+
+ul.tools li a.tag
+{
+	display: block;
+	float: left;
+	background-color: #ffffff;
+	padding: 4px 5px 6px;
+	margin: 1px 5px 4px 0;
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+	line-height: 11px;
+	font-weight: normal;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	background-position: 5px 4px;
+	border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	box-shadow: 0 0 5px #e0e0e0;
+}
+
+ul.tools li a.tag.type
+{
+	background-color: #595b63;
+	color: white;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.5);
+	border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+#sidebar
+{
+	top: 0;
+}
+
+#sidebar li.bullets
+{
+	margin-top: 0;
+	padding-top: 10px;
+}
+
+#sidebar li.bullets *
+{
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+	line-height: 1.3;
+}
+
+#sidebar li.bullets strong,
+#sidebar li.bullets ul li
+{
+	padding-bottom: 3px;
+}
+
+#sidebar li.bullets ul
+{
+	margin: 0;
+	padding: 0 0 0 18px;
+}
+
+#sidebar li.bullets ul li
+{
+	list-style: disc;
+}
+
+#sidebar li.about
+{
+	margin: 0px -15px 0;
+	padding: 0;
+}
+
+#sidebar li.about h2
+{
+	font-weight: bold;
+	position: relative;
+	display: block;
+	clear: both;
+
+	line-height: normal;
+	font-size: 16px;
+	line-height: 16px;
+	margin: 0;
+	padding: 12px 15px 13px;
+	background-color: #707070;
+	color: white;
+	font-weight: bold;
+	border-top: 1px solid #727684;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#616775), to(#474950));
+	background: -moz-linear-gradient(top,  #616775,  #474950);
+	background: -o-linear-gradient(top,  #616775,  #474950);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#616775', endColorstr='#474950');)
+	z-index: 4;
+
+}
+
+#sidebar li.meta,
+#sidebar li.related
+{
+	border-top: 1px solid white;
+}
+
+#sidebar li.related {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #E4E6EB;
+}
+
+#content p.byline
+{
+	text-shadow: 0 -1px 1px rgba(255,255,255,0.25);
+}
+
+#content p.byline a
+{
+	margin-right: 6px;
+}
+
+/* ---- Related articles ------------------------- */
+
+#content div.related
+{
+	float: right;
+	clear: none;
+	margin: 0;
+	padding: 10px 0 0 0;
+	border-top: 1px solid #eaeaea;
+}
+
+#content div.related h2
+{
+	color: #808080;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: bold;
+}
+
+#content div.related ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#content div.related ul li
+{
+	margin: 0 15px 0 0;
+	padding: 0;
+	float: left;
+	clear: none;
+}
+
+#content div.related ul li:last-child
+{
+	margin-right: 0;
+}
+
+#content div.related ul li img
+{
+	width: 100%;
+	border-radius: 2px;
+}
+
+#content div.related ul li h3
+{
+	display: block;
+	float: left;
+	clear: both;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#content div.related ul li p
+{
+	font-size: 11px;
+	line-height: 16px;
+	font-family: Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	float: left;
+	clear: both;
+	color: #808080;
+}
+
+#content div.related ul li p span
+{
+	display: block;
+	clear: left;
+	color: #404040;
+}
+
+/* little footer z-index hack so the quick reply popups above it */
+
+#footer {
+	z-index: 3;
+}
+
+#content.edit
+{
+	padding-top: 10px;
+}
+
+#content.edit form
+{
+
+}
+
+#content.edit form textarea
+{
+	width: 97%;
+}
+
+#content.edit form span
+{
+	display: block;
+	float: left;
+	padding: 11px 0 0 8px;
+}
+
+/* ---- Author boxout ---------------------------- */
+
+#content div.article-footer
+{
+	margin-left: -330px;
+}
+
+#content div.author
+{
+	position: relative;
+	float: left;
+	border-top: 1px solid white;
+	padding-top: 10px;
+	width: 300px;
+}
+
+#content div.author img
+{
+	position: absolute;
+	top: 37px;
+	left: 0;
+	width: 85px;
+	height: 85px;
+	background-color: white;
+}
+
+#content div.author p
+{
+	margin-left: 95px;
+	margin-bottom: 10px;
+}
+
+#content div.author h3
+{
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 5px;
+	color: gray;
+}
+
+#content div.author h3 a.tool
+{
+	vertical-align:bottom;
+	float: none;
+	display: inline;
+	font-size: 10px;
+	padding: 0px 3px;
+}
+
+#content div.author p
+{
+	font-size: 11px;
+	line-height: 15px;
+	font-family: Verdana, sans-serif;
+	color: #787b82;
+}
+
+a#comments-more.tool.more
+{
+	clear: both;
+	text-align: center;
+	padding: 6px 0;
+	float: none;
+	margin: 0 0 10px 0;
+}
+
+#sidebar li ul li.game
+{
+	padding: 10px 0 0;
+	min-height: 70px;
+}
+
+#sidebar li.game-overview
+{
+   -moz-box-sizing:    border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing:     border-box;
+    box-sizing:        border-box;
+
+	position: relative;
+	width: 100%;
+	float: left;
+	clear: both;
+	border-bottom: 1px solid #e4e6eb;
+	padding: 15px 0 10px;
+}
+
+#sidebar li.game-overview.has-packshot
+{
+	min-height: 155px;
+}
+
+#sidebar li.game-overview.has-packshot img
+{
+	position: absolute;
+	top: 15px;
+	left: 0;
+	width: 90px;
+	max-height: 125px;
+	box-shadow: 0 0 10px #606060;
+}
+
+#sidebar li.game-overview.has-packshot ul.meta-data li
+{
+	width: auto;
+	clear: left;
+}
+
+#sidebar li.game-overview.has-packshot ul.meta-data,
+#sidebar li.game-overview.has-packshot p
+{
+	margin-left: 105px;
+}
+#sidebar li.game-overview.has-packshot ul.meta-data
+{
+	width: auto;
+}
+
+#sidebar li.game-overview > *
+{
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+#sidebar li.game-overview p
+{
+	clear: both;
+	border-bottom: 1px solid #e4e6eb;
+	padding-bottom: 10px;
+}
+
+#sidebar li.game-overview.has-packshot p
+{
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+#sidebar li.game-overview ul.meta-data
+{
+	border-top: 1px solid white;
+	padding-top: 9px;
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+	line-height: 1.3;
+	width: 100%;
+	clear: both;
+}
+
+#sidebar li.game-overview.has-packshot ul.meta-data
+{
+	border-top: none;
+}
+
+#sidebar li.game-overview ul.meta-data li
+{
+	float: left;
+	clear: none;
+	width: 33.3%;
+}
+
+#sidebar li.game-overview.has-packshot ul.meta-data li
+{
+	padding-bottom: 5px;
+}
+
+#sidebar li.game-overview.has-packshot ul.meta-data li:last-child
+{
+	padding-bottom: 0;
+}
+
+#sidebar li.game-overview ul.meta-data li strong
+{
+	padding-bottom: 1px;
+}
+
+#sidebar li.game-overview ul.meta-data li:only-child
+{
+	width: 100%;
+	padding-bottom: 0;
+}
+
+#sidebar li.game-overview ul.meta-data li:only-child strong
+{
+	display: inline;
+	clear: none;
+}
+
+#sidebar li.game-overview div.gaikai
+{
+	float: left;
+	margin-left: 100px;
+}
+
+#sidebar li.game-overview div.gaikai img
+{
+	width:auto;
+	float:none;
+	box-shadow: none;
+	background:inherit;
+}
+
+#sidebar li ul.list
+{
+	margin: -10px -10px 0;
+}
+
+#sidebar li ul.list li:nth-child(even)
+{
+	background-color: transparent;
+}
+
+.video-block
+{
+	position: relative;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	z-index: 5;
+}
+
+.video-caption
+{
+	float: left;
+	width: 100%;
+	clear: both;
+	margin-bottom: 20px;
+}
+
+
+div.popup.scorers
+{
+	background-color: white;
+	color: black;
+}
+
+div.popup.scorers a.close
+{
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: red;
+	color: white;
+	border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+	padding: 2px 6px;
+	font-weight: bold;
+}
+
+#content #comments form p#duplicate-notifier
+{
+	float: left;
+	width: 100%;
+	clear: both;
+	margin-top: 5px;
+	padding: 10px 0;
+	text-align: center;
+}
+
+#comments-login-prompt
+{
+	float: left;
+	padding: 10px 0 5px 222px;
+	width: 100%;
+	color: white;
+}
+
+#comments-login-prompt #comment-login,
+#comments-login-prompt div.other
+{
+	float: left;
+	clear: none;
+	height: 102px;
+}
+
+#comments-login-prompt #comment-login
+{
+	padding-right: 14px;
+	border-right: 1px solid #797e87;
+}
+#comments-login-prompt div.other
+{
+
+	border-left: 1px solid #35373b;
+	margin: 0;
+	padding: 0 15px;
+}
+
+#comments-login-prompt div.other p
+{
+	float: left;
+	clear: both;
+	margin: 10px 0 8px;
+}
+
+#comments-login-prompt div#comment-fb-login
+{
+
+}
+
+#comments-login-prompt a.facebook-login
+{
+	font-size: 15px;
+	margin: 0;
+	padding: 8px 10px 8px 41px;
+	background-position-y: -61px;
+	background-position-x: -6px;
+}
+
+#content #comments #comments-login-prompt form.login
+{
+	display: block;
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+	width: 298px;
+}
+
+#comments-login-prompt form label,
+#comments-login-prompt form input
+{
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 8px;
+}
+
+#comments-login-prompt form label
+{
+	font-weight: bold;
+	padding: 5px 0 0 0;
+	width: 75px;
+	text-align: left;
+}
+
+#comments-login-prompt form input
+{
+	padding: 6px 4px;
+	width: 197px;
+}
+
+#comments-login-prompt form input[type=submit]
+{
+	margin-left: 75px;
+	padding: 7px 10px 9px;
+	line-height: 1;
+	width: auto;
+}
+
+#comments-login-prompt form a.forgotten
+{
+	display: block;
+	float: left;
+	clear: none;
+	color: #5DB1EC;
+	font-size: 11px;
+	font-family: Verdana, sans-serif;
+	margin: 5px 0 0 8px;
+}
+
+/*
+     FILE ARCHIVED ON 09:47:45 Oct 17, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:16:49 Aug 29, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.116
+  exclusion.robots: 0.126
+  captures_list: 886.779
+  CDXLines.iter: 15.758 (3)
+  LoadShardBlock: 862.615 (3)
+  esindex: 0.01
+  PetaboxLoader3.datanode: 892.479 (4)
+  load_resource: 40.543
+  RedisCDXSource: 5.118
+*/

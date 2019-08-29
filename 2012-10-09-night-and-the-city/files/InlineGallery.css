@@ -1,0 +1,323 @@
+#content div.inline
+{
+	position: relative;
+	float: right;
+	clear: right;
+	width: auto;
+	background-color: #0d0d0d;
+	color: white;
+	margin: 0 0 20px;
+	padding: 0;
+	overflow: hidden;
+	font-size: 13px;
+	line-height: 1;
+	min-width: 300px;
+}
+
+#content div.inline.large
+{
+	width: 100%;
+	clear: both;
+}
+
+#content div.inline.small
+{
+	margin-left: 20px;
+}
+
+#content div.inline a.fallback
+{
+	display: block;
+	color: white;
+	padding: 10px;
+}
+
+#content div.inline .title
+{
+	padding: 8px 12px;
+	margin: 0;
+	background-color: #707070;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	border-top: 1px solid #727684;
+	text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#616775), to(#474950));
+	background: -moz-linear-gradient(top, #616775, #474950);
+	background: -o-linear-gradient(top, #616775, #474950);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#616775', endColorstr='#474950');
+}
+
+#content div.inline.small .frame
+{
+	height: 250px;
+}
+
+#content div.inline .frame
+{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+	background-color: #1a1a1a;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;	
+}
+
+#content div.inline .frame *
+{
+	background-color: white;
+	display: block;
+	margin: 0 auto;
+}
+
+#content div.inline iframe
+{
+	width: 300px;
+	height: 250px;
+}
+
+#content div.inline .caption
+{
+	font-size: 11px;
+	font-family: Verdana, sans-serif;
+	clear: both;
+	margin: 0;
+	padding: 10px 10px 0;
+	font-style: italic;
+}
+
+#content div.inline .caption span
+{
+	font-weight: bold;
+	font-style: normal;
+}
+
+#content div.inline .pager
+{
+	position: relative;
+	margin: 0;
+	padding: 10px 0;
+}
+
+#content div.inline .pager
+{
+	float: left;
+	width: 100%;
+}
+
+#content div.inline .pager a.tool
+{
+	text-decoration: none;
+	text-shadow: none;
+	display: block;
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 6px 8px;
+	border-radius: 5px;
+	text-shadow: 0 1px white;
+	background-color: #f4f4f4;
+	border: 1px solid #cccdd3;
+	color: #0069ff;
+	background-image: none;
+}
+
+#content div.inline .pager a.tool.previous
+{
+	border-radius: 5px 0 0 5px;
+	margin-left: 10px;
+}
+
+#content div.inline .pager a.tool.next
+{
+	border-radius: 0 5px 5px 0;
+	border-left: 1px solid black;
+	margin-right: 5px;
+}
+
+#content div.inline .pager a.tool.plain
+{
+	float: right;
+	margin-right: 10px;
+}
+
+#content div.inline.grid
+{
+	box-sizing: border-box;
+	padding: 10px 0 0 10px;
+
+	background-color: #F7F8FB;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px solid #EAEBEE;
+	border-left: none;
+	border-right: none;
+}
+
+#content div.inline.grid img
+{
+	float: left;
+	clear: none;
+	margin: 0 10px 10px 0;
+}
+
+#content div.inline.grid img:hover
+{
+	cursor: pointer;
+}
+
+#content div.inline.grid .title
+{
+	margin: -10px 0 10px -10px;
+}
+
+.grid-box
+{
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	z-index: 101;
+	background-color: black;
+	cursor: pointer;
+	box-shadow: 0 0 15px black;
+}
+
+.grid-box img
+{
+	position: relative;
+	display: block;
+}
+
+.grid-box ul
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	opacity: 1;
+	margin: 0;
+	padding: 0;
+}
+
+.grid-box ul li
+{
+	float: left;
+	width: 33.3%;
+	margin: 0;
+	padding: 0;
+}
+
+.grid-box ul li span
+{
+	display: block;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.grid-box ul li a
+{
+	margin: 10px;
+	padding: 4px 6px;
+	line-height: 1.1;
+}
+
+.grid-box ul li:last-child a
+{
+	float: right;
+}
+
+.grid-blanket
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 100;
+	background-color: black;
+	opacity: 0.75;
+}
+
+.grid-loader
+{
+	position: fixed;
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	color: black;
+	font-weight: bold;
+	z-index: 102;
+	font-size: 16px;
+	line-height: 1;
+	opacity: 0.7;
+}
+
+.grid-box a.original
+{
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: white;
+	color: #474950;
+	border-radius: 5px;
+	padding: 5px 8px 6px;
+	opacity: 0.6;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease-in;
+}
+
+.grid-box a.original:hover
+{
+	opacity: 1;
+}
+
+.grid-box a.original img,
+.grid-box a.original span
+{
+	display: inline;
+	float: none;
+	clear: none;
+	vertical-align: middle;
+}
+
+.grid-box a.original img
+{
+	background-color: transparent;
+	height: 15px;
+}
+
+.grid-box a.original span
+{
+	padding-left: 5px;
+	font-weight: bold;
+}
+/*
+     FILE ARCHIVED ON 09:47:47 Oct 17, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:16:48 Aug 29, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.181
+  exclusion.robots: 0.193
+  captures_list: 111.706
+  CDXLines.iter: 11.865 (3)
+  LoadShardBlock: 88.294 (3)
+  esindex: 0.007
+  RedisCDXSource: 8.762
+  PetaboxLoader3.datanode: 92.363 (4)
+  load_resource: 74.777
+  PetaboxLoader3.resolve: 49.668
+*/
