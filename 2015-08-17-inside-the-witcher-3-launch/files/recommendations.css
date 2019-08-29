@@ -1,0 +1,51 @@
+#recommendations
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: .75em;
+}
+
+.hd	#recommendations
+{
+	padding: 0;
+}
+
+#recommendations > .title {
+	color: #808080;
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-size: 17px;
+	line-height: 1;
+	font-weight: bold;
+}
+
+#recommendations > .title > a {
+	float: right;
+	font-size: 11px;
+	padding: .25em 1.25em 0 0;
+	color: #808080;
+	font-family: "Verdana", sans-serif;
+	font-weight: normal;
+}
+/*
+     FILE ARCHIVED ON 23:06:58 Aug 20, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:08:50 Aug 29, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.datanode: 242.502 (5)
+  exclusion.robots.policy: 0.205
+  LoadShardBlock: 222.35 (3)
+  exclusion.robots: 0.218
+  esindex: 0.024
+  load_resource: 196.651
+  CDXLines.iter: 16.065 (3)
+  RedisCDXSource: 3.689
+  captures_list: 246.611
+  PetaboxLoader3.resolve: 157.699 (2)
+*/

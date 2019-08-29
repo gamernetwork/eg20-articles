@@ -1,0 +1,95 @@
+article
+{
+	font-size: 14px;
+}
+
+article > p,
+article > ul,
+article > section > p,
+article > section > ul
+{
+	margin-right: 30px;
+}
+
+article > section.conclusion
+{
+	clear: none;
+	width: auto;
+}
+
+article > .summary
+{
+	position: relative;
+	clear: both;
+	border-bottom: 1px solid #e0e0e0;
+	font-weight: bold;
+	margin-bottom: 1rem;	
+	padding: .25rem 0 1rem;
+}
+
+article > .summary.recommended,
+article > .summary.essential,
+article > .summary.avoid
+{
+	padding: .75rem;
+	margin-right: 2rem;
+	min-height: 5.5rem;
+	border-radius: .2rem .2rem 0 0;
+	border-bottom-width: 4px;
+}
+
+article > .summary.recommended
+{
+	background-color: #efefef;
+	border-color: #a5a7aa;
+}
+
+article > .summary.essential
+{
+	background-color: rgba(172,138,61, .14);
+	border-color: #d8ae33;
+}
+
+article > .summary.avoid
+{
+	background-color: rgba(235,28,36, .14);
+	border-color: #eb1c24;
+}
+
+article > .summary > img
+{
+	position: relative;
+	margin: -3.25rem -1.5rem 0 1.5rem;
+	float: right;
+	width: auto;
+	max-height: 160px;
+}
+
+article > .summary > p
+{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 1.1;
+}
+/*
+     FILE ARCHIVED ON 23:07:08 Aug 20, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:08:50 Aug 29, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  load_resource: 168.45
+  LoadShardBlock: 79.011 (3)
+  exclusion.robots.policy: 0.112
+  PetaboxLoader3.datanode: 50.913 (5)
+  PetaboxLoader3.resolve: 124.992 (2)
+  exclusion.robots: 0.121
+  CDXLines.iter: 11.918 (3)
+  esindex: 0.007
+  RedisCDXSource: 1.471
+  captures_list: 95.223
+*/

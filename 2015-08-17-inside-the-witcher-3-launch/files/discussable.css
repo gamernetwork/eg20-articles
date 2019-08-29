@@ -1,0 +1,721 @@
+#content
+{
+	background-image: none;
+	border-radius: 4px;
+}
+
+.breadcrumb
+{
+	border-bottom: 1px solid #c4c6cc;
+	float: left;
+	margin: 0 0 .5em;
+	background-color: #eceef4;
+	border-radius: .2em;
+}
+
+.breadcrumb + .breadcrumb
+{
+	margin-left: .75em;
+}
+
+.breadcrumb > li
+{
+	display: block;
+	float: left;
+	margin: 0;
+	padding: .6em;
+	border-left: 1px solid #eff0f5;
+	border-right: 1px solid #d5d7dd;
+	font-size: 10px;
+	font-family: Verdana, sans-serif;
+	line-height: 1;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+	color: #808080;
+}
+
+.breadcrumb > li:first-of-type
+{
+	border-radius: .2em 0 0 .2em;
+}
+
+.breadcrumb > li:last-of-type
+{
+	border-radius: 0 .2em .2em 0;
+}
+
+.breadcrumb > li > a
+{
+	color: #808080;
+}
+
+article
+{
+	position: relative;
+	float: right;
+	width: 600px;
+	padding-right: 15px;
+}
+
+#fragment-1,
+#fragment-2
+{
+	position: relative;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+#fragment-1
+{
+	padding-top: 15px;
+	padding-bottom: 5px;
+	min-height: 265px;
+}
+
+#fragment-2
+{
+	box-sizing: border-box;
+	padding: 0 15px;
+}
+
+#fragment-1 #sidebar
+{
+	position: relative;
+	z-index: 9;
+	float: left;
+	top: 0;
+	margin: 0 0 0 15px;
+	padding: 0;
+	background-color: transparent;
+	background-image: none;
+}
+
+#fragment-1 #sidebar > li
+{
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin-bottom: 15px;
+}
+
+#fragment-1 #sidebar > li.affiliate
+{
+
+}
+
+#fragment-1 #sidebar > li.advert.mpu
+{
+	padding-top: 0;
+}
+
+#content header,
+#content header *
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#content header
+{
+	display: block;
+	float: left;
+	clear: both;
+	width: 100%;
+	padding: 15px 15px 0;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#content header > *
+{
+
+}
+
+#content header > h1
+{
+	background-color: transparent;
+	background-image: none;
+	filter: none;
+	color: black;
+	border: none;
+	width: auto;
+	text-shadow: none;
+	font-size: 40px;
+	line-height: 0.9;
+	font-weight: normal;
+	padding: 0 0 5px;
+	float: left;
+	margin: 0;
+}
+
+#content header > .cover-image,
+#content header > .cover-image *
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#content header > .cover-image
+{
+	position: relative;
+ 	margin: 0;
+ 	margin-left: -15px;
+	overflow: hidden;
+	max-width: none;
+	border-left: none;
+	border-right: none;
+	border-top: 5px solid #e0e0e0;
+	min-height: 245px;
+	width: 960px;
+}
+
+#content header > .cover-image > p
+{
+	position: absolute;
+	opacity: 0.9;
+	bottom: 15px;
+	left: 15px;
+	margin: 0;
+	width: 300px;
+	background-color: #202020;
+	color: white;
+	padding: 15px;
+	font-size: 16px;
+	line-height: 1.2;
+	font-style: italic;
+	border-radius: 3px;
+}
+
+#content header > .cover-image > img
+{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+#content header > .strapline
+{
+	clear: both;
+	margin: 0;
+	font-size: 18px;
+	color: #808080;
+	padding: 0 0 15px;
+	line-height: 1.1;
+	font-weight: bold;
+}
+
+#content header > .strapline > span
+{
+	color: black;
+	font-weight: normal;
+}
+
+#content header > .strapline > span > strong
+{
+	font-weight: bold;
+}
+
+#content header > .buttons
+{
+	position: absolute;
+	top: 23px;
+	right: 15px;
+	width: 190px;
+}
+
+#content header > .buttons > div
+{
+	clear: both;
+	padding-bottom: 5px;
+}
+
+
+/* ---- Top of the page tools -------------------- */
+
+#blanket
+{
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	opacity: 0.75;
+	z-index: 12;
+}
+
+#overlay
+{
+	position: fixed;
+	display: none;
+	float: left;
+	clear: both;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	background-color: black;
+	box-shadow: 0 0 20px rgba(0,0,0,0.75);
+	z-index: 13;
+}
+
+#loader
+{
+	display: none;
+	position: fixed;
+	background-color: #202020;
+	color: white;
+	opacity: 0.9;
+	padding: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+	z-index: 14;
+}
+
+#overlay img
+{
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+	background-color: black;
+}
+
+#content div.header
+{
+	float: left;
+	clear: left;
+	background-color: transparent;
+	word-wrap: break-word;
+}
+
+.tags
+{
+	position: relative;
+	display: block;
+	float: left;
+	border-top: 1px solid rgba(0,0,0,.01);
+	border-bottom: 1px solid rgba(0,0,0,.15);
+	background-color: #e7e9f0;
+	color: #808080;
+	text-shadow: 0 1px 0px white;
+	padding: 0;
+	margin: 0 0 .15em;
+	border-radius: 1px;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;	
+}
+
+.tags > li
+{
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.tags > li > *
+{
+	display: block;
+	float: left;
+	margin: 0;
+	padding: .5em .6em;
+	border-left: 1px solid #eff0f5;
+	border-right: 1px solid #d5d7dd;
+	font-size: 10px;
+	font-family: Verdana, sans-serif;
+	line-height: 11px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+}
+
+.tags > li > *:first-of-type
+{
+	background-color: rgba(0,0,0,.6);
+	color: white;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px rgba(0,0,0,.7);
+}
+
+#content p.byline
+{
+	clear: left;
+	font-style: normal;
+	font-weight: bold;
+	color: #808080;
+}
+
+#content p.byline > a,
+#content p.byline > span
+{
+	margin-right: .75em;
+	font-weight: normal;
+	color: black;
+}
+
+#content p.byline > a
+{
+	color: #0069ff;
+}
+
+/* ---- Related articles ------------------------- */
+
+#content .related,
+#content .related *
+{
+	box-sizing: border-box;
+}
+
+#content .related
+{
+	float: left;
+	width: 100%;
+	clear: both;
+	margin: 0;
+}
+
+#content.edit
+{
+	padding: 0;
+}
+
+#content.edit,
+#content.edit *
+{
+   -moz-box-sizing:    border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing:     border-box;
+    box-sizing:        border-box;
+}
+
+#content.edit .content > h1
+{
+	margin: 0 0 1em;
+	width: 100%;
+}
+
+#content.edit > .content
+{
+	float: none;
+	width: 100%;
+	padding: 0;
+}
+
+#content.edit form
+{
+	display: block;
+	float: left;
+	width: 100%;
+	clear: both;
+	margin: 0;
+	padding: 0 1.5em 1em;
+}
+
+#content.edit form > p
+{
+	margin-bottom: 1em;
+}
+
+#content.edit form textarea
+{
+	width: 100%;
+	margin-bottom: 0.5em;
+}
+
+#content.edit form span
+{
+	display: block;
+	float: left;
+	padding: 11px 0 0 8px;
+}
+
+/* ---- Author boxout ---------------------------- */
+
+#content .article-footer
+{
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	border-top: 4px solid #eff1f7;
+	padding: 15px 0 0;
+}
+
+#content .author,
+#content .author *
+{
+	box-sizing: border-box;
+}
+
+#content .author
+{
+	position: relative;
+	float: left;
+	clear: left;
+	width: 300px;
+	padding: 0;
+}
+
+#content .author img
+{
+	position: absolute;
+	top: 22px;
+	left: 0;
+	width: 80px;
+	height: 80px;
+	border-radius: .25em;
+}
+
+#content .author h3
+{
+	font-size: 16px;
+	line-height: 1;
+	margin-bottom: 4px;
+	color: #808080;
+}
+
+#content .author p
+{
+	padding-left: 90px;
+	min-height: 80px;
+	margin-bottom: 1.25em;
+	font-size: 11px;
+	line-height: 1.4;
+	font-family: Verdana;
+	color: #808080;
+}
+
+a#comments-more.tool.more
+{
+	clear: both;
+	text-align: center;
+	padding: 6px 0;
+	float: none;
+	margin: 0 0 10px 0;
+}
+
+.video-block
+{
+	position: relative;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	z-index: 5;
+}
+
+.video-caption
+{
+	float: left;
+	width: 100%;
+	clear: both;
+	margin-bottom: 20px;
+}
+
+
+div.popup.scorers
+{
+	background-color: white;
+	color: black;
+}
+
+div.popup.scorers a.close
+{
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: red;
+	color: white;
+	border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px;	
+	padding: 2px 6px;
+	font-weight: bold;
+}
+
+#content #comments form p#duplicate-notifier
+{
+	float: left;
+	width: 100%;
+	clear: both;
+	margin-top: 5px;
+	padding: 10px 0;
+	text-align: center;
+}
+
+#comments-login-prompt
+{
+	float: left;
+	padding: 10px 0 5px 222px;
+	width: 100%;
+	color: white;
+}
+
+#comments-login-prompt #comment-login,
+#comments-login-prompt div.other
+{
+	float: left;
+	clear: none;
+	height: 102px;
+}
+
+#comments-login-prompt #comment-login
+{
+	padding-right: 14px;
+	border-right: 1px solid #797e87;
+}
+#comments-login-prompt div.other
+{
+
+	border-left: 1px solid #35373b;
+	margin: 0;
+	padding: 0 15px;
+}
+
+#comments-login-prompt div.other a.tool
+{
+	padding: 6px 8px;
+}
+
+#comments-login-prompt div.other p
+{
+	float: left;
+	clear: both;
+	margin: 10px 0 8px;
+}
+
+#comments-login-prompt div#comment-fb-login
+{
+
+}
+
+#comments-login-prompt a.facebook-login
+{
+	font-size: 15px;
+	margin: 0;
+	padding: 8px 10px 8px 41px;
+	background-position-y: -61px;
+	background-position-x: -6px;
+}
+
+#content #comments #comments-login-prompt form.login
+{
+	display: block;
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+	width: 298px;
+}
+
+#comments-login-prompt form label,
+#comments-login-prompt form input
+{
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 8px;
+}
+
+#comments-login-prompt form label
+{
+	font-weight: normal;
+	padding: 6px 10px 0 0;
+	width: 110px;
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+	text-align: right;
+}
+
+#comments-login-prompt form input
+{
+	padding: 6px 4px;
+	width: 197px;
+}
+
+#comments-login-prompt form input[type=submit]
+{
+	margin-left: 110px;
+	padding: 7px 10px 9px;
+	line-height: 1;
+	width: auto;
+}
+
+#comments-login-prompt form a.forgotten
+{
+	display: block;
+	float: left;
+	clear: none;
+	color: #89D5FF;
+	font-size: 11px;
+	font-family: Verdana;
+	margin: 5px 0 0 8px;
+}
+
+.steam-promo,
+.steam-promo *
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.steam-promo
+{
+	display: block;
+	float: left;
+	width: 100%;
+	background-color: #1a2635;
+	padding: 1em 1em .65em;
+	border-radius: .3em;
+	border-bottom: 3px solid #66c0f4;
+	margin: 0 0 .75em;
+	color: #909090;
+	font-size: 15px;
+	line-height: 1.2;
+	text-shadow: 0 1px 1px black;
+	transition: .3s;
+	-webkit-font-smoothing: antialiased;	
+}
+
+.steam-promo:hover
+{
+	text-decoration: none;
+	background-color: #141d28;
+}
+
+.steam-promo > img
+{
+	float: right;
+	max-width: 12em;
+	margin-left: 1em;
+}
+
+.steam-promo > span
+{
+	color: white;
+	font-weight: 900;	
+}
+
+/*
+     FILE ARCHIVED ON 23:06:59 Aug 20, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:08:49 Aug 29, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 131.843 (3)
+  esindex: 0.015
+  exclusion.robots: 0.149
+  RedisCDXSource: 0.559
+  load_resource: 294.106
+  captures_list: 147.898
+  CDXLines.iter: 12.28 (3)
+  exclusion.robots.policy: 0.14
+  PetaboxLoader3.resolve: 221.184 (2)
+  PetaboxLoader3.datanode: 157.543 (5)
+*/

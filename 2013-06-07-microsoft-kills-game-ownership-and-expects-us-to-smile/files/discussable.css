@@ -1,0 +1,835 @@
+@import url(/web/20130607075454cs_/http://static.eurogamer.net/styles/Eurogamer/carousel.css);
+
+#content
+{
+	background-image: none;
+	border-radius: 4px;
+}
+
+article
+{
+	position: relative;
+	float: right;
+	width: 600px;
+	padding-right: 15px;
+}
+
+#fragment-1,
+#fragment-2
+{
+	position: relative;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+#fragment-1
+{
+	padding-top: 15px;
+	min-height: 265px;
+	border-left: none;
+	border-right: none;
+}
+
+#fragment-1 #sidebar
+{
+	position: relative;
+	z-index: 9;
+	float: left;
+	top: 0;
+	margin: 0 0 0 15px;
+	padding: 0;
+	background-color: transparent;
+	background-image: none;
+}
+
+#fragment-1 #sidebar > li
+{
+	float: left;
+	width: 100%;
+	padding: 0;
+}
+
+#fragment-1 #sidebar > li.affiliate
+{
+	margin-top: 15px;
+}
+
+#fragment-1 #sidebar > li.advert.mpu
+{
+	padding-top: 0;
+}
+
+#fragment-1 #sidebar > li.mpu
+#fragment-1 #sidebar > li.games,
+#fragment-1 #sidebar > li.games *
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#fragment-1 #sidebar > li.games
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	clear: both;
+	margin-bottom: 15px;
+	border-bottom: 4px solid #404040;
+	color: #404040;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.25);
+	border-radius: 2px;
+}
+
+.ie8 #fragment-1 #sidebar > li.games
+{
+	border: 1px solid #e0e0e0;
+	border-bottom: 4px solid #404040;
+}
+
+#fragment-1 #sidebar > li.games > h4
+{
+	position: relative;
+	display: block;
+	clear: both;
+	line-height: normal;
+	margin: 0;
+	padding: 10px;
+	background-color: #323232;
+	color: white;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1;
+	color: white;
+	text-shadow: none;
+	border-radius: 3px 3px 0px 0px;
+}
+
+#fragment-1 #sidebar > li.games > ul
+{
+	max-height: 233px;
+	overflow-y: auto;
+}
+#fragment-1 #sidebar > li.games > ul > li
+{
+	float: left;
+	width: 100%;
+	position: relative;
+	padding: 10px;
+	margin: 0;
+	min-height: 72px;
+	border-bottom: 1px solid #e4e6eb;
+}
+
+#fragment-1 #sidebar > li.games > ul > li:last-of-type
+{
+	border-bottom: 0;
+}
+
+#fragment-1 #sidebar > li.games > ul > li.has-packshot
+{
+	padding-left: 68px;
+}
+
+#fragment-1 #sidebar > li.games > ul > li > a > img
+{
+	position: absolute;
+	left: 10px;
+	width: 47px;
+	max-height: 56px;
+}
+
+#fragment-1 #sidebar > li.games > ul > li > h2
+{
+	font-size: 13px;
+	font-weight: normal;
+}
+
+#fragment-1 #sidebar > li.games > ul > li > h2,
+#fragment-1 #sidebar > li.games > ul > li > p
+{
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+}
+
+#fragment-1 #sidebar > li.games > ul > li > p:first-of-type
+{
+	font-size: 11px;
+	font-family: Verdana, sans-serif;
+	padding-top: 3px;
+}
+
+#fragment-1 #sidebar > li.games > ul > li > p:last-of-type
+{
+	padding-top: 8px;
+}
+
+#fragment-1 #sidebar > li.games > p
+{
+	display: block;
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 8px 10px;
+	font-size: 11px;
+	font-family: Verdana, sans-serif;
+	line-height: 14px;
+	border-top: 1px solid #e4e6eb;
+}
+
+#content header,
+#content header *
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#content header
+{
+	display: block;
+	float: left;
+	clear: both;
+	width: 100%;
+	padding: 15px 15px 0;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#content header > *
+{
+
+}
+
+#content header > h1
+{
+	background-color: transparent;
+	background-image: none;
+	filter: none;
+	color: black;
+	border: none;
+	width: auto;
+	text-shadow: none;
+	font-size: 40px;
+	line-height: 0.9;
+	font-weight: normal;
+	padding: 5px 0;
+	float: left;
+	margin: 0;
+}
+
+#content header > .cover-image,
+#content header > .cover-image *
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#content header > .cover-image
+{
+	position: relative;
+ 	margin: 0 -15px;
+	overflow: hidden;
+	max-width: none;
+	border-left: none;
+	border-right: none;
+	border-top: 5px solid #e0e0e0;
+	box-shadow: inset 0 0 8px rgba(0,0,0,0.5);
+	min-height: 245px;
+}
+
+#content header > .cover-image > p
+{
+	position: absolute;
+	opacity: 0.9;
+	bottom: 15px;
+	left: 15px;
+	margin: 0;
+	width: 300px;
+	box-shadow: inset 0 0 30px black;
+	background-color: #202020;
+	color: white;
+	padding: 15px;
+	font-size: 16px;
+	line-height: 1.2;
+	font-style: italic;
+	border-radius: 3px;
+}
+
+#content header > .cover-image > img
+{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+#content header > .strapline
+{
+	clear: both;
+	margin: 0;
+	font-size: 17px;
+	color: #a0a0a0;
+	padding: 0 0 15px;
+	line-height: 1.1;
+	font-weight: bold;
+}
+
+#content header > .strapline > span
+{
+	color: black;
+	font-weight: normal;
+}
+
+#content header > .strapline > span > strong
+{
+	font-weight: bold;
+}
+
+#content header > .buttons
+{
+	position: absolute;
+	top: 23px;
+	right: 15px;
+	width: 190px;
+}
+
+#content header > .buttons > div
+{
+	clear: both;
+	padding-bottom: 5px;
+}
+
+
+/* ---- Top of the page tools -------------------- */
+
+#blanket
+{
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	opacity: 0.75;
+	z-index: 12;
+}
+
+#overlay
+{
+	position: fixed;
+	display: none;
+	float: left;
+	clear: both;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	background-color: black;
+	box-shadow: 0 0 20px rgba(0,0,0,0.75);
+	z-index: 13;
+}
+
+#loader
+{
+	display: none;
+	position: fixed;
+	background-color: #202020;
+	color: white;
+	opacity: 0.9;
+	padding: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+	z-index: 14;
+}
+
+#overlay img
+{
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+	background-color: black;
+}
+
+#content div.social
+{
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0 0 5px 0;
+	border: none;
+}
+
+#content div.social.top
+{
+	margin: 0 0 15px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#content div.social > *
+{
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+#content div.social > .facebook
+{
+	padding-right: 15px;
+}
+#content div.social > .reddit
+{
+	margin-top: 1px;
+}
+
+#content div.header
+{
+	float: left;
+	clear: left;
+	background-color: transparent;
+	word-wrap: break-word;
+}
+
+ul.tools
+{
+	position: relative;
+	display: block;
+	float: left;
+	clear: both;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.tools li
+{
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+ul.tools li a.tag
+{
+	display: block;
+	float: left;
+	background-color: #fafafa;
+	padding: 4px 6px 5px;
+	margin: 0 5px 5px 0;
+	font-family: Verdana;
+	font-size: 11px;
+	line-height: 1;
+	font-weight: normal;
+	background-position: 5px 5px;
+	border-radius: 3px;
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+
+ul.tools li a.tag.type
+{
+	background-color: #595b63;
+	color: white;
+	background-image: url(/web/20130607075454im_/http://static.eurogamer.net/img/EurogamerPage/topic-tag-light.png);
+}
+
+#content p.byline
+{
+	text-shadow: 0 -1px 1px rgba(255,255,255,0.25);
+}
+
+#content p.byline a
+{
+	margin-right: 6px;
+}
+
+/* ---- Related articles ------------------------- */
+
+#content div.related
+{
+	float: right;
+	clear: none;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+#content div.related h2
+{
+	color: #808080;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: bold;
+}
+
+#content div.related ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#content div.related ul li
+{
+	margin: 0 15px 0 0;
+	padding: 0;
+	float: left;
+	clear: none;
+}
+
+#content div.related ul li:last-child
+{
+	margin-right: 0;
+}
+
+#content div.related ul li img
+{
+	width: 100%;
+	max-height: 86px;
+	border-radius: 2px;
+}
+
+#content div.related ul li h3
+{
+	display: block;
+	float: left;
+	clear: both;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#content div.related ul li p
+{
+	font-size: 11px;
+	line-height: 16px;
+	font-family: Verdana;
+	margin: 0;
+	padding: 0;
+	float: left;
+	clear: both;
+	color: #808080;
+}
+
+#content div.related ul li p span
+{
+	display: block;
+	clear: left;
+	color: #404040;
+}
+
+/* little footer z-index hack so the quick reply popups above it */
+
+#footer {
+	z-index: 3;
+}
+
+#content.edit
+{
+	padding: 0;
+}
+
+#content.edit,
+#content.edit *
+{
+   -moz-box-sizing:    border-box;
+   -webkit-box-sizing: border-box;
+   -ms-box-sizing:     border-box;
+    box-sizing:        border-box;
+}
+
+#content.edit .content > h1
+{
+	margin: 0 0 1em;
+	width: 100%;
+}
+
+#content.edit > .content
+{
+	float: none;
+	width: 100%;
+	padding: 0;
+}
+
+#content.edit form
+{
+	display: block;
+	float: left;
+	width: 100%;
+	clear: both;
+	margin: 0;
+	padding: 0 1.5em 1em;
+}
+
+#content.edit form > p
+{
+	margin-bottom: 1em;
+}
+
+#content.edit form textarea
+{
+	width: 100%;
+	margin-bottom: 0.5em;
+}
+
+#content.edit form span
+{
+	display: block;
+	float: left;
+	padding: 11px 0 0 8px;
+}
+
+/* ---- Author boxout ---------------------------- */
+
+#content div.article-footer
+{
+	float: left;
+	width: 100%;
+}
+
+#content div.author
+{
+	position: relative;
+	float: left;
+	border-top: 1px solid white;
+	padding-top: 10px;
+	padding-left: 15px;
+	width: 300px;
+}
+
+#content div.author img
+{
+	position: absolute;
+	top: 37px;
+	left: 15px;
+	width: 85px;
+	height: 85px;
+	background-color: white;
+}
+
+#content div.author p
+{
+	margin-left: 95px;
+	margin-bottom: 10px;
+}
+
+#content div.author h3
+{
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 5px;
+	color: gray;
+}
+
+#content div.author h3 a.tool
+{
+	vertical-align:bottom;
+	float: none;
+	display: inline;
+	font-size: 10px;
+	padding: 0px 3px;
+}
+
+#content div.author p
+{
+	font-size: 11px;
+	line-height: 15px;
+	font-family: Verdana;
+	color: #787b82;
+}
+
+a#comments-more.tool.more
+{
+	clear: both;
+	text-align: center;
+	padding: 6px 0;
+	float: none;
+	margin: 0 0 10px 0;
+}
+
+.video-block
+{
+	position: relative;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	z-index: 5;
+}
+
+.video-caption
+{
+	float: left;
+	width: 100%;
+	clear: both;
+	margin-bottom: 20px;
+}
+
+
+div.popup.scorers
+{
+	background-color: white;
+	color: black;
+}
+
+div.popup.scorers a.close
+{
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: red;
+	color: white;
+	border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+	padding: 2px 6px;
+	font-weight: bold;
+}
+
+#content #comments form p#duplicate-notifier
+{
+	float: left;
+	width: 100%;
+	clear: both;
+	margin-top: 5px;
+	padding: 10px 0;
+	text-align: center;
+}
+
+#comments-login-prompt
+{
+	float: left;
+	padding: 10px 0 5px 222px;
+	width: 100%;
+	color: white;
+}
+
+#comments-login-prompt #comment-login,
+#comments-login-prompt div.other
+{
+	float: left;
+	clear: none;
+	height: 102px;
+}
+
+#comments-login-prompt #comment-login
+{
+	padding-right: 14px;
+	border-right: 1px solid #797e87;
+}
+#comments-login-prompt div.other
+{
+
+	border-left: 1px solid #35373b;
+	margin: 0;
+	padding: 0 15px;
+}
+
+#comments-login-prompt div.other a.tool
+{
+	padding: 6px 8px;
+}
+
+#comments-login-prompt div.other p
+{
+	float: left;
+	clear: both;
+	margin: 10px 0 8px;
+}
+
+#comments-login-prompt div#comment-fb-login
+{
+
+}
+
+#comments-login-prompt a.facebook-login
+{
+	font-size: 15px;
+	margin: 0;
+	padding: 8px 10px 8px 41px;
+	background-position-y: -61px;
+	background-position-x: -6px;
+}
+
+#content #comments #comments-login-prompt form.login
+{
+	display: block;
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+	width: 298px;
+}
+
+#comments-login-prompt form label,
+#comments-login-prompt form input
+{
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 8px;
+}
+
+#comments-login-prompt form label
+{
+	font-weight: normal;
+	padding: 6px 10px 0 0;
+	width: 110px;
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+	text-align: right;
+}
+
+#comments-login-prompt form input
+{
+	padding: 6px 4px;
+	width: 197px;
+}
+
+#comments-login-prompt form input[type=submit]
+{
+	margin-left: 110px;
+	padding: 7px 10px 9px;
+	line-height: 1;
+	width: auto;
+}
+
+#comments-login-prompt form a.forgotten
+{
+	display: block;
+	float: left;
+	clear: none;
+	color: #5DB1EC;
+	font-size: 11px;
+	font-family: Verdana;
+	margin: 5px 0 0 8px;
+}
+
+/*
+     FILE ARCHIVED ON 07:54:54 Jun 07, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:45:52 Aug 29, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.datanode: 68.457 (4)
+  LoadShardBlock: 32.076 (3)
+  RedisCDXSource: 1.914
+  exclusion.robots: 0.161
+  captures_list: 51.529
+  exclusion.robots.policy: 0.149
+  load_resource: 52.66
+  CDXLines.iter: 14.409 (3)
+  esindex: 0.007
+*/

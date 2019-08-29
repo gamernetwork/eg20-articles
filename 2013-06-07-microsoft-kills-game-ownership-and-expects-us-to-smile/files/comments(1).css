@@ -1,0 +1,44 @@
+#reply-box #comment-form
+{
+	width: 605px;
+}
+
+#reply-box .closed
+{
+	background-position-x: 180px;
+	margin: 10px 0;
+	padding-top: 10px;
+	padding-left: 335px;
+	width: 660px;
+}
+
+#comments
+{
+	width: 600px;
+}
+
+#comments > li.comment.verified
+{
+	width: 620px;
+}
+/*
+     FILE ARCHIVED ON 07:54:55 Jun 07, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:45:53 Aug 29, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  load_resource: 113.832
+  LoadShardBlock: 250.857 (3)
+  exclusion.robots.policy: 0.174
+  PetaboxLoader3.datanode: 237.41 (4)
+  PetaboxLoader3.resolve: 52.548
+  exclusion.robots: 0.186
+  CDXLines.iter: 13.23 (3)
+  esindex: 0.011
+  RedisCDXSource: 7.773
+  captures_list: 275.498
+*/

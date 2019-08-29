@@ -1,0 +1,194 @@
+.related-games,
+.related-games *
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.related-games
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	clear: both;
+	color: #404040;
+	padding: .75em;
+}
+
+.related-games > div
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	clear: both;
+	border-radius: .25em;
+	border: 1px solid rgba(0,0,0,.1);
+
+}
+.related-games > div > h4
+{
+	position: relative;
+	display: block;
+	clear: both;
+	margin: 0;
+	padding: .5em .65em 1.1em;
+	font-size: 1.2em;
+	font-weight: normal;
+	clear: both;
+	color: #808080;
+	background-image: url(title.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	z-index: 2;
+	margin-bottom: -.5em;
+	border-radius: .25em .25em 0 0;
+}
+
+.related-games > div > ul
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	background-color: white;
+}
+
+.related-games > div > ul > li
+{
+	float: left;
+	width: 100%;
+	position: relative;
+	padding: .75em !important;
+	margin: 0;
+	min-height: 5.85em;
+	border-bottom: 1px solid #e4e6eb;
+	list-style: none;
+}
+
+.related-games > div > ul > li:last-of-type
+{
+	border-bottom: 0;
+}
+
+.related-games > div > ul > li.has-packshot
+{
+	padding-left: 68px !important;
+}
+
+.related-games > div > ul > li.has-packshot > a > img
+{
+	position: absolute;
+	left: 10px;
+	width: 47px;
+	max-height: 59px;
+}
+
+.related-games > div > ul > li > h2
+{
+	margin: 0 !important;
+	padding: 0 !important;
+	text-shadow: none !important;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.related-games > div > ul > li > h2,
+.related-games > div > ul > li > p
+{
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+}
+
+.related-games > div > ul > li > p:first-of-type
+{
+	font-size: 11px;
+	font-family: Verdana, sans-serif;
+	padding-top: 3px;
+}
+
+.related-games > div > ul > li > p:last-of-type
+{
+	padding-top: 8px;
+}
+
+.related-games > div > ul > li > ul
+{
+	list-style: disc;
+	clear: both;
+	float: left;
+	clear: both;
+	width: 100%;
+	padding: .5em 0 0 .5em !important;
+	margin: 0 0 0 -58px !important;
+	min-width: 266px;
+}
+
+.related-games > div > ul > li > ul > li
+{
+	list-style: disc !important;
+	padding: .25em 0 !important;
+	margin: 0 0 0 1.25em !important;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px;
+	line-height: 1.3;
+}
+
+.related-games > div > ul > li > ul > li:last-of-type
+{
+	padding-bottom: 0 !important;
+}
+
+.related-games > div > p
+{
+	display: block;
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 1em;
+	font-size: 11px;
+	font-family: Verdana, sans-serif;
+	line-height: 1.35;
+	border-radius: 0 0 .5em .5em;
+	background-color: white;
+	color: #808080;
+}
+
+@media screen and (min-width: 768px)
+{
+	.related-games
+	{
+		margin-bottom: 0;
+		padding: 0;
+	}
+
+	.related-games > div > ul
+	{
+		max-height: 190px;
+		overflow-y: auto;
+	}
+}
+/*
+     FILE ARCHIVED ON 23:06:56 Aug 20, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:08:50 Aug 29, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 295.191 (3)
+  esindex: 0.013
+  exclusion.robots: 0.205
+  RedisCDXSource: 10.748
+  load_resource: 181.296
+  captures_list: 323.796
+  CDXLines.iter: 14.187 (3)
+  exclusion.robots.policy: 0.191
+  PetaboxLoader3.resolve: 73.933 (2)
+  PetaboxLoader3.datanode: 389.982 (5)
+*/
