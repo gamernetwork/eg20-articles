@@ -1,0 +1,194 @@
+#content div.copy h2
+{
+	font-size: 20px;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+
+#content div.copy p.strapline
+{
+	font-size: 16px;
+	color: #404040;
+}
+
+#content div.section p,
+#content div.section ul
+{
+	font-size: 14px;
+	line-height: 1.3;
+	text-shadow: 0 -1px 1px rgba(255,255,255,0.25);
+	margin: 0;
+
+	padding: 0 30px 20px 0;
+}
+
+#content div.section object,
+#content div.section embed
+{
+	width: 100%;
+	max-width: 600px;
+}
+
+#content div.section .video-overlay object,
+#content div.section .video-overlay embed
+{
+	max-width: 100%;
+}
+
+
+#content div.section div.video.left object,
+#content div.section div.video.left embed
+{
+	width: 300px;
+}
+
+#content div.section div.pullquote,
+#content div.section div.sidebar,
+#content div.section div.giveaway
+{
+	position: absolute;
+	float: left;
+	width: 300px;
+	left: -315px;
+	margin: 0;
+	padding: 0;
+}
+
+#content div.section div.sidebar.left,
+#content div.section div.sidebar.right
+{
+	position: relative;
+	left: 0;
+	margin-bottom: 15px;
+	box-shadow: 0 0 10px #c0c0c0;
+}
+
+#content div.section div.sidebar.left h2,
+#content div.section div.sidebar.right h2
+{
+	padding: 10px;
+}
+
+#content div.section div.sidebar.left
+{
+	float: left;
+	margin-right: 15px;
+}
+
+#content div.section div.sidebar.right
+{
+	float: right;
+	margin-left: 15px;
+}
+
+#content div.section div.sidebar div.illustrationPreview img
+{
+	display: block;
+}
+
+#content div.section div.pullquote.centre
+{
+	position: relative;
+	width: 100%;
+	left: auto;
+	margin-bottom: 15px;
+}
+
+#content div.section div.pullquote.centre p
+{
+	text-align: center;
+	padding: 0 30px;
+	line-height: 26px;
+}
+
+#content div.section div.pullquote.centre p.citation
+{
+	font-size: 18px;
+}
+
+#content div.facebook-footer
+{
+	position: absolute;
+	border-top: 1px solid white;
+	left: -330px;
+	width: 300px;
+	padding: 10px 0 0 0;
+}
+
+#content div.facebook-footer h2
+{
+	font-size: 18px;
+}
+
+#content div.facebook-footer div
+{
+	margin-top: -2px;
+	margin-left: -10px;
+}
+
+#content div.giveaway
+{
+	background-color: white;
+	border-bottom: 4px solid #404040;
+	text-align: center;
+}
+
+#content div.giveaway h2
+{
+	background-color: #3E3E3E;
+	background: -webkit-gradient( linear, left top, left bottom, from(#3E3E3E), to(#323232) );
+	background: -moz-linear-gradient( center top, #3E3E3E, #323232 );
+	text-shadow: 0px -1px 1px black;
+	color: white;
+	margin: 0;
+	padding: 10px;
+	line-height: 1;
+	text-align: left;
+}
+
+#content div.giveaway h3
+{
+	margin: 10px 0 0 0;
+}
+
+#content div.giveaway p
+{
+	padding: 0;
+	margin: 10px 10px;
+}
+
+#content div.giveaway p.key
+{
+	background-color: #ceed68;
+	font-weight: bold;
+	padding: 8px 5px;
+}
+
+#content div.giveaway a.button
+{
+	display: block !important;
+	float: none !important;
+	margin: 0 10px 10px !important;
+	font-weight: bold !important;
+	padding: 8px 0 !important;
+}
+/*
+     FILE ARCHIVED ON 09:47:47 Oct 17, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:16:48 Aug 29, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  load_resource: 236.817
+  exclusion.robots.policy: 0.224
+  exclusion.robots: 0.239
+  esindex: 0.013
+  captures_list: 274.855
+  PetaboxLoader3.datanode: 279.424 (4)
+  CDXLines.iter: 32.879 (3)
+  RedisCDXSource: 38.752
+  LoadShardBlock: 197.93 (3)
+*/

@@ -1,0 +1,155 @@
+#fragment-1,
+#fragment-2
+{
+	position: relative;
+	float: left;
+	clear: both;
+	margin-left: -345px;
+	width: 960px;
+}
+
+#fragment-1 #sidebar,
+#fragment-1 div.article
+{
+	position: relative;
+}
+
+#fragment-1 #sidebar
+{
+	z-index: 9;
+	float: left;
+	top: 0;
+	left: 0;
+}
+
+#fragment-1 div.article
+{
+	z-index: 10;
+	float: right;
+	width: 600px;
+	margin: 0;
+	padding: 0 15px;
+}
+
+#fragment-2
+{
+	margin-left: 0;
+	width: 600px;
+}
+
+#sidebar
+{
+	margin-top: 0;
+}
+
+#content div.header
+{
+	width: 100%;
+}
+
+ul.tools
+{
+	width: 610px;
+	margin: 0 0 10px -15px;
+	background-color: #f0f1f6;
+}
+
+#content h1
+{
+	background-color: transparent;
+	background-image: none;
+	filter: none;
+	color: black;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: auto;
+	text-shadow: none;
+	font-size: 33px;
+	line-height: 33px;
+	font-weight: 800;
+}
+
+#content p.byline
+{
+	margin: 5px 0 5px 0;
+}
+
+
+#content form textarea
+{
+	margin: 0 0 5px 0;
+}
+
+#content #comments span.spoiler {
+	background: url('http://static.eurogamer.net/img/forums/spoiler.gif');
+}
+
+#content #comments span.spoiler:hover {
+	background: none;
+}
+
+#content #comments span.spoiler span {
+	visibility: hidden;
+}
+
+#content #comments span.spoiler:hover span {
+	visibility: visible;
+}
+
+/* ---- Low leaderboard -------------------------- */
+
+#low-leaderboard
+{
+	position: relative;
+	clear: both;
+	width: 960px;
+	padding: 15px 0;
+	background-color: white;
+	margin-left: 0;
+	border-top: 5px solid #eff1f7;
+	z-index: 4;
+	text-align: center;
+}
+
+.low-leaderboard
+{
+	float: none;
+	width: 728px;
+	max-height: 90px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* ---- Related stories -------------------------- */
+
+#content div.related
+{
+	width: 600px;
+}
+
+#content div.related ul li
+{
+	width: 190px;
+}
+/*
+     FILE ARCHIVED ON 09:47:45 Oct 17, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:16:48 Aug 29, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.datanode: 236.167 (4)
+  exclusion.robots.policy: 0.257
+  LoadShardBlock: 230.807 (3)
+  exclusion.robots: 0.276
+  esindex: 0.012
+  load_resource: 106.932
+  CDXLines.iter: 10.638 (3)
+  RedisCDXSource: 0.95
+  captures_list: 245.455
+  PetaboxLoader3.resolve: 99.513
+*/

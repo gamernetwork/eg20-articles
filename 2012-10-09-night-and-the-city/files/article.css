@@ -1,0 +1,847 @@
+#content object
+{
+	display: block;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#content div.copy iframe
+{
+	max-width: 100%;
+	margin-bottom: 15px;
+}
+
+#content div.video object
+{
+	margin-bottom: 0;
+}
+
+/* ---- Core content styles ---------------------- */
+#content div.content
+{
+	background-color: transparent;
+}
+
+#content div.content .twitter-tweet-rendered
+{
+	clear: both;
+	padding-bottom: 20px;
+}
+
+#content div.content .divider
+{
+	float: left;
+	clear: both;
+	width: 100%;
+	height: 4px;
+	background-color: #eff1f7;
+	border: 1px solid #d5d6dc;
+	border-radius: 2px;
+	margin: 0 0 16px 0;
+}
+
+div.section {
+	clear: both;
+}
+
+.introduction {
+	clear: both;
+	margin-bottom: 20px;
+}
+
+#content div.copy p
+{
+	font-size: 14px;
+	line-height: 1.4em;
+	margin: 0;
+	padding: 0;
+}
+
+#content img.inline-icon
+{
+	padding-left: 4px;
+}
+
+#content div.copy
+{
+	display: block;
+	clear: both;
+}
+
+#content div.copy ol
+{
+	list-style-type: decimal;
+	padding: 0 0 14px 20px;
+}
+
+#content div.copy ul {
+	margin: 20px 40px 20px 20px;
+	list-style-type: disc;
+}
+
+#content div.copy p
+{
+	margin-bottom: 14px;
+}
+
+#content div.copy p.version-tested
+{
+	clear: left;
+	margin-bottom: 10px;
+}
+
+#content div.copy p.score
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	color: #808080;
+	margin: 0 15px 15px 0;
+	padding: 0;
+	float: left;
+}
+
+#content div.copy p.score big
+{
+	margin: 0 -4px 0 4px;
+	padding: 0;
+	font-size: 48px;
+	font-weight: 900;
+	color: black;
+}
+
+#content div.copy p.score span
+{
+	margin-left: -5px;
+}
+
+#content a.scoring-policy
+{
+	display: block;
+	float: right;
+	clear: none;
+	margin-bottom: 15px;
+}
+
+#content div.section img.preview,
+#content div.section .illustration img.clickable
+{
+	cursor: pointer;
+}
+
+#content div.section div.section + h3
+{
+	margin-top: 5px;
+}
+
+#content div.section h3
+{
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+
+#content div.section table
+{
+	clear: both;
+}
+
+#content div.section p span.whoistalking
+{
+	font-weight: bold;
+}
+
+#content div.section div.pullquote,
+#content div.section div.sidebar
+{
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+#content div.section div.sidebar
+{
+	background-color: #ffffff;
+	border-bottom: 4px solid #404040;
+	color: #404040;
+	z-index: 1;
+}
+
+#content div.section div.sidebar h2
+{
+	font-size: 18px;
+	line-height: 18px;
+	margin: 0;
+	padding: 15px;
+	background-color: #404040;
+    background: -moz-linear-gradient(
+            center top,
+            #3e3e3e,
+            #323232
+    );
+
+    background: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            from(#3e3e3e),
+            to(#323232)
+    );	
+	color: white;
+	text-shadow: 0px -1px 1px black;
+}
+
+#content div.section div.sidebar p,
+#content div.section div.sidebar ul,
+#content div.section div.sidebar ol,
+#content div.section div.sidebar div.poll
+{
+	margin: 0;
+	padding: 10px 15px 10px 10px;
+}
+
+#content div.section div.sidebar ul li,
+#content div.section div.sidebar ol li
+{
+	margin: 0 0 5px 18px;
+	padding: 0;
+	list-style-type: disc;
+	list-style-position: outside;
+}
+
+#content div.section div.sidebar ol li
+{
+	line-height: 1.4em;
+	font-size: 14px;
+}
+
+#content div.section div.sidebar table
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-shadow: none;
+}
+
+#content div.section div.pullquote p
+{
+	text-align: right;
+	line-height: 30px;
+	font-size: 24px;
+	font-style: italic;
+	margin: 0 0 4px 0;
+	padding: 0;
+	text-shadow: 0px 1px 0px white;
+}
+
+#content div.section div.pullquote p.citation:before
+{
+	content: "-";
+}
+
+#content div.section div.pullquote p.citation
+{
+	font-size: 22px;
+}
+
+#content div.section video
+{
+	margin-bottom: 20px;
+	width: 100%;
+	background-color: black;
+}
+
+#content div.section div.video.left
+{
+	float: left;
+	clear: none;
+	width: 300px;
+	margin: 0 20px 20px 0;
+}
+
+#content div.section div.podcast,
+#content div.section div.podcast object,
+#content div.section div.podcast embed
+{
+	float: none;
+	clear: both;
+	margin: 0;
+	width: 290px;
+	text-align: left;
+}
+
+#content div.section div.podcast
+{
+	margin: 0 0 20px 0;
+}
+
+#content div.section ul,
+#content div.section ol
+{
+	margin: 0;
+	padding: 0 0 20px 0px;
+}
+
+#content div.section ul li,
+#content div.section ol li
+{
+	margin: 0 0 5px 20px;
+	padding: 0;
+	list-style-type: disc;
+	list-style-position: outside;
+}
+
+#content div.section ul.slim li
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0;
+	list-style-type: none;
+}
+#content div.section ul.dialogue li
+{
+	margin: 0 0 5px 0px;
+	padding: 0;
+	list-style-type: none;
+	font-family: Courier New, courier, fixed;
+}
+
+#content div.section ol li {
+	list-style-type: decimal;
+}
+
+#content div.endnote p
+{
+	font-style: italic;
+	color: #808080;
+}
+
+#content div.illustration
+{
+	margin: 0 0 20px;
+	max-width: 100%;
+	border-radius: 2px;
+}
+
+#content div.illustration.centre
+{
+	text-align: center;
+	float: none;
+	width: 100%;
+}
+
+#content div.illustration.centre img
+{
+	text-align: center;
+}
+
+#content div.illustration.right
+{
+	float: right;
+	margin-left: 20px;
+}
+
+#content div.illustration img
+{
+	display: block;
+	float: none;
+	max-width: 100%;
+	height: auto;
+	border-radius: 2px;
+}
+
+#content div.illustration,
+#content div.illustrationPreview,
+#content div.section p.video-caption
+{
+	background-color: #0d0d0d;
+	color: white;
+	font-style: italic;
+}
+
+#content div.illustrationPreview
+{
+	float: right;
+	width: 300px;
+	margin: 0 0 20px 20px;
+}
+
+#content div.illustrationPreview img
+{
+	width: 100%;
+}
+
+#content div.illustration .caption,
+#content div.illustrationPreview .caption,
+#content div.section p.video-caption
+{
+	color: white;
+	margin: 0;
+	padding: 10px;
+	font-size: 11px;
+	font-family: Verdana, sans-serif;
+}
+
+#content div.section p.video-caption
+{
+	clear: both;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+#content div.section p.video-caption span
+{
+	display: block;
+	margin: 10px;
+}
+
+#content p.strapline
+{
+	font-style: italic;
+	font-size: 22px;
+}
+
+/* ---- Image gallery ---------------------------- */
+
+#content div.image-gallery
+{
+	clear: both;
+	margin: 0px auto 20px;
+	padding: 0;
+	text-align: left;
+}
+
+#content div.image-gallery div.illustration,
+#content div.image-gallery div.illustrationPreview
+{
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+	width: 50%;
+	background-color: transparent;
+}
+
+#content div.image-gallery div.illustration img,
+#content div.image-gallery div.illustrationPreview img
+{
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#content div.image-gallery p.caption
+{
+	float: none;
+	clear: both;
+	background-color: #0D0D0D;
+	color: white;
+	font-style: italic;
+	margin: 0;
+	padding: 10px;
+	font-size: 11px;
+	font-family: Verdana, sans-serif;
+	width: auto;
+}
+
+/* ---- Paging ---------------------------- */
+
+.pager.popup
+{
+	width: auto;
+	display: none;
+	clear: both;
+	float: none;
+	padding: 5px 10px;
+	margin-top: 5px;
+	list-style: none;
+	border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.25);
+	max-width: 280px;
+	background-color: white;
+}
+
+.pager.popup img
+{
+	position: absolute;
+	top: -15px;
+	left: 22px;
+}
+
+.pager.popup li
+{
+	margin: 0;
+	padding: 5px 0;
+}
+
+.pager.popup li a
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.pager.popup li a.on
+{
+	font-weight: bold;
+}
+
+div.content div.pager
+{
+	float: left;
+	clear: both;
+	position: relative;
+	left: 0;
+	text-align: left;
+	width: 100%;
+	margin: 5px 0 15px;
+}
+
+div.content div.pager div.pages
+{
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+div.copy div.pager h2
+{
+	margin: 0 0 8px 0;
+	padding: 0;
+}
+
+#content div.content div.copy div.pager div.pages a,
+#content div.content div.copy div.pager div.pages a.tool
+{
+	float: none;
+	display: inline;
+	margin: 0;
+}
+
+div.copy div.pager div.pages a.off
+{
+	opacity: 0.5;
+}
+
+#content div.content div.pager div.pages a.current {
+	padding-left: 10px;	
+}
+
+/* ---- Staff -------------------------- */
+
+.staff {
+	position: relative;
+	clear: both;
+	border-bottom: 1px solid #e4e6eb;
+	margin-bottom: 10px;
+	padding: 5px 0 0 140px;
+	min-height: 160px;
+}
+
+.staff:last-child {
+	border-bottom: none;
+}
+
+.staff,
+.staff .illustration,
+.staff ul,
+.staff p.bio {
+	float: left;
+}
+
+#content div.copy .staff h2 {
+	margin-bottom: 0px;
+}
+
+.staff h5 {
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+	font-weight: normal; 
+	margin: 0px 0px 10px 0px;
+}
+
+.staff .illustration {
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	width: 126px !important;
+}
+
+.staff .illustration img {
+	width: 100%;
+	height: auto;
+}
+
+#content a.promotion
+{
+	display: block;
+	position: absolute;
+	float: left;
+	width: 300px;
+	left: -315px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	cursor: pointer;
+	text-shadow: none;
+	border-radius: 2px;	
+}
+
+#content a.promotion.comments
+{
+	clear: both;
+	position: relative;
+	margin-top: 5px;
+	left: 0;
+}
+
+#content a.promotion:hover img
+{
+	opacity: 1;
+}
+
+#content #sidebar a.promotion
+{
+	position: relative;
+	left: 0;
+	margin-top: 30px;
+}
+
+#content a.promotion img
+{
+	position: relative;
+	display: block;
+	bottom: 0;
+	left: 0;
+	width: 300px;
+	z-index: 1;
+	opacity: 0.8;
+	-webkit-transition: all .25s linear;
+	transition: all .25s linear;
+	border-radius: 2px;
+}
+
+#content a.promotion span.details
+{
+	-webkit-transition: all .25s linear;
+	transition: all .25s linear;
+
+	position: absolute;
+	display: block;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+	padding: 7px 10px 10px;
+	background-color: #202020;
+	color: white;
+	z-index: 2;
+	font-weight: bold;
+	font-size: 15px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	line-height: 1.3;
+	border-radius: 5px;
+}
+
+#content a.promotion span.details span
+{
+	display: block;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 1.25;
+	margin-top: 2px;
+}
+
+div.boxout
+{
+	position: absolute;
+	width: 300px;
+	margin: 0 0 0 -330px;
+	padding: 0;
+	background-color: white;
+	border-bottom: 2px solid #404040;
+}
+
+div.boxout.inside
+{
+	position: relative;
+	float: right;
+	margin: 0 0 30px 30px;
+	box-shadow: 0 0 10px #e0e0e0;
+}
+
+div.boxout h4
+{
+	background-color: #393939;
+	color: white;
+	margin: 0;
+	padding: 10px;
+	text-shadow: 0px -1px 0px rgba(0,0,0,1);
+	font-size: 20px;
+}
+
+div.boxout h4 a {
+	color: #89D5FF;
+}
+
+#content div.section div.boxout ul
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	list-style: none;
+}
+
+#content div.section div.boxout ul li
+{
+	list-style: none;
+	clear: both;
+	margin: 0 10px;
+	padding: 8px 0;
+	background-color: white;
+	border-bottom: 1px solid #eff1f7;
+}
+
+#content div.section div.boxout ul li:last-child
+{
+	border-bottom: none;
+}
+
+#theTop div.boxout ul li.video img
+{
+	width: 100%;
+}
+
+#theTop div.boxout ul li.screens img
+{
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0 5px 5px 0;
+}
+
+#theTop div.boxout ul li.screens img:nth-child(3n)
+{
+	margin-right: 0;
+}
+
+#theTop div.boxout ul li.screens img:nth-child(3n+1)
+{
+	clear: left;
+}
+
+#theTop div.boxout ul li h5,
+#theTop div.boxout ul li p
+{
+	clear: left;
+}
+
+#theTop div.boxout ul li h5
+{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	line-height: 17px;
+	color: black;
+	letter-spacing: normal;
+}
+
+#theTop div.boxout ul li p
+{
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+	line-height: 11px;
+	margin: 0;
+	padding: 0;
+}
+
+#content .illustration.inner-caption
+{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	box-shadow: inset 0 0 50px #303030;	
+	max-width: 100%;
+	float: left !important;
+	clear: both;
+	margin-left: 0 !important;
+	background-color: transparent;
+}
+
+#content .illustration.inner-caption,
+#content .illustration.inner-caption img
+{
+	border-radius: 3px;
+	width: 100% !important;	
+}
+
+#content .illustration.inner-caption img
+{
+	position: relative;
+	z-index: -1;
+	background-color: black;
+}
+
+#content .illustration.inner-caption .caption
+{
+	z-index: 1;
+	position: absolute;
+	max-width: 265px;
+	background-color: #0D0D0D;
+	color: white;
+	border-radius: 4px;
+	padding: 8px 10px 10px;
+	opacity: 0.85;
+	margin: 15px;
+	bottom: 0;
+	right: 0;
+}
+
+#content .illustration.inner-caption .caption span
+{
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	font-family: Proxima, Arial, sans-serif;
+}
+
+#content .illustration.inner-caption.top .caption
+{
+	top: 0;
+	bottom: auto;
+}
+
+#content .illustration.inner-caption.bottom .caption
+{
+	bottom: 0;
+}
+
+#content .illustration.inner-caption.left .caption
+{
+	right: auto;
+	left: 0;
+}
+
+#content .illustration.inner-caption.right .caption
+{
+	right: 0;
+}
+/*
+     FILE ARCHIVED ON 09:47:46 Oct 17, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:16:50 Aug 29, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.datanode: 251.482 (4)
+  LoadShardBlock: 231.339 (3)
+  RedisCDXSource: 21.779
+  exclusion.robots: 0.131
+  captures_list: 266.141
+  exclusion.robots.policy: 0.122
+  load_resource: 34.65
+  CDXLines.iter: 10.775 (3)
+  esindex: 0.008
+*/

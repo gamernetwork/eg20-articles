@@ -1,0 +1,1110 @@
+#content div.list-filter
+{
+	position: relative;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#616775), to(#474950));
+	background: -moz-linear-gradient(top, #616775, #474950);
+	background: -o-linear-gradient(top, #616775, #474950);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#616775', endColorstr='#474950');
+	border-top: 1px solid #727684;
+	color: white;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	float: left;
+	width: 100%;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.5);
+	z-index: 3;
+	max-height: 38px;
+}
+
+#content div.list-filter
+{
+	float: left;
+	padding: 0 0px;
+}
+
+#content div.list-filter strong,
+#content div.list-filter div
+{
+	position: relative;
+	display: block;
+	float: left;
+	clear: none;
+	padding: 6px 0;
+}
+
+#content div.list-filter strong
+{
+	padding-top: 9px;
+	padding-right: 8px;
+	padding-left: 10px;
+}
+
+#content div.list-filter div a.selected
+{
+	font-size: 14px;
+	display: block;
+	background-image: url(http://static.eurogamer.net/img/EurogamerPage/sprites.png);
+	background-position: 0px -570px;
+	border-top: 1px solid #575b65;
+	background-repeat: no-repeat;
+	border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+	color: #000000;
+	height: 24px;
+	min-width: 100px;
+	padding: 6px 10px 0 18px;
+	margin-top: -3px;
+	text-shadow: none;
+}
+
+#content div.list-filter div ul
+{
+	background: white;
+	position: absolute;
+	border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	margin: 12px 0 0 0;
+	padding: 5px 0;
+	display: none;
+}
+
+#content div.list-filter div ul li img
+{
+	position: absolute;
+	top: -15px;
+	left: 10px;
+}
+
+#content div.list-filter div ul li a
+{
+	display: block;
+	padding: 1px 9px;
+	color: #717379;
+	text-shadow: none;
+	white-space: nowrap;
+}
+
+#content ul.list li
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	clear: both;
+	font-weight: normal;
+}
+
+/* --- Company item ------------------------------ */
+
+#content ul.list li:nth-child(even)
+{
+	background-color: #f7f8fb;
+}
+
+#content ul.list li.company
+{
+	padding: 0;
+	min-height: 102px;
+}
+
+#content ul.list li.company img
+{
+	position: absolute;
+	width: 140px;
+	max-height: 80px;
+	right: 10px;
+	top: 10px;
+	box-shadow: 0 0 5px #c0c0c0;
+}
+
+#content ul.list li.company h2
+{
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+#content ul.list li.company h2,
+#content ul.list li.company p
+{
+	margin-left: 10px;
+	margin-right: 160px;
+}
+
+#content ul.list li.company p
+{
+	margin-top: 2px;
+	margin-bottom: 10px;
+}
+
+#content ul.list li.company p span
+{
+	font-weight: bold;
+}
+
+/* --- Game item --------------------------------- */
+
+#content ul.list li:nth-child(even)
+{
+	background-color: #f7f8fb;
+}
+
+#content ul.list li.game
+{
+	min-height: 70px;
+}
+
+#content ul.list li.game img
+{
+	position: absolute;
+	width: 50px;
+	max-height: 70px;
+	left: 10px;
+	top: 10px;
+}
+
+#content ul.list li.game h2,
+#content ul.list li.game p
+{
+	margin-left: 70px;
+	margin-right: 60px;
+}
+
+#content ul.list li.game p:last-child
+{
+	margin-top: 5px;
+}
+
+#content ul.list li.game p a.tool
+{
+	margin-bottom: 10px;
+}
+
+#content ul.list li.game p a.tool.follow
+{
+	float: left;
+}
+
+#content ul.list li.game p span.links
+{
+	float: left;
+	padding: 4px 0 0 4px;
+	font-size: 11px;
+	font-family: Verdana, sans-serif;
+}
+#content ul.list li.game p span.score
+{
+	font-weight: bold;
+	font-size: 14px;
+	color: #d0d0d0;
+	margin: 0;
+	padding: 0;
+	top: 15px;
+	right: 10px;
+	font-weight: normal;
+}
+
+#content ul.list li.game p span.score big
+{
+	color: black;
+	font-size: 22px;
+	font-weight: bold;
+	padding-right: 2px;
+}
+
+/* ---- Article item ----------------------------- */
+
+#content ul.list li.article
+{
+	padding: 8px 0 8px 0;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+#content ul.list li.article p,
+#content ul.list li.article h2
+{
+	position: relative;
+	float: left;
+	clear: left;
+	margin: 0 10px 0 100px;
+	padding: 0;
+}
+
+#content ul.list li.article.large p,
+#content ul.list li.article.large h2 {
+	margin: 0 10px 0 80px;
+}
+
+#content ul.list li.article h2
+{
+	z-index: 2;
+	font-size: 14px;
+	line-height: 16px;
+	margin-bottom: 1px;
+}
+
+#content ul.list li.article p
+{
+	position: static;
+	font-family: Verdana, sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+#content ul.list li.article a.comments
+{
+	position: relative;
+	color: #96b618;
+	padding-left: 16px;
+	background-image: url(http://static.eurogamer.net/img/EurogamerPage/comments.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	font-size: 10px;
+	margin-left: 2px;
+}
+
+#content ul.list li.article p span.time
+{
+	position: absolute;
+	left: 5px;
+	top: 9px;
+	text-align: right;
+	width: 80px;
+	color: #a0a0a0;
+	letter-spacing: normal;
+}
+
+#content ul.list li.article .images
+{
+	float: left;
+	clear: left;
+	margin: 4px 0 0 100px;
+}
+
+/* ---- Screenshot item -------------------------- */
+
+#content ul.list li.screenshots
+{
+	font-size: 13px;
+	font-weight: normal;
+}
+
+#content ul.list li.screenshots p,
+#content ul.list li.screenshots h2,
+#content ul.list li.screenshots div
+{
+	position: relative;
+	float: left;
+	clear: left;
+	margin: 0 10px 0 10px !important;
+	padding: 0;
+}
+
+#content ul.list li.screenshots h2
+{
+	font-size: 14px;
+}
+
+#content ul.list li.screenshots p
+{
+	position: static;
+	font-family: Verdana, sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+#content ul.list li.screenshots div
+{
+	padding-top: 10px;
+}
+
+#content ul.list li.screenshots div a img
+{
+	max-width: 60px;
+	max-height: 80px;
+}
+
+#content ul.list li.screenshots p span.time
+{
+	position: absolute;
+	left: 5px;
+	top: 11px;
+	text-align: right;
+	width: 80px;
+	color: #a0a0a0;
+	letter-spacing: normal;
+}
+
+/* ---- Video item ------------------------------- */
+
+#content ul.list li.article.video
+{
+	min-height: 42px;
+}
+
+#content ul.list li.article.video h2,
+#content ul.list li.article.video p
+{
+	margin-right: 100px;
+}
+
+#content ul.list li.article.video img.video
+{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	display: block;
+	clear: both;
+	width: 71px;
+	height: 40px;
+	border: 1px solid white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* ---- Thread ----------------------------------- */
+
+#content ul.list li.thread div.details,
+#content ul.list li.thread-header
+{
+	width: 100%;
+	font-size: 11px;
+}
+
+#content ul.list li.thread div.details h2 {
+	padding-left: 10px;
+}
+
+#content.forum .content ul.list li.thread-header span.col1 {
+	border-left: none;
+}
+
+#content.forum div.content ul.list span.col1
+{
+	padding-left: 26px;
+}
+
+#content.forum div.content ul.list span.col2,
+#content.forum div.content ul.list span.col3,
+#content.forum div.content ul.list span.col4 {
+	padding-left: 10px;
+}
+
+#content ul.list li.thread-header {
+	padding: 0 0 0 0;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#content ul.list li.thread p {
+	line-height: 15px;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+#content ul.list li.thread p span,
+#content ul.list li.thread-header span
+{
+	display: block;
+	float: left;
+	color: black;
+	font-family: Verdana, sans-serif;
+	margin: 0 0 0 0;
+}
+
+#content ul.list li.thread-header span {
+	border-left: 1px solid #e0e0e0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#content ul.list li.thread p span a
+{
+	color: #8b909a;
+}
+
+#content ul.list li.thread p span:nth-child(1),
+#content ul.list li.thread-header span:nth-child(1)
+{
+	width: 27%;
+	border-left: none;
+}
+
+#content ul.list li.thread p span:nth-child(2),
+#content ul.list li.thread-header span:nth-child(2)
+{
+	width: 23%;
+}
+
+#content ul.list li.thread p span:nth-child(3),
+#content ul.list li.thread-header span:nth-child(3)
+{
+	width: 33%;
+}
+
+#content ul.list li.thread p span:nth-child(4),
+#content ul.list li.thread-header span:nth-child(4)
+{
+	width: 8%;
+}
+
+/* ---- Faded style for old/read threads --------- */
+
+#content ul.list li.thread.last-sticky
+{
+	border-bottom: 4px solid #e4e6eb;
+}
+
+#content ul.list li.thread h2
+{
+	color: #808080;
+	font-size: 14px;
+	padding-right: 10px;
+}
+
+#content ul.list li.thread h2 img
+{
+	width: 12px;
+	height: 12px;
+}
+
+#content ul.list li.thread h2 .icon-certificate:before
+{
+	text-shadow: 0 -1px 1px #83a134;
+	font-size: 0.8em !important;
+	color: #9fcc22 !important;
+}
+
+#content ul.list li.thread h2 .icon-certificate.read:before
+{
+	opacity: 0.2;
+}
+
+#content ul.list li.thread h2 span.paging
+{
+	font-size: 11px;
+	font-family: Verdana, sans-serif;
+	color: #8b909a;
+	font-weight: normal;
+	background-image: url(http://static.eurogamer.net/img/EurogamerPage/Forum/paging.png);
+	background-repeat: no-repeat;
+	background-position: 0 1px;
+	padding-left: 13px;
+	margin-left: 4px;
+}
+
+#content ul.list li.thread h2 span.paging a
+{
+	color: #808080;
+}
+
+#content ul.list li.thread h2 span.paging a.last
+{
+	font-weight: bold;
+}
+
+
+/* ---- Users ------------------------------------ */
+
+#content ul.list li.user
+{
+	min-height: 64px;
+}
+
+#content ul.list li.user img
+{
+	position: absolute;
+	left: 10px;
+	top: 12px;
+	width: 64px;
+	height: 64px;
+}
+
+#content ul.list li.user h2,
+#content ul.list li.user p
+{
+	margin-left: 84px;
+	clear: left;
+}
+
+#content ul.list li.user p:last-child
+{
+	margin-top: 4px;
+}
+
+#content ul.list li.user p:last-child > span
+{
+	padding-top: 3px;
+	font-size: 11px;
+	font-family: Verdana, sans-serif;
+}
+
+#content ul.list li.user p:last-child a.tool
+{
+	margin-right: 7px;
+}
+
+#content ul.list li.user p > span
+{
+	display: block;
+	font-weight: normal;
+}
+
+#content ul.list li.user p span span,
+#content ul.list li.user p span a
+{
+	display: inline;
+	float: none;
+}
+
+#content ul.list li.more a.tool
+{
+	display: block;
+	float: none;
+	margin: 10px 0;
+}
+
+/* ---- Giveaways -------------------------------- */
+
+#content ul.list li.giveaway
+{
+
+}
+
+#content ul.list li.giveaway h2,
+#content ul.list li.giveaway p
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#content ul.list li.giveaway p:nth-child(2)
+{
+	margin-bottom: 5px;
+}
+
+#content ul.list li.giveaway p span.status
+{
+	color: red;
+}
+
+#content ul.list li.giveaway p span.status.active
+{
+	color: green;
+}
+
+#content ul.list li.giveaway p span.key
+{
+	font-weight: bold;
+	color: black;
+}
+
+#content ul.list li.giveaway p span.key span
+{
+	font-weight: normal;
+}
+
+/* ---- Group ---------------------------------------------- */
+
+#content ul.list li.group
+{
+	min-height: 78px;
+}
+
+#content ul.list li.group img
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 60px;
+	height: 80px;
+}
+
+#content ul.list li.group h3,
+#content ul.list li.group p
+{
+	margin-left: 80px;
+}
+
+#content ul.list li.group p span
+{
+	display: block;
+	clear: both;
+	color: #808080;
+	font-weight: bold;
+}
+
+/* ---- Forum category ------------------------------------- */
+
+#content ul.list li.forum-category img
+{
+	position: absolute;
+	top: 12px;
+	left: 15px;
+	max-height: 16px;
+	max-width: 20px;
+}
+
+#content ul.list li.forum-category h2,
+#content ul.list li.forum-category p
+{
+	margin-left: 38px;
+	margin-right: 10px;
+}
+
+#content ul.list li.forum-category h2
+{
+	font-size: 16px;
+}
+
+#content ul.list li.forum-category h2 span
+{
+	font-size: 11px;
+	font-family: Verdana, sans-serif;
+	font-weight: normal;
+	color: #c0c0c0;
+}
+
+#content ul.list li.forum-category p
+{
+	float: left;
+	clear: none;
+	font-size: 11px;
+	line-height: 1.4;
+	font-family: Verdana, sans-serif;
+	width: 48%;
+	margin: 0;
+	padding: 0;
+}
+
+#content ul.list li.forum-category p.description
+{
+	color: #303030;
+}
+
+#content ul.list li.forum-category p
+{
+	margin-left: 38px;
+}
+
+#content ul.list li.forum-category p span
+{
+	color: #c0c0c0;
+}
+
+#content ul.list li.forum-category p.details
+{
+	float: right;
+	width: 42%;
+	margin-top: -16px;
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+/* ---- Forum parent category ------------------------------ */
+
+#content ul.list li.forum-category .tool.open,
+#content ul.list li.forum-category .tool.close
+{
+	position: absolute;
+	top: 14px;
+	right: 10px;
+	width: 60px;
+}
+
+#content ul.list li.forum-category.indent1
+{
+	background-color: #707070;
+	color: white;
+	font-weight: bold;
+	border-top: 1px solid #727684;
+	text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#616775), to(#474950));
+	background: -moz-linear-gradient(top, #616775, #474950);
+	background: -o-linear-gradient(top, #616775, #474950);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#616775', endColorstr='#474950');
+	z-index: 4;
+	padding: 10px 0;
+	margin-top: 15px;
+	border-radius: 2px 2px 0 0; -webkit-border-radius: 2px 2px 0 0; -moz-border-radius: 2px 2px 0 0;
+}
+
+#content ul.list li.forum-category.indent1:first-child
+{
+	margin-top: 0;
+}
+
+#content ul.list li.forum-category.indent1 h2
+{
+	margin: 0 10px;
+	padding: 0;
+	font-size: 18px;
+}
+
+#content ul.list li.forum-category.indent1 h2 span
+{
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 56%;
+	color: white;
+}
+
+#content ul.list li.forum-category.indent1 h2 a
+{
+	color: #89D5FF;
+}
+
+#content ul.list li.forum-category.indent3,
+#content ul.list li.forum-category.indent4,
+#content ul.list li.forum-category.indent5,
+#content ul.list li.forum-category.indent6
+{
+	padding: 8px 0;
+}
+
+/* ---- Sub-sub category ------------------------------ */
+
+#content ul.list li.forum-category.indent3 h2
+{
+	font-size: 14px;
+}
+
+#content ul.list li.forum-category.indent3 img
+{
+	width: 14px;
+	margin-top: -3px;
+	margin-left: 24px;
+}
+
+#content ul.list li.forum-category.indent3 h2,
+#content ul.list li.forum-category.indent3 p.description
+{
+	padding-left: 24px;
+}
+
+#content ul.list li.forum-category.indent3 p.description
+{
+	width: 40%;
+}
+
+/* ---- Sub-sub-sub category ------------------------------ */
+
+#content ul.list li.forum-category.indent4 h2
+{
+	font-size: 14px;
+}
+
+#content ul.list li.forum-category.indent4 img
+{
+	width: 14px;
+	margin-top: -2px;
+	margin-left: 46px;
+}
+
+#content ul.list li.forum-category.indent4 h2,
+#content ul.list li.forum-category.indent4 p.description
+{
+	padding-left: 46px;
+}
+
+#content ul.list li.forum-category.indent4 p.description
+{
+	width: 40%;
+}
+
+/* ---- Sub-sub-sub-sub category ------------------------------ */
+
+#content ul.list li.forum-category.indent5 h2
+{
+	font-size: 13px;
+}
+
+#content ul.list li.forum-category.indent5 img
+{
+	width: 14px;
+	margin-top: -3px;
+	margin-left: 68px;
+}
+
+#content ul.list li.forum-category.indent5 h2,
+#content ul.list li.forum-category.indent5 p.description
+{
+	padding-left: 68px;
+}
+
+#content ul.list li.forum-category.indent5 p.description
+{
+	width: 40%;
+}
+
+/* ---- Sub-sub-sub-sub-sub category ------------------------------ */
+
+#content ul.list li.forum-category.indent6 h2
+{
+	font-size: 13px;
+}
+
+#content ul.list li.forum-category.indent6 img
+{
+	width: 14px;
+	margin-top: -3px;
+	margin-left: 88px;
+}
+
+#content ul.list li.forum-category.indent6 h2,
+#content ul.list li.forum-category.indent6 p.description
+{
+	padding-left: 88px;
+}
+
+#content ul.list li.forum-category.indent6 p.description
+{
+	width: 40%;
+}
+
+/* ---- Forum special categories (following/mod mode) ------ */
+
+#content ul.list li.forum-category.special h2,
+#content ul.list li.forum-category.special p
+{
+	margin-left: 10px;
+}
+
+/* ---- "Nothing" (for empty lists  ------------------------ */
+
+#content ul.list li.nothing
+{
+	background-color: white;
+}
+
+#content ul.list li.nothing p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: black;
+}
+
+#content ul.list li:last-child
+{
+	margin-bottom: 10px;
+}
+
+/* ---- Article (new style) -------------------------------- */
+
+#content div.content ul.list li.article
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	margin: 8px 0 0 0;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+	background-color: white;
+}
+
+#content div.content ul.list li.article .image
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 6px;
+	display: block;
+	width: 220px;
+	border: 1px solid #d5d6dc;
+	border-bottom: 1px solid #ffffff;
+	background-size: 100% auto;
+}
+
+#content div.content ul.list li.article.small
+{
+	border-bottom: 1px solid #e8eaf0;
+}
+
+#content div.content ul.list li.article.medium
+{
+	min-height: 88px;
+	margin-top: 0;
+	background-color: #e8eaf0;
+}
+
+#content div.content ul.list li.article.medium div
+{
+	min-height: 52px;
+	margin-bottom: 12px;
+	margin-top: 12px;
+}
+
+#content div.content ul.list li.article.medium .image
+{
+	top: 7px;
+	left: 8px;
+	overflow: hidden;
+}
+
+#content div.content ul.list li.article.medium .image img
+{
+	max-width: 100%;
+}
+
+#content div.content ul.list li.article.medium .image.group
+{
+	padding: 0;
+	float: left;
+	border-right: none;
+}
+
+#content div.content ul.list li.article.medium .image.group img
+{
+	position: relative;
+	display: block;
+	float: left;
+	clear: none;
+	width: 73px;
+	min-height: 41px;
+}
+
+#content div.content ul.list li.article.medium .image.group.fill img
+{
+	width: 220px;
+}
+
+#content div.content ul.list li.article.medium .image.group img:nth-child(4)
+{
+	clear: left;
+}
+
+#content div.content ul.list li.article div
+{
+	position: relative;
+	margin: 6px 8px 6px 190px;
+	padding: 8px;
+	border: 1px solid #d5d6dc;
+	background-color: white;
+}
+
+#content div.content ul.list li.article div h2,
+#content div.content ul.list li.article div p
+{
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+
+#content div.content ul.list li.article div h2
+{
+	font-size: 15px;
+}
+
+#content div.content ul.list li.article.review
+{
+	margin-top: 0px;
+}
+
+#content div.content ul.list li.article.review .image
+{
+	width: 100%;
+	border-top: none;
+	bottom: 0;
+}
+
+
+#content div.content ul.list li.article.review div
+{
+	border: 1px solid #505660;
+	border-top: 1px solid #7c8088;
+	background-color: #505660;
+	padding: 8px 10px 7px;
+	margin: 150px 8px 8px 8px;
+	box-shadow: 0px 3px 2px rgba(0,0,0,0.25);
+}
+
+#content div.content ul.list li.article.review div h2,
+#content div.content ul.list li.article.review div p
+{
+	color: white;
+	padding: 0;
+	margin: 0;
+	text-shadow: 0 -1px #424750;
+}
+
+#content div.content ul.list li.article.review div h2
+{
+	font-size: 30px;
+	line-height: 30px;
+	margin-bottom: 0px;
+}
+
+#content div.content ul.list li.article.review div h2 a
+{
+	font-weight: 900;
+	color: #89d5ff;
+}
+
+#content div.content ul.list li.article.review div p
+{
+	margin: 0;
+}
+
+#content div.content ul.list li.article.small
+{
+	margin-top: 1px;
+}
+
+#content div.content ul.list li.article.small .image
+{
+	display: none;
+}
+
+#content div.content ul.list li.article.small div
+{
+	margin: 0;
+	padding: 10px 8px;
+	border: none;
+}
+
+#content div.content ul.list li.article.small div h2
+{
+	font-size: 15px;
+}
+
+#content div.content ul.list li.article.medium + li.article.medium
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#content div.content ul.list li.article.medium + li.article.medium .image
+{
+	top: 0;
+}
+
+#content div.content ul.list li.article.medium + li.article.medium div
+{
+	margin-top: 5px;
+}
+
+#content div.content ul.list li.article:last-child
+{
+	margin-bottom: 0;
+}
+/*
+     FILE ARCHIVED ON 09:47:45 Oct 17, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:27:43 Aug 29, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  load_resource: 126.514
+  esindex: 0.007
+  exclusion.robots: 0.165
+  LoadShardBlock: 834.164 (3)
+  PetaboxLoader3.datanode: 667.98 (4)
+  RedisCDXSource: 143.882
+  CDXLines.iter: 12.926 (3)
+  PetaboxLoader3.resolve: 104.722
+  exclusion.robots.policy: 0.156
+  captures_list: 993.747
+*/
