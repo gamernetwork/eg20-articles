@@ -1,0 +1,772 @@
+div.copy p {
+	font-size: 1.1em;
+	line-height: 1.5em;
+	margin-left: 27px;
+	margin-right: 24px;
+	margin-bottom: 1.5em;
+}
+
+p.firstPost {
+	margin: 24px 0px;
+	font-weight: bold;
+}
+
+.nologinComments
+{
+	margin: 14px 0px 24px 0px;
+	font-weight: bold;
+	padding: 12px 28px;
+	background: #f7f7f8 url( '/web/20110228022844im_/http://www.eurogamer.net/img/ArticlePage/comment-block-bg.gif' ) no-repeat bottom left;
+	font-weight: bold;
+	clear: both;
+}
+
+h1
+{
+	padding-left: 27px;
+}
+
+/* ---- NEW RELATED GAME BLOCK ------------------------- */
+
+div.related-game-blocks
+{
+	position: relative;
+	float: left;
+	clear: both;
+	width: 692px;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	-moz-border-radius: 4px;
+	-moz-border-radius-topleft: 0;
+	-moz-border-radius-topright: 0;	
+	background-color: #434343;
+	padding-bottom: 12px;
+	margin: 0px 0px 20px 0px;
+}
+
+div.related-games,
+div.related-block
+{
+	position: relative;
+	float: right;
+	clear: none;
+	z-index: 1;
+}
+
+div.related-games
+{
+	position: relative;
+	float: left;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	width: 140px;
+	z-index: 2;
+	background-color: #5a5a5a;
+	-moz-border-radius-bottomleft: 4px;
+}
+
+div.related-games div
+{	
+	position: relative;
+	display: block;	
+	float: left;
+	clear: none;
+	width: 140px;
+	background-color: #5a5a5a;
+	border-top: 1px solid #4d4d4d;
+	border-bottom: 1px solid #737373;
+	border-right: 1px solid #373737;
+}
+
+div.related-games div:last-child
+{
+	border-bottom: 0;
+}
+
+div.related-games div.on
+{
+	background-color: #434343;
+	border: 0;
+	border-top: 1px solid #434343;
+	border-bottom: 1px solid #737373;
+}
+
+div.related-games div a.sel
+{	
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 100%;
+	z-index: 10;
+}
+
+div.related-games div span
+{
+	position: relative;
+	display: block;
+	color: white;
+	font-weight: bold;
+	clear: both;
+}
+
+div.related-games div span.title
+{
+	padding: 10px 8px 0px 8px;	
+}
+
+div.related-games div span.platforms
+{
+	padding: 0px 8px 8px 8px;
+	line-height: 1em;
+	z-index: 10;
+	float: left;
+}
+
+div.related-games div span.ports
+{
+	font-size: 90%;
+	font-weight: normal;
+	padding: 0px 0px 2px 8px;
+	clear: both;
+	float: left;
+}
+
+div.related-games div span.ports span.heading
+{
+	padding-bottom: 3px;
+	border-bottom: 1px solid #575757;
+	width: 125px;
+	margin-bottom: 3px;
+}
+
+div.related-games div span.ports span
+{
+	padding-bottom: 2px;	
+}
+
+div.related-games div span.ports span a
+{
+	color: #c0c0c0;
+}
+
+div.related-games div span.platforms img,
+div.related-games div span.platforms .plat,
+div.related-games div span.platforms span
+{
+	display: block;
+	float: left;
+	clear: none;
+	font-weight: normal;
+	font-size: 90%;
+	margin-right: 2px;
+}
+
+div.related-games div span.platforms a
+{
+	z-index: 100;
+}
+
+div.related-games div span.platforms img
+{
+	margin-top: 0px;
+}
+
+div.related-block
+{
+	width: 552px;
+	color: #bfbfbf;
+	display: none;
+}
+
+div.related-block div.stretchy-mc-guy
+{
+	float: left;
+	width: 100%;
+	background-image: url(stretchy.gif);
+	background-repeat: no-repeat;
+	background-position: 298px 10px;
+	margin-bottom: 0px;
+}
+
+div.related-block div.videos-and-features,
+div.related-block div.screenshots-and-news,
+div.related-block ul.eurogamers
+{
+	float: left;
+	clear: none;
+	padding: 0px 12px;
+	margin: 8px 0px;
+}
+div.related-block div.videos-and-features ul,
+div.related-block div.screenshots-and-news ul {
+	margin-bottom: 12px;
+}
+
+div.related-block div.videos-and-features
+{
+	width: 274px;
+	border-right: 1px solid #393939;
+}
+
+div.related-block div.screenshots-and-news
+{
+	width: 227px;
+	border-left: 1px solid #5f5f5f;
+}
+
+div.related-block div.screenshots-and-news span
+{
+	display: block;
+	clear: both;	
+}
+
+div.related-block ul
+{
+	margin: 0;
+	padding: 0px 0px 0px 14px;
+	line-height: 1.4em;
+	list-style: square;
+}
+
+div.related-block ul.eurogamers,
+div.related-block ul.meta-data
+{
+	float: left;
+	clear: none;
+}
+
+div.related-block ul.meta-data
+{
+	width: 274px;
+	margin-top: 10px;
+	margin-left: 0px;
+	color: white;
+}
+
+div.related-block ul.meta-data li strong
+{
+	color: #bcbfbf;
+}
+
+div.related-block ul.meta-data li.more
+{
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+	margin-top: 8px;
+}
+
+div.related-block ul.meta-data li.more a
+{
+	background-color: #0069ff;
+	color: white;
+	padding: 3px 8px;
+	font-weight: bold;
+	font-size: 110%;
+	-moz-border-radius: 4px;
+	margin-left: -14px;
+	float: left;
+	clear: both;
+	-moz-box-shadow: 2px 2px #0052c6;
+	text-decoration: none;
+}
+
+div.related-block ul.eurogamers
+{
+	list-style: none;
+	margin: 8px 0px 0px 0px;
+	padding: 0px;
+	-moz-border-radius: 4px;
+	color: black;
+	background-color: white;
+	width: 240px;
+	float: right;
+}
+
+div.related-block ul.eurogamers li
+{
+	clear: both;
+	margin: 0px 6px;
+	padding: 4px 0px 6px;
+	float: left;
+	clear: both;
+	border-bottom: 1px solid #e0e0e0;
+	width: 228px;
+	overflow: hidden;
+}
+
+div.related-block ul.eurogamers li a.game-collection
+{
+	background-position: 6px center;
+	background-image: url(button-add-to-game-collection.png);
+}
+
+div.related-block ul.eurogamers li a.most-wanted
+{
+	background-image: url(button-add-to-most-wanted.png);
+}
+
+div.related-block ul.eurogamers li a span
+{
+	position: relative;
+	top: auto;
+	left: auto;
+	font-weight: normal;
+	font-size: 100%;
+	margin: 0;
+	line-height: 1em;
+	background-color: transparent;
+	padding: 0px 0px 0px 20px;
+	text-align: center;
+	display: inline;
+	float: none;
+}
+
+
+div.related-block ul.eurogamers li span.title
+{
+	display: block;
+	clear: both;
+}
+
+div.related-block ul.eurogamers li a
+{
+	background-color: #356eef;
+	color: white;
+	-moz-border-radius: 4px;
+	text-decoration: none;
+	padding: 5px 4px 5px 6px;
+	float: left;
+	clear: none;
+	margin: 2px 4px 0px 0px;
+	display: block;
+	background-position: 4px center;
+	background-repeat: no-repeat;
+}
+
+div.related-block h3
+{
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	color: #bfbfbf;
+	margin: 0px 0px 6px 0px;
+	padding: 0;
+}
+
+div.related-block div.video
+{
+	position: relative;
+}
+
+div.related-block div.video h4,
+div.related-block div.video span
+{
+	position: absolute;
+	top: 0px;
+	left: 95px;
+	font-weight: bold;
+	width: 188px;
+	line-height: 1.2em;
+}
+
+div.related-block div.video h4 span
+{
+	clear: both;
+	padding-top: 2px;
+}
+
+div.related-block div.videos-and-features div.video span
+{
+	position: relative;
+	display: block;
+	left: 0;
+	top: 0;
+	clear: both;	
+}
+
+div.related-block div.video span,
+div.related-block div.videos-and-features span
+{
+	color: #808080;
+	top: 0px;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+div.related-block div.videos-and-features span
+{
+	display: block;
+	position: relative;
+	top: auto;
+	clear: both;
+	margin: 0px 0px 8px 0px;
+}
+
+div.related-block div.video div.image
+{
+	position: relative;
+	width: 86px;
+	height: 44px;
+	background-position: center center;
+	border: 1px solid #7c7c7c;
+	margin: 0px 0px 8px 0px;
+}
+
+div.related-block div.video div.image a
+{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+div.related-block h4
+{
+	color: white;
+	font-size: 100%;
+	font-family: Tahoma, sans-serif;
+	font-weight: normal;
+}
+
+div.related-block a
+{
+	color: white;
+}
+
+div.related-block img
+{
+	border: 1px solid #7c7c7c;
+	margin: 0px 0px 0px 0px;
+}
+
+div.related-block div.game-information
+{
+	float: left;
+	clear: both;
+	margin: 0px 12px !important;
+	margin: 0px 6px;
+	border-top: 1px solid #575757;
+	padding-bottom: 4px;
+	width: 528px;
+	min-height: 18px;
+}
+
+div.related-block div.game-information p
+{
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 10px 8px 8px 0px;
+	border-top: 1px solid #3b3b3b;
+}
+
+div.related-block div.game-information p.all
+{
+	position: absolute;
+	right: 12px;	
+	margin-top: -3px;
+	padding: 8px 0px 8px 100px;
+}
+
+div.related-block div.game-information p.all a
+{
+	position: relative;
+	display: block;
+	font-weight: bold;
+	background-image: url(/web/20110228022844im_/http://www.eurogamer.net/img/ArticlePage/related-games/game-info.gif);
+	background-repeat: no-repeat;
+	width: 82px;
+	height: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+div.related-block div.game-information p.all a span
+{
+	position: absolute;
+	display: block;
+	left: 0px;
+	top: 3px;
+	width: 82px;
+	text-align: center;
+}
+
+div.related-block a.comments
+{
+	color: #65ae2c;
+}
+
+h2.related-game-title
+{
+	clear: both;
+	margin: 0px 0px 1px 0px;
+	padding: 5px 10px;
+	background-image: url(title.png);
+	background-color: #fe700a;
+	background-repeat: repeat-x;
+	font-size: 130%;
+	font-family: Arial, Tahoma, sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+div.videos-and-features img.platform
+{
+	border: 0;
+	margin: 0px 0px -4px 2px;
+}
+
+div.copy
+{
+	float: none;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+#lowleader
+{
+	float: left;
+	clear: both;
+	margin: 8px 0px 16px 0px;
+	padding: 0px 0px;
+	font-size: 10px;
+	letter-spacing: 1px;
+	color: #909090;
+}
+
+#lowleader div
+{
+	padding: 0px 3px;
+	margin: 0;
+	float: left;
+	clear: none;
+	background-color: #F4F4F7;
+	border: 1px solid #f0f0f0;
+	border-bottom: 0;
+}
+
+#lowleader iframe
+{
+	margin: 0;
+	padding: 0;
+	width: 692px;
+	height: 90px;
+}
+
+/* ---- Anticipation (are you excited about this game?) ----------------------- */
+
+#anticipation
+{
+	background-color: #e7e7e7;
+	padding: 0;
+	margin-bottom: 10px;
+	-moz-border-radius: 5px;
+	width: 100%;
+	float: left;
+	clear: both;
+}
+
+#anticipation p
+{
+	float: left;
+	margin: 4px;
+	padding: 5px 8px;
+	font-family: Verdana;
+	font-size: 170%;
+	color: white;
+	width: 440px;	
+	text-align: right;
+	font-family: Arial;
+	line-height: 1.1em;
+	-moz-border-radius: 5px;
+	background-color: #39393a;
+	height: 61px;
+}
+
+#anticipation p.current-feelings
+{
+	width: 503px;
+	height: 18px;
+	padding-top: 7px;
+	font-size: 130%;
+}
+
+#anticipation a#undo-button,
+#anticipation div#undo-ok
+{	
+	float: left;
+	width: 149px;
+	-moz-border-radius: 5px;
+	margin: 4px 0px 0px 0px;
+	padding: 8px 6px 9px 6px;
+	text-align: center;	
+	color: white;
+	background-color: #2fbeec;
+	font-weight: bold;
+}
+
+#anticipation div#undo-ok
+{
+	display: none;
+	background-color: #6ec700;
+	
+}
+
+#anticipation p a
+{
+	font-size: 10px;
+	font-family: Verdana;
+	margin: 0;
+	color: white;
+	text-decoration: underline;
+}
+
+#anticipation a
+{
+	position: relative;
+	display: block;
+	float: right;
+	margin: 4px 4px 4px 0px;
+	padding: 0;
+	text-decoration: none;
+}
+
+#anticipation a span
+{
+	position: absolute;
+	top: 6px;
+	right: 8px;
+	font-weight: bold;
+	color: white;
+	font-family: Arial;
+	font-size: 135%;
+}
+
+#anticipation-thanks
+{
+	display: none;
+	float: left;
+	margin: 4px 0px 0px 0px;
+	padding: 24px 0px 0px 0px;
+	font-family: Verdana;
+	font-size: 170%;
+	color: white;
+	width: 224px;	
+	text-align: center;
+	font-family: Arial;
+	line-height: 1.1em;
+	-moz-border-radius: 5px;
+	background-color: #0a5ecd;
+	height: 47px;
+	
+}
+
+/* ---- Pager ----------------------------------------------------------------- */
+
+.pager
+{
+	clear: both;
+}
+
+/* ---- Competition login --------------------------------- */
+
+form#competition-login
+{
+	margin: 0;
+	padding: 0;
+	font-size: 75%;
+}
+
+form#competition-login fieldset
+{
+	float: left;
+	clear: none;
+	width: 300px;
+	margin-right: 4px;	
+	border: 1px solid #c0c0c0;
+	padding: 10px 8px 4px 8px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+
+form#competition-login fieldset.register-prompt
+{
+	margin-right: 0px;
+}
+
+form#competition-login fieldset legend
+{
+	font-weight: bold;
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 110%;
+	padding: 0px 10px;
+}
+
+form#competition-login fieldset label
+{
+	float: left;
+	clear: none;
+	width: 66px;
+	padding-top: 2px;
+	text-align: right;
+	padding-right: 6px;
+}
+
+form#competition-login fieldset input
+{
+	margin-bottom: 4px;	
+}
+
+form#competition-login fieldset input.submit
+{
+	margin-left: 4px;
+	width: auto;
+}
+
+form#competition-login fieldset span
+{
+	display: block;
+	margin: 0px 0px 4px 10px;
+}
+
+#theTop form#competition-login fieldset a
+{
+	display: block;
+	width: 92px;
+	font-size: 120%;
+	padding: 4px 6px;
+	font-family: Arial, Tahoma, sans-serif;
+	background-color: #b70000;
+	color: white;
+	margin: 0px 0px 2px 10px;
+}
+
+/*
+     FILE ARCHIVED ON 02:28:44 Feb 28, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:18:58 Aug 14, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.resolve: 92.725
+  exclusion.robots.policy: 0.2
+  load_resource: 155.802
+  esindex: 0.011
+  exclusion.robots: 0.214
+  RedisCDXSource: 86.953
+  CDXLines.iter: 15.455 (3)
+  captures_list: 200.246
+  PetaboxLoader3.datanode: 129.664 (4)
+  LoadShardBlock: 93.938 (3)
+*/

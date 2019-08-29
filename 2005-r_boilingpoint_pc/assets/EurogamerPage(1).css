@@ -1,0 +1,124 @@
+a.affiliate
+{
+	display: block;
+	position: absolute;
+	right: 280px;
+	bottom: 4px;
+	z-index: 3;
+	width: auto;
+	height: auto;
+	width: 199px;
+	height: 63px;
+	background-repeat: no-repeat;
+}
+
+a.affiliate.zavvi
+{
+	bottom: 14px;
+	background-image: url(/web/20110228022840im_/http://www.eurogamer.net/img/Affiliates/zavvi-large.png);
+}
+
+a.affiliate.zavvi.small
+{
+	top: 58px;
+	height: 51px;
+	background-image: url(/web/20110228022840im_/http://www.eurogamer.net/img/Affiliates/zavvi-small.png);
+}
+
+a.affiliate.getgames
+{
+	bottom: 14px;
+	background-image: url(/web/20110228022840im_/http://www.eurogamer.net/img/Affiliates/getgames-large.png);
+}
+
+a.affiliate.getgames.small
+{
+	bottom: 4px;
+	height: 35px;
+	background-image: url(/web/20110228022840im_/http://www.eurogamer.net/img/Affiliates/getgames-small.png);
+}
+
+a.affiliate
+{
+	color: white;
+	line-height: 1.5em;
+	text-decoration: none;
+}
+
+a.affiliate span
+{
+	position: absolute;
+	top: 14px;
+	left: 19px;
+	font-size: 90%;
+	cursor: hand;
+}
+
+a.affiliate.zavvi.small span
+{
+	top: 7px;
+}
+
+a.affiliate.small span
+{
+	left: 15px;
+}
+
+a.affiliate.small span span
+{
+	left: 0px;
+}
+
+a.affiliate.zavvi.small span span
+{
+	top: 0px;
+}
+
+a.affiliate span span
+{
+	position: relative;
+	top: 0px !important;
+	left: 0px !important;
+	display: block;
+	clear: both;
+	font-size: 200%;
+}
+
+a.affiliate.getgames.small span
+{
+	top: 6px;
+	line-height: 1em;
+}
+
+a.affiliate.getgames.small span span
+{
+	top: 0px;
+	font-size: 150%;
+}
+
+#facebook-like-button
+{
+        height: 24px;
+}
+
+/*
+     FILE ARCHIVED ON 02:28:40 Feb 28, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:18:59 Aug 14, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.datanode: 57.088 (4)
+  exclusion.robots.policy: 0.176
+  captures_list: 52.011
+  RedisCDXSource: 1.508
+  exclusion.robots: 0.189
+  CDXLines.iter: 13.659 (3)
+  load_resource: 169.742
+  esindex: 0.01
+  PetaboxLoader3.resolve: 137.971
+  LoadShardBlock: 33.491 (3)
+*/
