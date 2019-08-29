@@ -1,0 +1,33 @@
+article
+{
+	font-size: 14px;
+}
+
+article > p,
+article > ul,
+article > section > p,
+article > section > ul
+{
+	margin-right: 30px;
+}
+/*
+     FILE ARCHIVED ON 07:54:57 Jun 07, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:45:54 Aug 29, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.282
+  esindex: 0.013
+  PetaboxLoader3.resolve: 158.02
+  RedisCDXSource: 16.186
+  load_resource: 327.768
+  exclusion.robots: 0.301
+  LoadShardBlock: 159.567 (3)
+  CDXLines.iter: 20.953 (3)
+  PetaboxLoader3.datanode: 270.681 (4)
+  captures_list: 201.409
+*/
