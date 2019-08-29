@@ -1,0 +1,166 @@
+#theTop div.boxout
+{
+	width: 300px;
+	float: left;
+	position: relative;
+	margin: 4px 27px 14px;
+}
+
+#theTop div.boxout h4,
+#theTop div.boxout ul
+{
+	display: block;
+	float: left;
+	width: 100%;
+	clear: both;
+	padding: 0;
+	margin: 0;
+	background-color: #ececec;
+}
+
+#theTop div.boxout ul
+{
+	padding: 4px 0px 0px;
+	list-style: none;
+	border: 2px solid #e0e0e0;
+	border-left: 0;
+	border-top: 0;
+}
+
+#theTop div.boxout ul li
+{
+	float: left;
+	width: 274px;
+	clear: both;
+	margin: 0px 4px 4px;
+	padding: 10px 10px 12px;
+	background-color: white;
+	moz-border-radius: 4px;
+}
+
+#theTop div.boxout ul li.screens,
+#theTop div.boxout ul li.video
+{
+	clear: none;
+	padding-bottom: 8px;
+}
+
+#theTop div.boxout ul li.screens h5,
+#theTop div.boxout ul li.screens p
+{
+	float: left;
+	clear: left;
+}
+
+#theTop div.boxout ul li.screens img
+{
+	float: left;
+	clear: none;
+	width: 31%;
+	margin-right: 2.3%;
+}
+
+#theTop div.boxout ul li.video img
+{
+	width: 100%;
+}
+
+#theTop div.boxout ul li h5
+{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	color: black;
+	letter-spacing: normal;
+	font-family: Tahoma, Arial, sans-serif;
+}
+
+#theTop div.boxout ul li h5
+{
+	line-height: 1.2em;
+}
+
+#theTop div.boxout ul li.video h5
+{
+	margin-bottom: 4px;
+}
+
+#theTop div.boxout ul li p
+{
+	line-height: 1.3em;
+}
+
+#theTop div.boxout ul li p
+{
+	margin: 0;
+	padding: 0;
+	font-size: 90%;
+	font-family: Tahoma, Arial, sans-serif;
+}
+
+#theTop div.boxout ul li img
+{
+	margin-bottom: 2px;
+}
+
+#theTop div.boxout h4
+{
+	font-size: 150%;
+	text-align: left;
+}
+
+#theTop div.boxout h4 span
+{
+	display: block;
+	float: left;
+	clear: both;
+	background-color: white;
+	border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-radius-bottomleft: 10px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 6px 14px;
+	width: 100%;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	color: black;
+}
+
+#theTop .boxout h4 a
+{
+}
+
+#theTop div.boxout ul li.news p
+{
+	padding-bottom: 8px;
+	margin-bottom: 10px;
+	border-bottom: 1px dotted #e0e0e0;
+}
+
+#theTop div.boxout ul li.news p:last-child
+{
+	border: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+/*
+     FILE ARCHIVED ON 02:28:57 Feb 28, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:18:59 Aug 14, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 738.536
+  esindex: 0.007
+  exclusion.robots.policy: 0.117
+  load_resource: 56.407
+  RedisCDXSource: 1.432
+  exclusion.robots: 0.127
+  PetaboxLoader3.datanode: 86.102 (4)
+  CDXLines.iter: 15.264 (3)
+  LoadShardBlock: 718.753 (3)
+  PetaboxLoader3.resolve: 45.552
+*/
