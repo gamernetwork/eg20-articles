@@ -1,0 +1,164 @@
+#extra
+{
+	z-index: 1000 !important;
+}
+
+#nav
+{
+	height: auto;
+}
+
+h1
+{
+	position: relative;
+	background-image: url(/web/20110228022842im_/http://www.eurogamer.net/img/ArticlePage/amazon-header/title-background.gif);
+	background-color: #959595;
+	background-repeat: repeat-x;
+	background-position: bottom center;
+	color: white;
+	margin: 0;
+	padding: 36px 27px 5px 27px;
+	line-height: 0.9em;
+	font-size: 22px;
+	font-weight: normal;
+	font-family: Arial, Tahoma, sans-serif;
+	letter-spacing: -1px;
+	margin-bottom: 4px;
+}
+
+h1 span
+{
+	font-family: Tahoma, sans-serif;
+	font-size: 50%;
+	letter-spacing: 0.02em;
+	position: relative;
+	left: 2px;
+	top: -4px;
+}
+
+h1
+{
+	padding-left: 47px;
+	padding-bottom: 14px;
+}
+
+h2, h3 {
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 2.4em;
+	margin: 0px;
+	letter-spacing: -0.03em;
+	font-weight: normal;
+}
+h4 {
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 17px;
+	margin: 0px;
+	font-weight: bold;
+}
+h5 {
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 14px;
+	margin: 0px;
+	font-weight: bold;
+}
+h6 {
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 1em;
+	margin: 0px;
+	font-weight: bold;
+}
+
+
+div.content p {
+	margin: 12px 0px;
+}
+
+div.competition-notification
+{
+	border: 3px solid #6ecc33;
+	background-color: #e1f3be;
+	font-weight: bold;
+	background-image: url(/web/20110228022842im_/http://www.eurogamer.net/img/Competitions/tick.png);
+	background-repeat: no-repeat;
+	background-position: 4px 4px;
+	padding-left: 86px;
+	min-height: 126px;
+}
+
+div.competition-notification h3
+{
+	color: black;
+	font-weight: bold;
+	padding: 8px 0px 0px 45px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+div.competition-notification a
+{
+	color: #5fb22b;
+	font-weight: bold;
+}
+
+div.competition-notification.error
+{
+	border: 3px solid red;
+	background-color: #ffcece;
+	font-weight: normal;
+	background-image: url(/web/20110228022842im_/http://www.eurogamer.net/img/Competitions/cross.png);
+}
+
+div.competition-notification.error a
+{
+	color: red;
+	font-weight: bold;
+}
+
+table.articleList {
+	margin-top: 12px;
+}
+table.articleList th ,
+table.articleList td {
+	padding: 4px 8px;
+	vertical-align: top;
+	border-bottom: 1px solid #f0f0f0;
+}
+table.articleList td.type {
+	color: #666666;
+}
+table.articleList td.index {
+	color: #666666;
+	font-size: 10px;
+	font-weight: bold;
+}
+table.articleList tbody th {
+	font-family: Arial, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+table.articleList td.abstract {
+	width: 150px;
+}
+
+/*
+     FILE ARCHIVED ON 02:28:42 Feb 28, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:18:58 Aug 14, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 169.785
+  exclusion.robots.policy: 0.112
+  PetaboxLoader3.resolve: 328.351
+  RedisCDXSource: 23.79
+  exclusion.robots: 0.121
+  CDXLines.iter: 15.803 (3)
+  PetaboxLoader3.datanode: 136.282 (4)
+  LoadShardBlock: 127.342 (3)
+  load_resource: 343.321
+  esindex: 0.007
+*/
