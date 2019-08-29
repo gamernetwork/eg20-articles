@@ -1,0 +1,132 @@
+.commentList {
+	margin-left: 10px;
+	/*width: 100%;*/
+}
+.commentList th a {
+	font-weight: bold;
+}
+.commentList tbody td, .commentList tbody th {
+	text-align: left;
+	padding: 7px 12px;
+	font-weight: normal;
+	border-left: 1px solid #d8d8d8;
+}
+.commentList tbody tr.strip1 td, .commentList tbody tr.strip1 th {
+	background-color: #fafafa;
+}
+.commentList tbody tr.strip2 td, .commentList tbody tr.strip2 th {
+	background-color: #f0f0f0;
+}
+.commentList tbody th {
+	border-left: 0px;
+	/*padding-left: 10px;*/
+	vertical-align: top;
+	font-weight: bold;
+	font-size: 110%;
+	color: #303030;
+	letter-spacing: -1px;
+}
+
+.commentList thead th {
+	text-align: left;
+	vertical-align: bottom;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999999;
+	font-weight: bold;
+	padding: 2px 12px;
+	border-left: 1px solid #c0c0c0;
+	letter-spacing: -1px;
+}
+
+
+.commentList thead th.headerHeader {
+	border-bottom: 1px solid #c0c0c0;
+}
+
+table.commentList tbody tr.gap td {
+	padding: 0px;
+	background-color: #ffffff;
+	border: 0px solid #ffffff;
+}
+
+.message {
+	font-size: 100%;
+	color: #000000;
+}
+.datetime {
+	font-size: 90%;
+	font-weight: normal;
+}
+.editInfo {
+	margin-top: 12px;
+	font-weight: bold;
+}
+.postOptions td {
+	padding: 0px;
+	padding-right: 12px;
+	border:  0px;
+	font-weight: bold;
+}
+h4.commentTitle {
+	background-color: #90909a;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #ffffff;
+	letter-spacing: -1px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	padding: 6px 10px;
+	
+}
+
+.postForm {
+	margin-top: 8px;
+	margin-left: 10px;
+	background-color: #f4f4f7;
+	padding: 8px 10px;
+
+}
+.postForm label {
+	font-weight: bold;
+	display: block;
+}
+
+.postOptions tr td {
+	border: 0px;
+	padding: 0px;
+	padding-right: 12px;
+	font-weight: bold;
+}
+
+p.introduction {
+	margin: 12px 12px;
+	font-size: 90%;
+}
+p.readMore {
+	margin: 12px 12px;
+	font-size: 110%;
+	font-weight: bold;
+
+/*
+     FILE ARCHIVED ON 06:15:35 Aug 07, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:55:43 Aug 29, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  CDXLines.iter: 10.871 (3)
+  LoadShardBlock: 45.818 (3)
+  RedisCDXSource: 0.965
+  captures_list: 60.011
+  PetaboxLoader3.resolve: 404.979
+  load_resource: 525.128
+  PetaboxLoader3.datanode: 57.715 (4)
+  exclusion.robots: 0.12
+  esindex: 0.007
+  exclusion.robots.policy: 0.11
+*/
