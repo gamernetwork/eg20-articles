@@ -1,0 +1,199 @@
+.inline-gallery
+{
+	position: relative;
+	padding: 0;
+	margin: 12px 27px;
+	overflow: hidden;
+	clear: both;
+}
+
+.inline-gallery.small
+{
+	font-size: 85%;
+	float: left;
+	clear: none;
+	width: 260px;
+	margin-top: 4px;
+}
+
+.image-list
+{
+	clear: both;
+	overflow: hidden;
+	width: 100000000px;
+	background-color: black;
+}
+
+.image-list div
+{
+	position: relative;
+	float: left;
+	margin: 0px auto;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.image-list div.inline-mpu
+{
+	color: black;
+	background-color: white;
+}
+
+.image-list div.inline-mpu iframe
+{
+	overflow: hidden;
+	border: 0;
+}
+
+.image-list div.inline-mpu p
+{
+	margin: 0;
+	padding: 0;
+}
+
+.image-list img
+{
+	max-width: 100%;
+	max-height: 100%;
+	clear: none;
+}
+
+.inline-controls
+{
+	clear: both;
+	float: left;
+	width: 100%;
+	position: relative;
+	margin: 0px 0px 10px;
+	padding: 8px 0px;
+	background-color: #eaeaea;
+}
+
+#theTop .inline-controls p
+{
+	display: block;
+	position: relative;
+	margin: 0px 0px;
+	padding: 0px 0px;
+	font-weight: bold;
+	float: left;
+	clear: both;
+	color: black;
+}
+
+#theTop .inline-controls p.image-number
+{
+	float: left;
+	clear: left;
+	background-color: white;
+	color: black;
+	border: 1px solid #d9d9d9;
+	margin-left: 6px;
+}
+
+#theTop .inline-controls p.caption
+{
+	clear: none;
+	padding-top: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.inline-controls div.buttons
+{
+	clear: right;
+	float: right;
+	padding: 0px 8px 0px 0px;
+}
+
+#theTop .inline-gallery.small .inline-controls p.caption
+{
+	clear: both;
+}
+
+#theTop .inline-controls p.image-number,
+.inline-controls div.buttons a
+{
+	font-weight: bold;
+	padding: 6px 12px;
+	line-height: 1.2em;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+}
+
+#theTop .inline-controls p.image-number
+{
+	padding: 5px 12px;
+}
+
+#theTop .inline-gallery.small .inline-controls p.image-number,
+.inline-gallery.small .inline-controls div.buttons a
+{
+	padding: 4px 8px;
+}
+
+#theTop .inline-gallery.small .inline-controls p.image-number
+{
+	padding: 3px 8px;
+}
+
+.inline-controls div.buttons a
+{
+	display: block;
+	float: left;
+	position: relative;
+	margin: 0px 0px 0px 4px;
+	float: left;
+	z-index: 3;
+	text-align: center;
+	text-decoration: none;
+	text-align: left;
+	background-color: #0069ff;
+	color: white;
+}
+
+.inline-controls div.buttons a:hover
+{
+	background-color: #404040;
+}
+
+.inline-controls div.buttons a:active
+{
+	background-color: black;
+}
+
+.inline-controls div.buttons a.all,
+.inline-gallery.small .inline-controls div.buttons a.all,
+.inline-controls div.buttons a.all:hover,
+.inline-controls div.buttons a.all:active
+{
+	background-color: transparent;
+	color: #0069ff;
+	padding-right: 0px;
+	padding-left: 4px;
+}
+
+/*
+     FILE ARCHIVED ON 02:28:56 Feb 28, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:18:59 Aug 14, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 517.002
+  esindex: 0.009
+  exclusion.robots.policy: 0.175
+  load_resource: 451.193
+  RedisCDXSource: 1.496
+  exclusion.robots: 0.188
+  PetaboxLoader3.datanode: 543.917 (4)
+  CDXLines.iter: 20.17 (3)
+  LoadShardBlock: 491.534 (3)
+  PetaboxLoader3.resolve: 387.564
+*/

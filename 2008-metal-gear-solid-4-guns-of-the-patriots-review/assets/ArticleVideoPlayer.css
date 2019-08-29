@@ -1,0 +1,156 @@
+div.egtv-video
+{
+	position: relative;
+	float: none;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	-moz-border-radius: 0px 0px 4px 4px;
+	-webkit-border-radius: 0px 0px 4px 4px;
+	border-radius: 0px 0px 4px 4px;
+	margin: 0px 0px 14px 27px;
+	background-color: white;
+
+	float: left !important;
+	width: 260px !important;
+	margin-right: 27px;
+	overflow: hidden;
+}
+
+div.egtv-video.centre
+{
+	background-color: white;
+	width: 632px !important;
+}
+
+div.egtv-video .frame
+{
+	position: relative;
+	z-index: 1;
+}
+
+div.egtv-video img.screengrab
+{
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	overflow: hidden;
+}
+
+div.egtv-video img.player
+{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 2;
+	border-top: 1px solid black;
+}
+
+div.egtv-video img.play-button
+{
+	position: absolute;
+	opacity: 0.5;
+	z-index: 2;
+	left: 92px;
+	top: 23px;
+	width: 80px;
+	height: 80px;
+}
+
+
+div.egtv-video.centre img.play-button
+{
+	left: 268px;
+	top: 130px;
+	width: 94px;
+	height: 94px;
+}
+
+div.egtv-video:hover img.play-button
+{
+	opacity: 1;
+}
+
+div.egtv-video a.caption
+{
+	display: block;
+	position: relative;
+	float: none !important;
+	width: auto !important;
+	z-index: 2;
+	left: auto;
+	right: auto;
+	bottom: auto;
+	background-color: black;
+	padding: 4px 10px 10px 10px !important;
+	-moz-border-radius: 0px 0px 8px 8px;
+	cursor: pointer;
+	text-decoration: none;
+	font-style: italic;
+	color: white;
+}
+
+div.egtv-video.centre a.caption
+{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 50px;
+	text-shadow: 2px 2px black;
+	background-color: transparent;
+	font-weight: bold;
+	font-size: 135%;
+	padding: 0px 40px !important;
+}
+
+div.egtv-video a.caption,
+div.egtv-video a.more
+{
+	display: block;
+	text-align: center;	
+}
+
+div.egtv-video a.more
+{
+	padding-top: 4px;
+}
+
+div.egtv-video a.overlay
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	cursor: pointer;
+	z-index: 3;
+}
+
+div.egtv-video a.overlay img
+{
+	width: 100%;
+	height: 100%;
+}
+/*
+     FILE ARCHIVED ON 02:28:50 Feb 28, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:18:58 Aug 14, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.158
+  LoadShardBlock: 42.831 (3)
+  RedisCDXSource: 0.477
+  esindex: 0.009
+  exclusion.robots: 0.17
+  captures_list: 63.949
+  PetaboxLoader3.datanode: 54.54 (4)
+  CDXLines.iter: 16.95 (3)
+  load_resource: 91.379
+  PetaboxLoader3.resolve: 40.969
+*/
