@@ -1,0 +1,26 @@
+/* platform main colour: #b342f5 */
+
+.platformBG {
+	border-top: 4px solid #FFE000;
+}
+.writingGoesHere {
+	padding-top:			4px;
+}
+
+a:link {
+	color: #F0651A;
+}
+a:visited {
+	color: #F0651A;
+}
+a:hover, a:active {
+	color: #9E4219;
+}
+
+.signPost {
+	background-image: url( "signpost_pc.gif" );
+}
+
+#whereAmI {
+	border-bottom-color: #FFE000;
+}

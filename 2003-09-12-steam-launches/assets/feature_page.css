@@ -1,0 +1,306 @@
+.illustration {
+	margin-left:					45px;
+	margin-right:					36px;
+	margin-bottom:					12px;
+}
+.illustration .caption,
+.flowillustration .caption {
+	padding:			8px;
+	font-weight: bold;
+	color:					#606060;
+	font-style:				italic;
+}
+.flowillustration {
+	padding:					0px;
+	margin-left:					45px;
+	float:						left;
+	margin-bottom: 12px;
+	margin-right: 36px;
+}
+.illustration .caption ,
+.flowillustration .caption {
+	padding-right:			8px;
+	font-weight: bold;
+	color:					#606060;
+	font-style:				italic;
+}
+.illustrationPreview {
+	float: left;
+	clear:						left;
+	margin-right: 36px;
+	margin-bottom: 12px;
+	background-color: #F4F4F7;
+}
+.illustrationPreview td.caption {
+	padding:				8px 0px;
+	padding-right:			8px;
+	font-weight: bold;
+	color:					#606060;
+	font-style:				italic;
+}
+
+.date {
+	font-size: 100%;
+	color: #606060;
+}
+
+.titleArea {
+	margin-bottom: 18px;
+}
+.titleArea .publishingInfo {
+	background-color: #F4F4F7;
+	padding: 12px;
+}
+
+.titleArea .publishingInfo p {
+	margin-bottom: 12px;
+}
+.titleArea .publishingInfo p a {
+	display: block;
+}
+
+.article {
+	margin-left: 12px;
+	margin-right: 36px;
+	margin-top: 24px;
+}
+
+.article a {
+	font-weight: bold;
+}
+
+.articleBody {
+}
+
+p {
+	font-size: 110%;
+}
+
+p.introduction {
+	margin: 0px;
+	margin-top: 16px;
+	color: #000000;
+	line-height: 1.6em;
+}
+
+.articleBody p {
+	color: #303030;
+	margin-bottom: 18px;
+	margin-left: 45px;
+	line-height: 1.6em;
+}
+
+.articleBody ol, .articleBody ul {
+	font-size: 120%;
+	margin-left: 45px;
+	padding-left: 0px;
+}
+.articleBody li {
+	margin: 5px 0px;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 33px;
+	letter-spacing: -1px;
+	line-height: 29px;
+	font-weight: normal;
+	color: #999999;
+}
+
+h2 { 
+	margin: 12px 0px;
+	padding: 8px 45px;
+	background-color: #F4F4F7;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	letter-spacing: -1px;
+	line-height: 29px;
+	font-weight: normal;
+	color: #999999;
+	border-top: 1px solid #f0f0f0;
+	padding-top: 6px;
+}
+
+h3 {
+	margin-top:6px;
+	margin-bottom: 18px;
+	margin-left: 45px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	letter-spacing: -1px;
+	line-height: 29px;
+	font-weight: normal;
+	color: #606060;
+	clear: left;
+}
+
+table.miscInfo {
+	margin: 8px 0px;
+	width: 100%;
+	
+}
+table.miscInfo td, table.miscInfo th {
+	text-align: left;
+	padding: 6px 45px;
+}
+
+dl.miscInfo {
+	margin-left: 45px;
+	font-size: 120%;
+	clear: left;
+}
+dt{
+	font-weight: bold;
+}
+	
+.rating {
+	margin: 12px 0px;
+	padding: 8px 45px;
+	background-color: #F4F4F7;
+	font-size: 120%;
+	font-weight: bold;
+	color: #606060;
+	letter-spacing: -1px;
+	clear: left;
+}
+
+#whereAmI {
+	border-bottom: 1px solid #d8d8d8;
+	padding: 4px 12px;
+	padding-bottom: 8px;
+	width: 60%;
+}
+.author td {
+	vertical-align: middle;
+	font-weight: normal;
+	font-size: 18px;
+	color: #999999;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: -1px;
+	padding-right: 12px;
+}
+.nologinComments {
+	margin: 24px;
+	margin-left: 57px;
+}
+
+.articleType {
+	font-size: 120%;
+	color: #606060;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+
+
+
+.commentList tbody th {
+	padding-left: 48px ;
+}
+.postForm {
+	padding: 8px 47px;
+}
+h4.commentTitle {
+	padding: 6px 46px;
+	clear: left;
+}
+
+table.quiz {
+	margin-left: 45px;
+}
+table.quiz th {
+	text-align: left;
+	padding: 4px 0px;
+	padding-right: 18px;
+}
+table.quiz td {
+	padding: 4px 0px;
+	padding-right: 18px;
+}
+p.question {
+	margin-left: 20px;
+	padding: 12px 25px;
+	background-color: #f4f4f7;
+	font-size: 24px;
+	font-family: Arial;
+	letter-spacing: -1px;
+	border: 1px solid #c0c0c0;
+	clear: left;
+}
+p.closingDate {
+	font-weight: bold;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+/* emphasis */
+
+.superscript {
+	position: relative;
+	top: -3px;
+	font-size: 80%;
+}
+
+.whoistalking {
+	font-weight: bold;
+	letter-spacing:			0px;
+	color:					#000000;
+}
+
+p.interviewQuestion {
+	font-weight:			bold;
+}
+
+p.interviewAnswer {
+}
+
+p.interviewComment {
+	color: #606060;
+	padding-left: 12px;
+	line-height: 120%;
+	font-style: oblique;
+}
+
+.publishingInfo div.region {
+	color:					#606060;
+	margin-bottom:			12px;
+}
+.publishingInfo div.platform {
+}
+
+.tidyChunk {
+	margin-left: 45px;
+}
+.tidyChunk h4 {
+	padding-left:					18px;
+	padding-top:					1px;
+	font-size:						12px;
+}
+.tidyVisible .hideMe {
+	display:						block;
+}
+.tidyInvisible .hideMe {
+	display:						none;
+}
+.tidyVisible h4 {
+	background-image:				url( /web/20040811102113im_/http://www.eurogamer.net/img/list/expanded.gif );
+	background-repeat:				no-repeat;
+}
+.tidyInvisible h4 {
+	background-image:				url( /web/20040811102113im_/http://www.eurogamer.net/img/list/collapsed.gif );
+	background-repeat:				no-repeat;
+}
+.tidyChunk table {
+	width: 80%;
+	margin-left:					18px;
+}
+.tidyChunk table th {
+	text-align: left;
+	padding: 4px 0px;
+	padding-right: 18px;
+}
+.tidyChunk table td {
+	padding: 4px 0px;
+	padding-right: 18px;
+	font-size:						12px;
+	border-top:						1px solid #f0f0f0;
+}

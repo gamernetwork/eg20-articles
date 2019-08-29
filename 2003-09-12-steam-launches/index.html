@@ -1,0 +1,691 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:egex="https://www.eurogamer.net/xhtml-extensions" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Eurogamer.net - Steam launches</title>
+    <link rel="stylesheet" type="text/css" href="assets/common.css">
+    <link rel="stylesheet" type="text/css" href="assets/relocatable_menu.css">
+    <style>
+        * {
+            -webkit-font-smoothing: none;
+            -moz-osx-font-smoothing: none;
+            font-smooth: never;
+        }
+        body {
+            max-width: 1024px;
+            margin: 0 auto;
+        }
+    </style>
+    <script type="text/javascript" src="assets/preload.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/IntelliTxt.css">
+    <link rel="stylesheet" type="text/css" href="assets/comments.css">
+    <link rel="stylesheet" type="text/css" href="assets/feature_page.css">
+    <link rel="stylesheet" type="text/css" href="assets/image_viewer.css">
+
+    <script type="text/javascript">
+        focussed = false;
+        openMenu = "";
+        highlightColour = "#666666";
+        normalColour = "transparent";
+        menuIn = 0;
+        sup = 0;
+        menuload = false;
+
+        function allOk() {
+            if (sup == 0) {
+                if (preload && menuload) {
+                    //do tests;
+                    if (
+                        (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 5") >= 0 || navigator.appVersion.indexOf("MSIE 6") >= 0)) || (navigator.appName == "Netscape" && (navigator.appVersion.indexOf("5") == 0)) || (navigator.appName == "Opera" && (navigator.appVersion.indexOf("7") == 0))
+                    ) {
+                        sup = 1;
+                    } else {
+                        sup = -1;
+                    }
+                }
+            }
+
+            if (sup == -1) {
+                return false;
+            } else if (sup == 1) {
+                return true;
+            }
+        }
+
+        function menuClicked(fireObj, wEvent) {
+            if (allOk()) {
+                return s_menuClicked(fireObj, wEvent);
+            }
+        }
+
+        function menuMouseOver(fireObj, wEvent) {
+            if (allOk()) {
+                return s_menuMouseOver(fireObj, wEvent);
+            }
+        }
+
+        function closeAll() {
+            if (allOk()) {
+                return s_closeAll();
+            }
+        }
+
+        function mmmOut() {
+            if (allOk()) {
+                return s_mmmOut();
+            }
+        }
+    </script>
+    <script type="text/javascript" src="assets/relocatable_menu.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/relocatable_menu.css">
+    <link rel="stylesheet" type="text/css" href="assets/pc.css">
+</head>
+<body id="theTop" onclick="closeAll(); return true;" onmouseover="mmmOut();">
+    <div id="pageMastah">
+        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <table id="headerTable" cellpadding="0" cellspacing="0" border="0">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.eurogamer.net/"><img src="assets/logo_eurogamer_modern.gif" width="304" height="77" alt="Eurogamer"></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table id="quickNavBar" cellpadding="0" cellspacing="0" border="0">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.eurogamer.net/" title="Let&#39;s all go home shall we?"><img name="img/common/link_home" src="assets/link_home_off.gif" width="47" height="54" alt="HOME"></a>
+                                    </td>
+                                    <td><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                    <td>
+                                        <a href="https://www.eurogamer.net/archive/ps2" title="Click here to view information for the Sony PlayStation2 only"><img name="img/common/link_ps2" src="assets/link_ps2_off.gif" width="47" height="54" alt="PS2"></a>
+                                    </td>
+                                    <td><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                    <td>
+                                        <a href="https://www.eurogamer.net/archive/xbox" title="Click here to view information for the Microsoft XBox only"><img name="img/common/link_xbox" src="assets/link_xbox_curr.gif" width="47" height="54" alt="XBOX"></a>
+                                    </td>
+                                    <td><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                    <td>
+                                        <a href="https://www.eurogamer.net/archive/cube" title="Click here to view information for the Nintendo GameCube only"><img name="img/common/link_cube" src="assets/link_cube_off.gif" width="47" height="54" alt="CUBE"></a>
+                                    </td>
+                                    <td><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                    <td>
+                                        <a href="https://www.eurogamer.net/pc" title="Click here to view information about PC games only"><img name="img/common/link_pc" src="assets/link_pc_off.gif" width="47" height="54" alt="PC"></a>
+                                    </td>
+                                    <td><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                    <td>
+                                        <a href="https://www.eurogamer.net/archive/gba" title="Click here to view information for the Nintendo GameBoy Advance only"><img name="img/common/link_gba" src="assets/link_gba_off.gif" width="47" height="54" alt="GBA"></a>
+                                    </td>
+                                    <td><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                    <td><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                    <td width="100%">
+                                        <form style="display: block; padding: 0px; margin: 0px; margin-right: 0px; text-align: right;" method="POST" action="https://www.eurogamer.net/login">
+                                            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="memberLogin" width="100%">
+                                                            <div class="loginTitle">Member Login</div>
+                                                            <label>
+                                                                <input type="text" class="textbox" style="width: 100px;" name="user" value="username" onfocus="if( this.value ==&#39;username&#39; ) this.value=&#39;&#39;">
+                                                            </label>
+                                                            <label>
+                                                                <input type="password" class="textbox" style="width: 100px;" name="password" value="password" onfocus="if( this.value ==&#39;password&#39; ) this.value=&#39;&#39;">
+                                                            </label>
+                                                        </td>
+                                                        <td>
+                                                            <input type="image" name="img/common/link_login" src="assets/link_login_off.gif" width="44" height="54" alt="Log in">
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </form>
+                                    </td>
+                                    <td><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                    <td class="memberSignup"><img src="assets/label_get_account.gif" width="82" height="54" alt="Not got an account?  They&#39;re free!"></td>
+                                    <td>
+                                        <a href="https://www.eurogamer.net/register" title="Sign Up"><img name="img/common/link_signup" src="assets/link_signup_off.gif" width="53" height="54" alt="Sign up"></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%" id="menuAndSearchBar">
+                            <tbody>
+                                <tr>
+                                    <td width="100%">
+                                        <div id="menuBar" onclick="return( menuClicked( this, event ) );" onmouseover="return( menuMouseOver( this, event ) );">
+                                            <table onmouseout="event.cancelBubble = true" cellpadding="0" cellspacing="0" border="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="header" id="mh-News">
+                                                                <a href="https://www.eurogamer.net/news" title="News from the gaming world">News</a>
+                                                                <div class="menu" id="m-News">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/pc">Latest</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><img src="assets/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/news">All Platform Latest</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><img src="assets/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/contact">Send Us News</a></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="header" id="mh-Reviews">
+                                                                <a href="https://www.eurogamer.net/reviews" title="Game reviews">Reviews</a>
+                                                                <div class="menu" id="m-Reviews">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/pc">Latest</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/archive/pc">Archive</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><img src="assets/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/reviews">All Platform Latest</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/archive/reviews">All Platform Archive</a></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="header" id="mh-Previews">
+                                                                <a href="https://www.eurogamer.net/archive/preview" title="Game previews">Previews</a>
+                                                                <div class="menu" id="m-Previews">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/pc">Latest</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/archive/pc">Archive</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><img src="assets/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/previews">All Platform Latest</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/archive/previews">All Platform Archive</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><img src="assets/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/release-dates#year=2004&month=6&platform=&=">Release Dates</a></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="header" id="mh-Screenshots">
+                                                                <a href="https://www.eurogamer.net/" title="Screenshots">Screenshots</a>
+                                                                <div class="menu" id="m-Screenshots">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/">Latest</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/">Archive</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><img src="assets/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/">All Platform Latest</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/">All Platform Archive</a></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="header" id="mh-Forum">
+                                                                <a href="https://community.eurogamer.net/" title="Reader forum.">Forum</a>
+                                                                <div class="menu" id="m-Forum">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://community.eurogamer.net/">Enter the Forum</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://community.eurogamer.net/policies.php?view=code-of-conduct">Forum Guidelines</a></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="header" id="mh-Files">
+                                                                <a href="https://www.eurogamer.net/" title="File download service">Files</a>
+                                                                <div class="menu" id="m-Files">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/">Files</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><img src="assets/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/">About</a></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="header" id="mh-About" style="background-color: transparent;">
+                                                                <a href="https://www.eurogamer.net/" title="Information about Eurogamer">About</a>
+                                                                <div class="menu" id="m-About" style="visibility: hidden;">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/">Information About Eurogamer</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/authors">Eurogamer Staff</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><img src="assets/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/contact">Contacting Eurogamer</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/contact">Advertising</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><img src="assets/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/policies">Comments Policy</a></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </td>
+                                    <td width="4"><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                    <td class="searcher" width="168">
+                                        <form method="get" action="https://www.eurogamer.net/search.php">
+                                            <table cellspacing="0" cellpadding="0" border="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <input type="text" class="textbox" style="width: 150px;" name="q" value="Keywords" onfocus="if( this.value == &#39;Keywords&#39; ) this.value=&#39;&#39;; return true;">
+                                                        </td>
+                                                        <td><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                                        <td>
+                                                            <input type="image" width="59" height="18" alt="Search" name="img/common/link_search" src="assets/link_search_off.gif">
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </form>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="contentArea platformBG">
+                            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <!-- <colgroup>
+                                    <col width="*">
+                                        <col width="6">
+                                            <col width="150">
+                                </colgroup> -->
+                                <tbody>
+                                    <tr>
+                                        <td width="100%" class="writingGoesHere">
+                                            <div id="whereAmI">
+                                                <a class="eurogamerlink" href="https://www.eurogamer.net/">Eurogamer</a> :: <a href="https://www.eurogamer.net/pc">PC</a> :: <a href="https://www.eurogamer.net/news">News</a> :: Steam launches </div>
+                                            <div id="intelliTxt">
+                                                <div class="articleBlock">
+                                                    <div class="article">
+                                                        <table cellspacing="0" cellpadding="0" border="0" class="titleArea">
+                                                            <colgroup>
+                                                                <col width="120">
+                                                                    <col width="18">
+                                                                        <col width="*">
+                                                            </colgroup>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="publishingInfo">
+
+                                                                        <p class="date">12/09/2003 10:43</p>
+                                                                        <div class="region">
+                                                                            News
+                                                                        </div>
+                                                                        <div></div>
+                                                                    </td>
+                                                                    <td><img src="assets/spacer.gif" width="18" height="1" alt=""></td>
+                                                                    <td>
+                                                                        <h1>Steam launches</h1>
+                                                                        <table class="author">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td><img class="mugshot" src="assets/51.jpg"></td>
+                                                                                    <td>
+                                                                                        by Martin Taylor
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <div class="articleBody">
+                                                            <p>Valve has finally released its non-beta Steam client for paying customers, giving heave-ho to the freeloaders that previously populated the beta service which allowed full versions of Half-Life and Counter-Strike 1.6 to be downloaded free of charge in order to test its legs.</p>
+                                                            <p>Obviously Valve feels the service is at a stage where it's ready for mass market consumption, but the problems the developer has experienced in getting the thing out this week are shadily reminiscent of Steam's failure to get its engine running earlier in the year when it simply collapsed under the demand for a new Counter-Strike release. Today the site itself is still having problems rendering properly, and at the time of writing the general network load seems to be extremely high according to the service's <a href="https://web.archive.org/web/20030806182549/http://www.steampowered.com/index.php?area=status" target="_blank">status page</a>. Hopefully, for the sake of both gamers <em>and</em> Valve, the servers will withstand the assault of all those CS players itching to get their hands on the non-beta Counter-Strike 1.6.</p>
+                                                            <p>You can pick up the initial 500KB Steam client download at the <a href="https://www.steampowered.com/" target="_blank">official site</a>, or <a href="#">this 3D Downloads mirror</a> if you prefer. Once you've installed the basic components, Steam will then update itself via the web - it's been sat on our taskbar for about ninety minutes now. Remember that you will need a valid CD key from one of Valve's products to register for the service.</p>
+                                                            <p>Valve has also released another one of those high resolution direct feed videos, this time with the intention of showing off some of the Source engine's DirectX 9 effects. The fairly short 116MB demonstration starts off inside a rickety wooden loft area punctured with holes that let the bright sun bleed into the room. The player then makes his way out onto the rooftops, checking out some impressively shiny roofing until he stumbles across a similarly shiny alien - it's the big fella from the end of the HL2 Bugbait video (available on Steam and websites of your choosing). However, this chap is keen to pose for the camera and sways his head in a docile manner, showing off his... shininess. It's all very shiny in fact, and as one of my cohorts commented: "It looks like a wet day in London". Should you wish to bask in the shiny too, you can pick the file up from <a href="#">FilePlanet</a>, <a href="#">3D Downloads</a>, and <a href="#">3D Gamers</a>.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nologinComments">
+                                                <a href="https://www.eurogamer.net/articles/news120903steam#comments">Click here</a> to read and post comments on this news item.
+                                            </div>
+                                        </td>
+                                        <td><img src="assets/spacer.gif" width="6" height="1" alt=""></td>
+                                        <td>
+                                            <div class="signPost"><img src="assets/spacer.gif" width="150" height="162" alt="PC"></div>
+                                            
+                                            <div class="rightBarBox latestComments">
+                                                <h3 class="rightBarTitle">Latest Comments:</h3>
+
+                                                <a href="https://www.eurogamer.net/article.php?article_id=57565#comments">DS Games To Watch...</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=57569#comments">Aussie DS due in F...</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=57518#comments">Doom III Xbox coll...</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=57558#comments">PSP versions of GT...</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=57564#comments">DS Games To Watch...</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=57554#comments">SEGA Classics head...</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=55842#comments">The Bard's Tale</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=57561#comments">Madagascar</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=57560#comments">24 to get the vide...</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=57568#comments">Nintendo of Americ...</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=4428#comments">Harvest Moon: Frie...</a>
+
+                                                <div class="moreComments">
+                                                    <a href="https://www.eurogamer.net/">More Comments...</a>
+                                                </div>
+                                            </div>
+                                            <div class="rightBarBox latestComments">
+                                                <h3 class="rightBarTitle">Latest Files:</h3>
+
+                                                <a href="https://www.eurogamer.net/">PSP - WipEout Pure...</a>
+                                                <small>Video (7 MB)</small>
+
+                                                <a href="https://www.eurogamer.net/">PSP - Ridge Racer...</a>
+                                                <small>Video (8 MB)</small>
+
+                                                <a href="https://www.eurogamer.net/">PSP - MediEvil tra...</a>
+                                                <small>Video (7 MB)</small>
+
+                                                <a href="https://www.eurogamer.net/">PSP - Formula One...</a>
+                                                <small>Video (7 MB)</small>
+
+                                                <a href="https://www.eurogamer.net/">PSP - Football (wo...</a>
+                                                <small>Video (7 MB)</small>
+
+                                                <div class="moreComments">
+                                                    <a href="https://www.eurogamer.net/">More Files...</a>
+                                                </div>
+
+                                            </div>
+                                            <div class="rightBarBox">
+                                                <h3>Latest Screenshots:</h3>
+                                                <div class="delimit">
+                                                    <table cellspacing="0" cellpadding="0" border="0" class="screenzList">
+                                                        <tbody>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=57562">Tom Clancy's Splinter Cell: Chaos Theory</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Tue 11 Jan 08:53</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_ps2_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=57561">Madagascar</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Tue 11 Jan 08:50</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_xbox_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=54487">Star Wars: Republic Commando</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <div class="date">Tue 11 Jan 08:41</div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=56529">Stolen</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <div class="date">Tue 11 Jan 08:40</div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=55835">Stolen</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Tue 11 Jan 08:39</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_ps2_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=54916">Mercenaries</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Tue 11 Jan 08:37</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_xbox_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=54905">Mercenaries</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Tue 11 Jan 08:36</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_ps2_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=53335">Jade Empire</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Tue 11 Jan 08:34</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_xbox_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=55498">Forza Motorsport</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Tue 11 Jan 08:34</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_xbox_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=55842">The Bard's Tale</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Tue 11 Jan 08:33</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_ps2_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=50280">Conker: Live and Reloaded</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Tue 11 Jan 08:32</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_xbox_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=57555">TimeShift</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Mon 10 Jan 12:11</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_pc_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=57550">Doom III: Resurrection of Evil</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Mon 10 Jan 10:35</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_pc_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=57546">Rugby 2005</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <div class="date">Fri 07 Jan 15:13</div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=57540">Dance Dance Revolution with Mario</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Fri 07 Jan 11:44</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_cube_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="moreScreenz"><a href="https://www.eurogamer.net/">More Screenshots...</a></div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="padding: 10px;">
+            &copy; 1999-2004 <a href="https:www.gamer-network.net/">Eurogamer Network Ltd.</a> | <a href="https://www.eurogamer.net">Home</a> | <a href="https://eurogamer.net/contact">Contact</a>.
+        </div>
+    </div>
+</body>
+</html>
