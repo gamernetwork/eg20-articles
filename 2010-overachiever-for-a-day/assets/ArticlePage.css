@@ -1,0 +1,1985 @@
+div#article-title
+{
+	position: relative;
+	display: block;
+	background-image: url(title-background.gif);
+	background-color: #959595;
+	background-repeat: repeat-x;
+	background-position: bottom center;
+	color: white;
+	margin: 0;	padding: 36px 27px 10px 27px;	
+	letter-spacing: -1px;
+	margin-bottom: 4px;
+}
+
+img.expo
+{
+	z-index: 10000;
+	position: absolute;
+	top: 13px;
+	left: 363px;
+}
+
+div#article-title h1
+{
+	font-size: 22px;
+	font-weight: normal;
+	font-family: Arial, Tahoma, sans-serif;
+	display: block;
+	float: left;
+	line-height: 0.9em;
+	background-image: none;
+	background-color: transparent;
+	margin: 0px 0px 2px 0px;
+	padding: 0;
+	letter-spacing: -0.6px;
+}
+
+div#article-title h1.slim
+{
+	font-size: 19px;
+}
+
+div#article-title h1 span
+{
+	display: none;
+}
+
+div#article-title h1,
+div#article-title h2
+{	
+	width: 320px;
+}
+
+div#article-title h2
+{
+	font-family: Tahoma, sans-serif;
+	font-size: 100%;
+	letter-spacing: 0.02em;
+	margin: 0;
+	padding: 0;
+}
+
+div#article-title h2 img.flag
+{
+	vertical-align: middle;
+}
+
+div.comments #wayFinder a
+{
+	color: #1c7cfa;
+}
+
+#wayFinder {
+	position: absolute;
+	top: 4px;
+	left: 7px;
+	color: black;
+	border: none;
+	padding: 0px;
+	z-index: 20;
+}
+#wayFinder a {
+	font-weight: bold;
+}
+#wayFinder a:link,
+#wayFinder a:visited,
+#wayFinder a:hover,
+#wayFinder a:active {
+	color: white;
+}
+
+div.comments #wayFinder a
+{
+	color: white;
+}
+
+.header {
+	height: 82px;
+	width: 673px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+h1 span
+{
+	font-weight: normal;
+	margin-top: 3px;
+	display: block;
+}
+
+div.article i.type {
+	position: absolute;
+	color: #606060;
+	bottom: 2px;
+	left: 432px;
+	width: 200px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	letter-spacing: -1px;
+	padding-left: 12px;
+	border-left: 1px solid #909090;
+	padding-top: 20px;
+}
+div.syndicated-review i.type {
+	color: white;
+	border-left: 1px solid white;
+}
+.syndicated-review .header .author {
+	color: white;
+}
+
+.syndicated-review .header .author a {
+	color: white;
+}
+
+.extra {
+	float: left;
+	width: 174px;
+	margin-right: 24px;
+	margin-bottom: 0px;
+	padding-bottom: 24px;
+}
+.extra .affButton {
+	margin-bottom: 4px;
+}
+.meta {
+	padding: 8px 16px;
+	background: #F7F7F7 url( "/web/20110228022848im_/http://www.eurogamer.net/img/ArticlePage/meta_info_bg.gif" ) no-repeat scroll bottom left;
+	width: 142px;
+	margin-bottom: 6px;
+}
+.extra h4 {
+	font-size: 11px;
+	font-weight: bold;
+	color: #606060;
+	font-family: Tahoma, sans-serif;
+	margin-bottom: 4px;
+}
+.extra p {
+	margin-top: 8px;
+}
+.extra p.flush {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.extra p.game {
+	margin-top: 12px;
+	margin-bottom: 0px;
+}
+.extra .infoLink {
+	display: block;
+	font-weight: normal;
+	margin-bottom: 8px;
+}
+.extra .infoLink img {
+	vertical-align: text-bottom;
+}
+.extra .date {
+	margin: 8px 0px;
+	color: #606060;
+}
+.footer {
+	clear: both;
+	margin: 24px 0px;
+	padding: 0;
+}
+.footer .infoLink {
+	font-weight: bold;
+	margin-right: 24px;
+}
+.footer .infoLink img {
+	vertical-align: text-bottom;
+}
+
+div.copy {
+	margin-top: 0px !important;
+	margin-top: 20px;	
+	clear: none
+}
+
+div.copy h2 {
+	font-size: 28px;
+	letter-spacing: -1px;
+	font-family: Arial, Tahoma, sans-serif;
+	color: #525252;
+	margin-top: 24px;
+	margin-bottom: 12px;
+	padding-left: 27px;
+	margin-right: 24px;
+	clear: left;
+}
+div.copy h3 {
+	font-size: 21px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	font-family: Arial, Tahoma, sans-serif;
+	color: #525252;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	padding-left: 27px;
+	margin-right: 24px;
+}
+div.copy h4,
+div.copy h5 {
+	font-size: 21px;
+	letter-spacing: -1px;
+	font-family: Arial, Tahoma, sans-serif;
+	color: #525252;
+	margin-bottom: 12px;
+	margin-top: 36px;
+	padding-left: 27px;
+	margin-right: 24px;
+	clear: left;
+}
+div.copy div.conclusion {
+	background-image: none;
+}
+div.copy div.conclusion h5 {
+	background: none;
+}
+div.copy h6 {
+	margin-top: 12px;
+	margin-bottom: 0px;
+	padding-left: 27px;
+	margin-right: 24px;
+	font-size: 14px;
+	letter-spacing: -1px;
+	font-family: Arial, Tahoma, sans-serif;
+}
+
+div.copy p.score-guide
+{
+	float: right;
+	padding-top: 6px;
+}
+
+div.copy p.rating
+{
+	float: left;
+	margin: 8px 0px;
+	padding: 4px 0px;
+	padding-left: 28px;
+	line-height: 33px;
+	/* background-color: #f7f7f7; */
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 38px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	color: #606060;
+	padding-bottom: 12px;
+}
+div.copy p.rating big {
+	letter-spacing: 2px;
+	font-size: 38px;
+	color: #0069F2;
+}
+div.copy p.rating small big {
+	color: #606060;
+}
+.rating .userVote {
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	letter-spacing: 0px;
+	padding-left: 1em;
+}
+
+#theTop #extra
+{
+	z-index: 1;
+}
+
+#theTop #main
+{
+	z-index: 2;
+}
+
+#theTop #nav
+{
+	z-index: 3;
+}
+
+.mpu
+{
+	position: relative;
+	float: left;
+	display: block;
+	z-index: 100000;
+}
+
+.mpuAd {
+	position: relative;
+	float: left;
+	display: block;
+	width: 300px;
+	height: 268px;
+	margin: 0px;
+	padding: 0px 8px 8px 8px;
+	background-color: #F4F4F7;
+	border: 1px solid #E8E8E8;
+	border-top-color: #f0f0f0;
+	border-bottom-color: #d0d0d0;
+	font-size: 10px;
+	letter-spacing: 1px;
+	color: #909090;
+}
+
+.mpuAd div {
+	float: left;
+	position: relative;
+	z-index: 10000;
+	padding: 2px 0px 4px 0px;
+	margin: 0;
+}
+
+#theTop .mpuAd .mpu
+{
+	position: absolute;
+	top: 14px;
+	left: 8px;
+	float: left;
+	clear: both;
+	height: 250px;
+	width: 300px;
+}
+
+div.illustrationPreview {
+	margin: 0px;
+	margin-left: 28px !important;
+	margin-left: 14px;
+	margin-right: 32px;
+	margin-bottom: 28px;
+	float: left;
+	width: 262px;
+	position: relative;
+	clear: left;
+	margin-top: 4px;
+}
+
+div.illustrationPreview.right
+{
+	float: right;
+	margin-right: 28px;
+	margin-left: 32px;
+	padding-left: 0px;
+}
+
+div.illustrationPreview a.zoomButt ,
+div.illustrationPreview a.galleryButt
+{
+	position: absolute;
+	left: 26px;
+	right: auto;
+}
+
+div.illustrationPreview.right a.zoomButt ,
+div.illustrationPreview.right a.galleryButt {
+	left: auto;
+	right: 6px;
+}
+
+div.illustrationPreview img {
+	border: 1px solid #303030;
+}
+div.illustrationPreview a.zoomButt img ,
+div.illustrationPreview a.galleryButt img {
+	border: none;
+	border-top: 1px solid #c0c0c0;
+}
+
+div.illustrationPreview a.zoomButt {
+	top: 0px;
+}
+
+div.illustrationPreview a.zoomButt
+{
+	display: none;
+}
+
+div.illustrationPreview a.galleryButt {
+	top: 60px;
+}
+div.copy div.illustrationPreview p.caption {
+	margin: 0px;
+	width: 246px;
+	padding: 4px 8px;
+	padding-bottom: 12px;
+	font-size: 11px;
+	font-style: italic;
+	color: white;
+	background-color: #303030;
+	line-height: 1.1em;
+}
+
+div.illustration
+{
+	margin-left: 27px;
+}
+
+div.illustration.center
+{
+	margin-left: 28px;
+	text-align: center;
+}
+
+div.flowillustration {
+	padding-left: 28px;
+	margin: 0px;
+	margin-right: 32px;
+	margin-bottom: 18px;
+	float: left;
+	position: relative;
+	clear: left;
+	margin-top: 24px;
+}
+div.flowillustration img {
+	border: 1px solid #303030;
+}
+div.flowillustration  a.galleryButt {
+	top: 60px;
+}
+div.copy div.flowillustration  p.caption {
+	margin: 0px;
+	padding: 4px 8px;
+	padding-bottom: 12px;
+	font-size: 11px;
+	font-style: italic;
+	color: white;
+	background-color: #303030;
+	line-height: 1.1em;
+}
+
+.header .author {
+	/*padding: 0px;
+	margin: 0px;*/
+	position: absolute;
+	left: 460px;
+	top: 25px;
+	color: #707070;
+	width: 200px;
+}
+.header .mugshot {
+	position: absolute;
+	right: -10px;
+	top: -27px;
+}
+
+.whoistalking {
+	font-weight: bold;
+	letter-spacing:			0px;
+	color:					#000000;
+}
+.article p.whoistalking {
+	margin-bottom:			0px;
+	margin-top:				0px;
+}
+
+p.interviewQuestion {
+	font-weight:			bold;
+}
+
+p.interviewAnswer {
+}
+
+p.interviewComment {
+	color: #606060;
+	padding-left: 12px;
+	line-height: 120%;
+	font-style: oblique;
+}
+
+ol.rules {
+	clear: both;
+}
+
+p.question {
+	margin-left: 20px;
+	padding: 12px 25px;
+	background-color: #f4f4f7;
+	font-size: 24px !important;
+	line-height: 26px !important;
+	font-family: Arial, Tahoma, sans-serif;
+	letter-spacing: -1px;
+	border: 1px solid #c0c0c0;
+	clear: left;
+}
+p.closingDate {
+	font-weight: bold;
+}
+sup.required {
+	font-weight: bold;
+	color: red;
+}
+
+/* emphasis */
+
+.superscript {
+	position: relative;
+	top: -3px;
+	font-size: 80%;
+}
+.copy ol, .copy ul {
+	margin-left: 28px;
+	padding-left: 16px;
+}
+.copy li {
+	margin: 8px 0px;
+	font-size: 1.1em;
+	line-height: 1.4em;
+}
+.copy li p {
+	margin: 0px;
+	margin-bottom: 1.5em;
+}
+.extra a.buyLink {
+	display: block;
+	margin-top: 24px;
+	font-weight: bold;
+}
+.extra a.buyLink:link ,
+.extra a.buyLink:visited ,
+.extra a.buyLink:hover ,
+.extra a.buyLink:active {
+	color: red;
+}
+.extra a.buyLink img {
+	vertical-align: middle;
+}
+.footer a.buyLink {
+	font-weight: bold;
+}
+.footer a.buyLink:link ,
+.footer a.buyLink:visited ,
+.footer a.buyLink:hover ,
+.footer a.buyLink:active {
+	color: red;
+}
+.footer a.buyLink img {
+	vertical-align: middle;
+}
+div.copy div.introduction p {
+	color: #101010;
+}
+div.copy div.conclusion p {
+	color: #000000;
+	font-size: 1.1em;
+}
+
+#theTop div.endnote
+{
+	clear: both;
+	border-top: 1px solid #e0e0e0;
+}
+
+#theTop div.endnote p
+{
+	font-size: 110%;
+	margin-left: 27px;
+	font-family: Verdana;
+	line-height: 1.3em;
+	font-style: italic;
+	color: #303030;
+}
+
+div.copy ul {
+	margin-left: 27px;
+}
+
+div.copy ul.jim {
+	padding-left: 0px;	
+	list-style: none;
+}
+
+div.copy ul.jim li {
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+div.copy ul.slim li {
+	display: block;
+	list-style: none;
+	font-family: Courier New, Courier, monospace;
+	font-size: 1.2em;
+	font-style: italic;
+}
+.reader-review .header h3 {
+	font-size: 21px;
+	position: absolute;
+	bottom: 7px;
+	left: auto;
+	right: 14px;
+	line-height: 21px;	
+	text-align: right;
+	width: 200px;
+	color: #355C00;
+}
+.reader-review .header h4 {
+	color: white;
+	font-size: 26px;
+	position: absolute;
+	bottom: 7px;
+	left: 14px;
+	width: 400px;
+	line-height: 25px;	
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+
+.userScores {
+	position: relative;
+	clear: both;
+	background-color: #F3FFC2;
+	margin: 24px 0px;
+	padding: 12px 0px;
+	padding-left: 24px;
+	margin-left: 28px;
+}
+#content .userScores p {
+	margin: 2px 0px;
+}
+#content .userScores p.score {
+	margin-bottom: 24px;
+}
+
+.userScores h5 {
+	font-size: 11px;
+	font-family: Tahoma, sans-serif;
+	color: #325900;
+	margin: 0px;
+}
+
+.voteStats {
+	position: absolute;
+	top: 12px;
+	left: 300px;
+}
+.barChart {
+	margin: 2px 0px;
+}
+.barChart tbody td {
+	vertical-align: bottom;
+}
+.barChart tfoot td {
+	text-align: center;
+	border-top: 1px solid #325900;
+	font-size: 10px;
+	font-weight: bold;
+	color: #325900;
+}
+.barChart tbody td img {
+	background-color: #325900;
+}
+.readerScore {
+	font-weight: bold;
+	color: #325900;
+	font-size: 1.2em;
+}
+
+#content p.aPager
+{
+	display: none;
+}
+
+#content ul#article-pager
+{
+	font-size: 11px;
+	padding: 12px 0px;
+	margin: 0px 0px 18px 0px;
+	border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	border-radius: 0px 0px 5px 5px;
+	float: left;
+	clear: both;
+	display: block;
+	width: 100%;
+	list-style: none;
+	
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(#ffffff),
+		to(#e8e8e8)
+	);
+
+	background: -moz-linear-gradient(
+		center top,
+		#ffffff 0px,
+		#e8e8e8 20px
+	);
+
+	-moz-box-shadow: 0px 1px #d0d0d0;
+}
+
+#content ul#article-pager li
+{
+	float: right;
+}
+
+#content ul#article-pager li a
+{
+	display: block;
+	margin: 0px 27px;
+	padding: 0;	
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Arial, Tahoma, sans-serif;
+}
+
+#content ul#article-pager li.previous
+{
+	float: left;
+}
+
+#content p.aPager a img
+{
+	vertical-align: middle;
+}
+
+#content .liveLine {
+	position: relative;
+	width: 100%;
+	clear: both;
+	padding: 10px 0px;
+	border-top: 1px dashed #d0f0d4;
+	float: left;
+}
+
+#content .liveLine p
+{
+	position: relative;
+	display: block;
+	float: left;
+	clear: none;
+	padding: 0px 0px 6px 0px;
+	width: 580px;
+	margin: 0px 0px 0px 98px !important;
+	margin: 0px 0px 0px 49px;
+}
+
+#content .liveLine p.timestamp
+{
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	font-weight: bold;	
+	font-size: 95%;
+	color: #60c060;
+	margin: 1px 0px 0px 28px !important;
+	margin: 1px 0px 0px 14px;
+	width: 70px;
+}
+
+#content #liveChunk
+{
+	clear: both;
+	padding-bottom: 60px;
+
+}
+
+#content .liveLine p span.question,
+#content .liveLine p span.answer
+{
+	display: block;
+	clear: both;
+	margin-bottom: 6px;
+}
+
+#content .liveWarning {
+	border: 4px solid #90c098;
+	padding: 6px 8px 0px 8px;
+	background-color: #f0fff3;	
+	font-size: 0.9em;	
+	color: #309030;
+}
+
+#content .liveWarning,
+div#livetext-tools
+{
+	margin: 18px 0px 4px 27px !important;
+	margin: 18px 0px 4px 13px;
+	width: 294px;
+}
+
+div#livetext-tools
+{
+	float: left;
+	clear: both;
+	margin: 0px 0px 14px 27px !important;
+	margin: 0px 0px 14px 13px;
+	width: 606px;
+}
+
+#content .liveWarning
+{
+	display: block;
+	float: left;
+	width: auto;
+	margin: 8px 27px 14px 27px !important;
+	margin: 0px 13px 14px 13px;
+}
+
+#content .liveWarning p {
+	margin: 0px;
+	padding: 0px 0px 6px 0px;
+}
+#liveJsNote {
+	display: none;
+}
+#liveNonJsNote {
+	display: block;
+}
+img.credit {
+	float: right;
+	margin-left: 28px;
+	margin-top: 1px;
+	margin-bottom: 40px;
+}
+
+/* ---- Main article timestamp ------------------------------------------- */
+
+p.timestamp
+{
+	position: absolute;
+	top: 8px;
+	color: #eeeeee;
+	left: 150px;
+}
+
+/* ---- New Footer Styles ------------------------------------------------ */
+
+input.image
+{
+	margin: -2px 0px 0px 3px;
+	display: block;
+	float: left;
+	clear: none;
+}
+
+div.title
+{
+	margin: 0px 0px 0px 0px;
+	padding: 8px 0px 8px 8px;
+	display: block;
+	width: 404px;
+	float: left;
+	clear: both;
+}
+
+div.title img,
+div.title h4
+{
+	display: block;
+	float: left;
+	clear: none;
+	width: auto;
+}
+
+div.title h4
+{
+	font-size: 100%;
+	font-family: Tahoma, sans-serif;
+	float: left;
+	margin: 0px 0px 0px 6px;
+	clear: none;
+	width: auto;
+
+}
+
+#game-scores #rating-panel p.not-out-message
+{
+	padding: 2px 10px 0px 0px;
+	font-weight: normal;
+}
+
+a.game-page-link
+{
+	display: block;
+	position: absolute;
+	top: 113px;
+	left: 235px;
+	width: 170px;
+	height: 18px;
+	background-image: url(/web/20110228022848im_/http://www.eurogamer.net/img/ArticlePage/game-page-link.gif);
+	color: white;
+	font-weight: bold;
+	padding: 4px 0px 0px 0px;
+	text-align: center;
+}
+
+h5#rules
+{
+	float: left;
+	margin-top: 40px;
+	clear: both;
+}
+
+#theTop p.compo-logout
+{
+	text-align: right;
+	font-size: 8pt;
+}
+
+span.hint
+{
+	display: block;
+	clear: both;
+	font-weight: normal;
+	font-style: italic;
+	color: #b0b0b0;
+}
+
+div.new-header
+{	
+	position: relative;
+	z-index: 2;
+	display: block;
+	float: right;
+	clear: none;
+	width: 318px;
+	margin: 0px 0px 10px 20px;
+}
+
+div.new-header.padded
+{
+	padding-top: 90px;
+}
+
+div.new-header div.mpuAd
+{
+	margin-top: 8px;
+	clear: both;
+}
+
+div.new-header div.mpuAd div
+{
+	clear: both;
+}
+
+div.new-header div
+{
+	position: relative;
+	display: block;
+	float: left;
+	clear: none;
+}
+
+/* div.new-header div.related-section
+{
+	background-repeat: no-repeat;
+	background-image: url(related-background.gif);
+	background-position: bottom center;
+	margin-bottom: 6px;
+} */
+
+div.new-header div.related-content
+{
+	width: 319px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	min-height: 102px;
+}
+
+div.new-header div.related-content h5,
+div.new-header div.related-content p
+{
+	font-size: 100%;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	background-image: none;
+	color: #6a6a6b;		
+}
+
+div.new-header div.related-content h5
+{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 11px;
+	margin: 8px 13px 1px 13px;
+	padding: 0px;
+}
+
+div.new-header div.related-content h5 span
+{
+	display: none;
+}
+
+div.new-header div.related-content ul
+{
+	padding: 0px 13px;
+}
+
+div.new-header div.related-content a.more-link
+{
+	float: left;
+	color: white;
+	width: 100%;
+	background-image: url(/web/20110228022848im_/http://www.eurogamer.net/img/ArticlePage/game-corner.gif);
+	background-position: bottom left;
+	background-color: #fc9d17;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+	border-top: 1px solid white;
+}
+
+div.new-header div.related-content a.more-link span
+{
+	display: block;
+	font-weight: bold;
+	padding: 5px 9px 6px 13px;
+}
+
+div.new-header div.related-content a.more-link.affiliates
+{
+	background-image: none;
+}
+
+div.new-header div.related-content a.more-link img
+{
+	vertical-align: middle;
+}
+
+div.new-header div.related-content ul
+{
+	width: 100px;
+	font-size: 100%;
+	margin: 2px 4px 0px 13px;
+	padding: 0px 0px 8px 0px;
+}
+
+div.new-header div.related-content ul li
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+div.new-header div.related-content ul li span.type {
+	font-size: 10px;
+	color: #606060;
+}
+
+div.new-header div.related-content ul li.last
+{
+	list-style: none;
+	text-align: right;
+}
+
+div.new-header div.related-content div.image
+{	
+	width: 99px;
+	height: 38px;
+	border: 1px solid #848484;
+	background-position: center center;
+}
+
+div.new-header div.contents
+{
+	clear: both;
+	padding: 4px 0px;
+	width: 318px;
+	color: #6a6a6b;
+}
+
+div.new-header.padded div.contents
+{
+	margin-top: 10px;
+}
+
+div.new-header div.contents h4
+{
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 130%;	
+	background-image: none;
+	border-bottom: 1px solid #eeeeee;
+	margin: 0px 0px 4px 0px;
+	padding: 0px 0px 3px 0px;	
+}
+
+div.new-header div.contents p
+{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+div.new-header div.contents p a,
+div.new-header div.contents p span
+{
+	padding: 2px 4px;
+}
+
+div.new-header div.contents p span
+{
+	color: #6a6a6b;
+}
+
+div.new-header div.contents p span.current
+{
+	background-color: #eeeeee;
+	color: #026fff;
+}
+
+div.copy p.people
+{
+	font-style: italic;
+	font-size: 100%;
+}
+
+div.related-block img.spinner
+{
+	display: block;
+	border: 0 !important;
+	border: 0;
+	position: absolute;
+	padding-top: 20px;
+	left: 360px;
+}
+
+
+/* ---- Livetext Interview Login Prompts -------------------- */
+
+
+div#livetext-questions,
+form#livetext-form
+{
+	margin: 0px 0px 0px 0px;
+	clear: none;
+}
+
+form#livetext-form p
+{
+	margin: 0;
+	padding: 0px 0px 6px 0px;
+	font-size: 100%;
+}
+
+form#livetext-form,
+form#livetext-form fieldset
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+form#livetext-form fieldset
+{
+	float: left;
+}
+
+form#livetext-form fieldset textarea
+{
+	width: 602px;
+	height: 97px;
+}
+
+form#livetext-form fieldset input
+{
+	float: right;
+	margin: 1px 0px 4px 0px;
+}
+
+div#livetext-tools,
+div#livetext-questions
+{
+	border: 4px solid #eeeeee;
+	background-color: #fafafa;
+	padding: 6px 8px 2px 8px;
+	width: 606px;
+}
+
+div#livetext-tools h5,
+div#livetext-questions h5
+{	
+	margin: 0px 0px 4px 0px;
+	padding: 0;
+	font-size: 130%;
+	background-image: none;
+	background-image: none;
+}
+
+div#livetext-questions
+{
+	display: block;
+	float: left;
+	clear: both;
+
+	margin: 0px 27px 6px 27px !important;
+	margin: 0px 13px 6px 13px;
+}
+
+div#livetext-questions td
+{
+	padding: 6px 0px;
+}
+div#livetext-questions h5
+{
+	margin: 0;
+}
+div#livetext-questions strong
+{
+	display: block;
+	padding-top: 1px;
+	font-size: 90%;
+}
+
+div#livetext-sidebar
+{
+	float: right;
+	width: 280px;
+	margin: 0px 27px 8px 20px;
+}
+
+/* ---- Livetext Interview Login Prompts -------------------- */
+
+form#livetext-login
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0;
+	border: 0;
+}
+
+form#livetext-login fieldset
+{
+	border: 0;
+	padding: 0px 0px 4px 0px;
+	margin: 0;
+}
+
+form#livetext-login fieldset legend
+{
+	font-weight: bold;
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 105%;
+	padding: 6px 0px 4px 0px;
+
+}
+
+form#livetext-login fieldset label
+{
+	float: left;
+	clear: none;
+	width: 66px;
+	padding-top: 2px;
+	text-align: left;
+	padding-right: 0px;
+}
+
+form#livetext-login fieldset p
+{
+	clear: both;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+form#livetext-login fieldset input
+{
+	margin-bottom: 2px;
+	width: 126px;
+}
+
+form#livetext-login fieldset input.submit
+{
+	width: auto;
+}
+
+form#livetext-login fieldset span
+{
+	display: block;
+	margin: 0px 0px 4px 10px;
+}
+
+form#livetext-login fieldset a
+{
+	display: block;
+	width: 92px;
+	font-size: 140%;
+	padding: 4px 6px;
+	font-family: Arial, Tahoma, sans-serif;
+	background-color: #0069ff;
+	border: 1px solid #8babf0;
+	color: white;
+	margin: 0px 0px 2px 0px;
+}
+
+div.pull-quote.large
+{
+	width: 300px;
+}
+
+div.pull-quote p
+{
+	margin: 0;
+}
+
+div.pull-quote.left
+{
+	float: left;	
+	margin: 0px 15px 15px 25px;
+}
+
+div.pull-quote.right
+{
+	float: right;	
+	margin: 0px 27px 15px 20px;
+}
+
+div.full-quote, div.pull-quote
+{
+	margin: 0px 20px 10px 10px;
+	padding: 0px 0px 2px 0px;
+	border-left: 3px solid #eeeeee;
+	line-height: 1;
+}
+
+div.pull-quote
+{
+	float: left;
+	width: 260px;
+	border: 0;
+	padding: 0;
+	margin: 5px 0px 16px 27px;
+	border-left: 0;
+	border-top: 4px solid #eeeeee;
+	border-bottom: 4px solid #eeeeee;
+	font-family: Arial;
+	font-size: 170%;
+	margin-right: 18px;
+	padding: 8px 0px 2px 0px;
+}
+
+div.pull-quote p
+{
+	margin-bottom: 0;
+	padding-bottom: 0;
+	line-height: 1.2em;
+
+}
+
+div.full-quote
+{
+	padding-top: 8px;
+	padding-left: 8px;
+	font-style: italic;
+}
+
+div.full-quote p.citation, div.pull-quote p.citation
+{
+	text-align: left;
+	padding-top: 6px;
+	font-style: italic;
+	color: black;
+	margin-bottom: 0px;
+	font-size: 95%;
+}
+
+div.words div.full-quote p,
+div.full-quote p,
+div.pull-quote p
+{
+	margin: 0px 15px 8px 8px;
+	padding: 0;
+	/*color: #a2a2a2;*/
+}
+
+table.data
+{
+	width: 646px;
+	margin: 0px 0px 14px 27px;	
+	border: 0;
+	clear: both;	
+	border-spacing: 0;
+}
+
+table.data.left
+{
+	width: auto;
+	float: left;
+	clear: none;
+}
+
+table.data.right
+{
+	width: auto;
+	float: right;
+	clear: none;
+	margin-left: 37px;
+}
+
+table.data thead th,
+table.data thead td,
+table.data tbody th,
+table.data tbody td
+{
+	padding: 7px 8px;
+	vertical-align: top;
+}
+
+
+table.data thead th,
+table.data thead td
+{
+	background-color: #0069ff;
+	border-bottom: 2px solid #638ff0;
+	color: #fff;
+}
+
+table.data tbody tr th
+{
+	font-weight: bold;
+}
+
+table.data tbody tr th,
+table.data tbody tr td
+{
+	border-bottom: 1px solid #eeeeee;
+}
+
+table.data tbody tr.row0 th,
+table.data tbody tr.row0 td
+{
+	background-color: #ffffff;
+}
+
+table.data tbody tr.row1 th,
+table.data tbody tr.row1 td
+{
+	background-color: #fafafa;
+}
+
+/* ---- Wide Related Content Box --------------------------- */
+
+div.new-header div.related-section.wide
+{
+	background-repeat: no-repeat;
+	background-image: url(related-background-wide.gif);
+	background-position: bottom center;
+}
+
+div.new-header div.related-section.wide ul
+{
+	width: 294px;
+}
+
+a.eurogamer-author
+{
+	color: white;
+	text-decoration: underline;
+}
+
+a.eurogamer-author:hover
+{
+	text-decoration: none;
+}
+
+a.eurogamers-author
+{
+	color: #8dcf00;
+}
+
+img.inline-icon
+{
+	padding-left: 4px;
+}
+
+img.rightphoto
+{
+	float: right;
+	clear: none;
+	margin: 0px 27px 0px 10px;
+}
+
+p.inline-question
+{
+	font-weight: bold;
+}
+img.leftphoto {
+	float: left;
+	clear: none;
+	margin: 0px 10px 0px 27px;
+}
+
+div#blog div.words ul
+{
+	list-style: disc;
+	margin-bottom: 20px;
+}
+
+div#blog div.words ul li
+{
+	list-style: disc;
+	margin-left: 16px;
+}
+
+#blanket
+{
+	display: none;
+	position: fixed !important;
+	position: absolute;
+	
+	width: 100%;
+	height: 100%;
+	
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	
+	margin: auto auto;
+	background-color: #000000;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	z-index: 1000;
+}
+
+
+#viewer
+{
+	display: none;	
+	position: fixed !important;
+	position: absolute;
+	
+	margin: 0 auto;
+	text-align: center;
+	
+	top: 0px;
+	bottom: 0px;
+	left: -20px;
+	right: 0px;
+	
+	width: 100%;
+	height: 100%;
+	z-index: 2000;
+	
+}
+
+#viewer img,
+#viewer p
+{
+	cursor: pointer;
+	border: 10px solid white;	
+	background-color: white;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#viewer p
+{
+	border-top: 0px;	
+	font-style: italic;
+	margin-top: -4px;
+}
+
+#viewer a#closer,
+#viewer a#gallery-link
+{
+	display: block;
+	position: absolute;
+	top: 0px;
+	background-color: #3f3f3f;
+	color: white;
+	font-weight: bold;
+	padding: 4px 6px;
+	margin-top: 10px;
+	cursor: pointer;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+.mcTrack {
+	float: left;
+	clear: both;
+	font-weight: bold;
+	margin: -3px 12px 4px 12px;
+	color: #606060;
+}
+.mcTrack img {
+	vertical-align: middle;
+	padding-left: 6px;
+}
+
+#theTop div.illustration p.caption
+{
+	float: none;
+	margin: 0px 0px 14px 0px;
+	padding: 4px 8px 6px 8px;
+}
+
+#theTop div.image-gallery
+{
+        margin: 0px auto 14px auto;
+        padding: 0px 0px 14px 0px;
+        text-align: center;
+}
+
+#theTop div.image-gallery div.illustration,
+#theTop div.image-gallery div.illustrationPreview
+{
+	float: left;
+	clear: none;
+	margin: 2px 2px 0px 0px !important;
+	margin: 2px 0px 0px 0px;
+	padding: 0;
+	width: auto;
+}
+
+#theTop div.image-gallery div.illustration
+{
+	margin-right: 2px !important;
+	margin-right: 0px;
+}
+
+#theTop div.image-gallery div.illustration img,
+#theTop div.image-gallery div.illustrationPreview img
+{
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+}
+
+#theTop div.image-gallery p.caption
+{
+	background-color: #303030;
+	color: white;
+	font-style: italic;
+	padding: 3px 6px 4px 6px;
+	font-size: 95%;
+	margin: 0px 2px 14px 0px;
+	width: auto;
+}
+
+/* ---- Helpful bar -----------------------------*/
+
+#helpful,
+div.related
+{
+	margin: 0px 20px 0px 27px;
+
+}
+
+#helpful,
+div.related div
+{
+	clear: both;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 10px 6px;
+}
+
+#helpful
+{
+	background-color: white;
+	border: 3px solid #f0f0f0;
+	font-size: 115%;
+}
+
+#helpful p
+{
+	margin: 0;
+	padding: 0;
+	clear: none;
+}
+
+#helpful p a
+{
+	background-color: #0071f5;
+	color: white;
+	padding: 1px 5px;
+	text-decoration: none;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+#helpful span#article-score
+{
+	margin-right: 2px;
+	padding: 4px 6px;
+	font-weight: bold;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background-color: #89c13a;
+	border: 1px solid #7bae32;
+	color: white;
+}
+
+div.related
+{
+	margin-top: 14px;
+	margin-bottom: 0px;
+	padding: 0;
+}
+
+div.related div.list
+{
+	width: 298px;
+	clear: none;
+	float: left;
+	margin: 0px 0px 30px 0px;
+	padding: 10px 10px 2px;
+	background-color: #f0f0f0;
+}
+
+div.related div.first.list
+{
+	margin-right: 8px;
+}
+
+div.related div.list h4
+{
+	font-size: 130%;
+	margin-bottom: 6px;
+}
+
+div.related div.list div
+{
+	background-color: white;
+	clear: both;
+	float: left;
+	width: 282px;
+	margin: 0px 0px 8px 0px;
+	padding: 8px;
+}
+
+div.related div.list div h5
+{
+	float: left;
+	clear: none;
+	width: 220px;
+	font-weight: bold;
+	font-size: 130%;
+	margin: 0px 0px 0px 0px;
+	padding: 0;
+}
+
+div.related div.list div h5 a,
+div.related div.list div h5 span
+{
+	display: block;
+	clear: both;
+}
+
+div.related div.list div h5 a
+{
+	padding-bottom: 2px;
+}
+
+div.related div.list div h5 span
+{
+	color: #909090;
+	font-weight: normal;
+	font-size: 75%;
+}
+
+div.related div.list div p
+{
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+	color: black;
+	font-weight: bold;
+	font-size: 290%;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+div.related div.list div p.date
+{
+	position: relative;
+	font-size: 100%;
+	text-align: center;
+	width: auto;
+	padding: 6px 14px;
+	background-image: none;
+	background-color: #eaeaea;
+	line-height: 1em;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-right: 8px;
+}
+
+div.related div.list div p span
+{
+	padding: 0;
+	float: left;
+}
+table caption {
+	caption-side: bottom;
+	text-align: right;
+	font-style: italic;
+	font-weight: bold;
+	color: #606060;
+	padding: 4px 0px;
+}
+
+#theTop div.image-gallery
+{
+    margin: 0px 0px 14px 27px;
+    padding: 0px 0px 14px 0px;
+    text-align: center;
+    width: 632px;
+    float: left;
+    clear: both;
+}
+
+#theTop div.image-gallery div.illustration,
+#theTop div.image-gallery div.illustrationPreview
+{
+	float: left;
+	clear: none;
+	padding: 0;
+	width: auto;
+	border: 0;
+}
+
+#theTop div.image-gallery div.illustration img,
+#theTop div.image-gallery div.illustrationPreview img
+{
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#theTop div.image-gallery p.caption
+{
+	background-color: #303030;
+	color: white;
+	font-style: italic;
+	padding: 3px 6px 4px 6px;
+	font-size: 95%;
+	margin: 0px 2px 14px 0px;
+	clear: both;
+}
+
+div#facebook-like-button
+{
+	margin: 14px 0px 0px 27px;
+	border: none;
+}
+
+div.podcast
+{
+	display: block;
+	float: left;
+	clear: both;
+	width: 100%;
+	margin-left: 27px;
+	margin-bottom: 14px;
+}
+
+div.copy div.staff
+{
+	position: relative;
+	float: left;
+	clear: left;
+	background-color: #f0f0f0;
+	margin-left: 30px;
+	margin-bottom: 26px;
+	margin-right: 27px;
+	padding: 14px 14px 8px 14px;
+	min-height: 126px;
+	border: 3px solid #e0e0e0;
+	border-top: 0;
+	border-left: 0;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+}
+
+div.copy div.staff div.illustration
+{
+	position: absolute;
+	top: -8px;
+	left: -36px;
+	border: 1px solid #e0e0e0;
+	padding: 10px;
+	-moz-transform: rotate(4deg);
+	-webkit-transform: rotate(4deg);
+	-khtml-transform: rotate(4deg);
+	background-color: white;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;	
+}
+
+div.copy div.staff h4,
+div.copy div.staff h5,
+div.copy div.staff p,
+div.copy div.staff ul
+{
+	float: left;
+	text-align: left;
+	margin: 0px 0px 0px 130px;
+	padding: 0;
+}
+
+div.copy div.staff h4
+{
+	font-weight: bold;
+	font-size: 170%;
+	color: #0069ff;
+}
+
+div.copy div.staff h5
+{
+	font-weight: bold;
+	font-size: 135%;
+	font-family: Arial, Verdana, sans-serif;
+	margin-bottom: 10px;
+	color: black;
+}
+
+div.copy div.staff ul
+{
+	list-style: none;
+	font-size: 95%;
+	color: #404040;
+	font-weight: bold;
+}
+
+div.copy div.staff ul li a
+{
+	font-weight: normal;
+}
+
+div.poll.twiigs
+{
+	margin: 0px 27px 20px;
+	clear: both;
+}
+/*
+     FILE ARCHIVED ON 02:28:48 Feb 28, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:18:58 Aug 14, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.219
+  CDXLines.iter: 16.804 (3)
+  load_resource: 105.649
+  RedisCDXSource: 22.645
+  exclusion.robots.policy: 0.204
+  PetaboxLoader3.resolve: 53.165
+  PetaboxLoader3.datanode: 122.676 (4)
+  captures_list: 138.403
+  esindex: 0.011
+  LoadShardBlock: 94.599 (3)
+*/
