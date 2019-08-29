@@ -1,0 +1,97 @@
+#menuBar .header, #menuBar .static-header {
+	font-weight: bold;
+	background-color: #transparent;
+	padding: 0px 0px;
+	font-size: 13px;
+	letter-spacing: -1px;
+	width: 100%;
+	line-height: 20px;
+}
+#menuBar .header a, #menuBar .static-header a {
+	display: block;
+	font-weight: bold;
+	letter-spacing: -1px;
+	padding: 2px 12px;
+	line-height: 20px;
+}
+#menuBar .likealink {
+	display: block;
+	font-weight: bold;
+	letter-spacing: -1px;
+	padding: 2px 10px;
+	padding-bottom: 0px;
+	color: #a0a0a0;
+	margin-bottom: 0px;
+	line-height: 20px;
+}
+#menuBar .mustbemember {
+	display: block;
+	font-weight: normal;
+	letter-spacing: 0px;
+	padding: 2px 10px;
+	font-size: 85%;
+	line-height: 10px;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 2px;
+	color: #ffffff;
+}
+#menuBar .header a:active, #menuBar .header a:link, #menuBar .header a:visited, 
+#menuBar .static-header a:active, #menuBar .static-header a:link, #menuBar .static-header a:visited {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+#menuBar .header a:hover,
+#menuBar .static-header a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#menuBar {	
+	/*left: 6px;
+	top: 100px;*/
+	background-color: #9c9c9c;
+	width: 100%;
+}
+
+#menuBar .menu {
+	visibility: hidden;
+	position: absolute;
+	top: 169px;
+	left: 0px;
+	padding: 2px 2px;
+	background-color: #666666;
+}
+
+#menuBar .menu a {
+	padding: 1px 10px;
+}
+#menuBar .menu a:active, #menuBar .menu a:link, #menuBar .menu a:visited {
+
+}
+#menuBar .menu a:hover {
+	background-color: #333333;
+}
+
+
+/*
+     FILE ARCHIVED ON 14:47:29 Aug 11, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:55:43 Aug 29, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  esindex: 0.007
+  captures_list: 615.195
+  PetaboxLoader3.datanode: 51.893 (4)
+  exclusion.robots: 0.201
+  LoadShardBlock: 172.732 (3)
+  PetaboxLoader3.resolve: 858.039 (2)
+  RedisCDXSource: 427.907
+  load_resource: 743.586
+  exclusion.robots.policy: 0.186
+  CDXLines.iter: 11.735 (3)
+*/

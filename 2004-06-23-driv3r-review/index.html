@@ -1,0 +1,877 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:egex="https://www.eurogamer.net/xhtml-extensions" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Eurogamer.net - DRIV3R</title>
+    <link rel="stylesheet" type="text/css" href="assets/common.css">
+    <link rel="stylesheet" type="text/css" href="assets/relocatable_menu.css">
+    <style>
+        * {
+            -webkit-font-smoothing: none;
+            -moz-osx-font-smoothing: none;
+            font-smooth: never;
+        }
+        body {
+            max-width: 1024px;
+            margin: 0 auto;
+        }
+    </style>
+    <script type="text/javascript" src="assets/preload.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/IntelliTxt.css">
+    <link rel="stylesheet" type="text/css" href="assets/comments.css">
+    <link rel="stylesheet" type="text/css" href="assets/feature_page.css">
+    <link rel="stylesheet" type="text/css" href="assets/image_viewer.css">
+
+    <script type="text/javascript">
+        focussed = false;
+        openMenu = "";
+        highlightColour = "#666666";
+        normalColour = "transparent";
+        menuIn = 0;
+        sup = 0;
+        menuload = false;
+
+        function allOk() {
+            if (sup == 0) {
+                if (preload && menuload) {
+                    //do tests;
+                    if (
+                        (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 5") >= 0 || navigator.appVersion.indexOf("MSIE 6") >= 0)) || (navigator.appName == "Netscape" && (navigator.appVersion.indexOf("5") == 0)) || (navigator.appName == "Opera" && (navigator.appVersion.indexOf("7") == 0))
+                    ) {
+                        sup = 1;
+                    } else {
+                        sup = -1;
+                    }
+                }
+            }
+
+            if (sup == -1) {
+                return false;
+            } else if (sup == 1) {
+                return true;
+            }
+        }
+
+        function menuClicked(fireObj, wEvent) {
+            if (allOk()) {
+                return s_menuClicked(fireObj, wEvent);
+            }
+        }
+
+        function menuMouseOver(fireObj, wEvent) {
+            if (allOk()) {
+                return s_menuMouseOver(fireObj, wEvent);
+            }
+        }
+
+        function closeAll() {
+            if (allOk()) {
+                return s_closeAll();
+            }
+        }
+
+        function mmmOut() {
+            if (allOk()) {
+                return s_mmmOut();
+            }
+        }
+    </script>
+    <script type="text/javascript" src="assets/relocatable_menu.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/relocatable_menu.css">
+    <link rel="stylesheet" type="text/css" href="assets/xbox.css">
+</head>
+<body id="theTop" onclick="closeAll(); return true;" onmouseover="mmmOut();">
+    <div id="pageMastah">
+        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <table id="headerTable" cellpadding="0" cellspacing="0" border="0">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.eurogamer.net/"><img src="assets/logo_eurogamer_modern.gif" width="304" height="77" alt="Eurogamer"></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table id="quickNavBar" cellpadding="0" cellspacing="0" border="0">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.eurogamer.net/" title="Let&#39;s all go home shall we?"><img name="img/common/link_home" src="assets/link_home_off.gif" width="47" height="54" alt="HOME"></a>
+                                    </td>
+                                    <td><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                    <td>
+                                        <a href="https://www.eurogamer.net/archive/ps2" title="Click here to view information for the Sony PlayStation2 only"><img name="img/common/link_ps2" src="assets/link_ps2_off.gif" width="47" height="54" alt="PS2"></a>
+                                    </td>
+                                    <td><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                    <td>
+                                        <a href="https://www.eurogamer.net/archive/xbox" title="Click here to view information for the Microsoft XBox only"><img name="img/common/link_xbox" src="assets/link_xbox_curr.gif" width="47" height="54" alt="XBOX"></a>
+                                    </td>
+                                    <td><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                    <td>
+                                        <a href="https://www.eurogamer.net/archive/cube" title="Click here to view information for the Nintendo GameCube only"><img name="img/common/link_cube" src="assets/link_cube_off.gif" width="47" height="54" alt="CUBE"></a>
+                                    </td>
+                                    <td><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                    <td>
+                                        <a href="https://www.eurogamer.net/pc" title="Click here to view information about PC games only"><img name="img/common/link_pc" src="assets/link_pc_off.gif" width="47" height="54" alt="PC"></a>
+                                    </td>
+                                    <td><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                    <td>
+                                        <a href="https://www.eurogamer.net/archive/gba" title="Click here to view information for the Nintendo GameBoy Advance only"><img name="img/common/link_gba" src="assets/link_gba_off.gif" width="47" height="54" alt="GBA"></a>
+                                    </td>
+                                    <td><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                    <td><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                    <td width="100%">
+                                        <form style="display: block; padding: 0px; margin: 0px; margin-right: 0px; text-align: right;" method="POST" action="https://www.eurogamer.net/login">
+                                            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="memberLogin" width="100%">
+                                                            <div class="loginTitle">Member Login</div>
+                                                            <label>
+                                                                <input type="text" class="textbox" style="width: 100px;" name="user" value="username" onfocus="if( this.value ==&#39;username&#39; ) this.value=&#39;&#39;">
+                                                            </label>
+                                                            <label>
+                                                                <input type="password" class="textbox" style="width: 100px;" name="password" value="password" onfocus="if( this.value ==&#39;password&#39; ) this.value=&#39;&#39;">
+                                                            </label>
+                                                        </td>
+                                                        <td>
+                                                            <input type="image" name="img/common/link_login" src="assets/link_login_off.gif" width="44" height="54" alt="Log in">
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </form>
+                                    </td>
+                                    <td><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                    <td class="memberSignup"><img src="assets/label_get_account.gif" width="82" height="54" alt="Not got an account?  They&#39;re free!"></td>
+                                    <td>
+                                        <a href="https://www.eurogamer.net/register" title="Sign Up"><img name="img/common/link_signup" src="assets/link_signup_off.gif" width="53" height="54" alt="Sign up"></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%" id="menuAndSearchBar">
+                            <tbody>
+                                <tr>
+                                    <td width="100%">
+                                        <div id="menuBar" onclick="return( menuClicked( this, event ) );" onmouseover="return( menuMouseOver( this, event ) );">
+                                            <table onmouseout="event.cancelBubble = true" cellpadding="0" cellspacing="0" border="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="header" id="mh-News">
+                                                                <a href="https://www.eurogamer.net/news" title="News from the gaming world">News</a>
+                                                                <div class="menu" id="m-News">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/archive/xbox">Latest</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><img src="assets/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/news">All Platform Latest</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><img src="assets/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/contact">Send Us News</a></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="header" id="mh-Reviews">
+                                                                <a href="https://www.eurogamer.net/reviews" title="Game reviews">Reviews</a>
+                                                                <div class="menu" id="m-Reviews">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/archive/xbox">Latest</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/archive/xbox">Archive</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><img src="assets/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/reviews">All Platform Latest</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/archive/reviews">All Platform Archive</a></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="header" id="mh-Previews">
+                                                                <a href="https://www.eurogamer.net/archive/preview" title="Game previews">Previews</a>
+                                                                <div class="menu" id="m-Previews">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/archive/xbox">Latest</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/archive/xbox">Archive</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><img src="assets/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/previews">All Platform Latest</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/archive/previews">All Platform Archive</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><img src="assets/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/release-dates#year=2004&month=6&platform=&=">Release Dates</a></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="header" id="mh-Screenshots">
+                                                                <a href="https://www.eurogamer.net/" title="Screenshots">Screenshots</a>
+                                                                <div class="menu" id="m-Screenshots">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/">Latest</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/">Archive</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><img src="assets/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/">All Platform Latest</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/">All Platform Archive</a></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="header" id="mh-Forum">
+                                                                <a href="https://community.eurogamer.net/" title="Reader forum.">Forum</a>
+                                                                <div class="menu" id="m-Forum">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://community.eurogamer.net/">Enter the Forum</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://community.eurogamer.net/policies.php?view=code-of-conduct">Forum Guidelines</a></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="header" id="mh-Files">
+                                                                <a href="https://www.eurogamer.net/" title="File download service">Files</a>
+                                                                <div class="menu" id="m-Files">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/">Files</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><img src="assets/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/">About</a></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="header" id="mh-About" style="background-color: transparent;">
+                                                                <a href="https://www.eurogamer.net/" title="Information about Eurogamer">About</a>
+                                                                <div class="menu" id="m-About" style="visibility: hidden;">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/">Information About Eurogamer</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/authors">Eurogamer Staff</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><img src="assets/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/contact">Contacting Eurogamer</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/contact">Advertising</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td><img src="assets/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td nowrap="nowrap"><a href="https://www.eurogamer.net/policies">Comments Policy</a></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </td>
+                                    <td width="4"><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                    <td class="searcher" width="168">
+                                        <form method="get" action="https://www.eurogamer.net/search.php">
+                                            <table cellspacing="0" cellpadding="0" border="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <input type="text" class="textbox" style="width: 150px;" name="q" value="Keywords" onfocus="if( this.value == &#39;Keywords&#39; ) this.value=&#39;&#39;; return true;">
+                                                        </td>
+                                                        <td><img src="assets/spacer.gif" width="4" height="1" alt=""></td>
+                                                        <td>
+                                                            <input type="image" width="59" height="18" alt="Search" name="img/common/link_search" src="assets/link_search_off.gif">
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </form>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="contentArea platformBG">
+                            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <!-- <colgroup>
+                                    <col width="*">
+                                        <col width="6">
+                                            <col width="150">
+                                </colgroup> -->
+                                <tbody>
+                                    <tr>
+                                        <td width="100%" class="writingGoesHere">
+                                            <div id="whereAmI">
+                                                <a class="eurogamerlink" href="https://www.eurogamer.net/">Eurogamer</a> :: <a href="https://www.eurogamer.net/archive/xbox">XBox</a> :: <a href="https://www.eurogamer.net/reviews">Reviews</a> :: DRIV3R </div>
+                                            <div id="intelliTxt">
+                                                <div class="articleBlock">
+                                                    <div class="article">
+                                                        <table cellspacing="0" cellpadding="0" border="0" class="titleArea">
+                                                            <colgroup>
+                                                                <col width="120">
+                                                                    <col width="18">
+                                                                        <col width="*">
+                                                            </colgroup>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="publishingInfo">
+
+                                                                        <p class="date">23/06/2004 09:15</p>
+                                                                        <div class="region">
+                                                                            Review
+                                                                        </div>
+                                                                        <div><img src="assets/big_pal_euro.gif" width="96" height="65" alt="European Flag"></div>
+                                                                    </td>
+                                                                    <td><img src="assets/spacer.gif" width="18" height="1" alt=""></td>
+                                                                    <td>
+                                                                        <h1>DRIV3R</h1>
+                                                                        <table class="author">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td><img class="mugshot" src="assets/78.jpg"></td>
+                                                                                    <td>
+                                                                                        by Kristan Reed
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <div class="articleBody">
+                                                            <p>As much as Atari and Reflections may think we've got it in for Driv3r, we really haven't. We wanted it to be the pinnacle of mission-based driving games as much as the next man; we didn't sit around plotting its demise and wonder how many clever sentences we could put into our review. We really did think that with all the talent and experience of the team that this would be one of the games of the year. Were these unreasonable expectations? We're sure the many millions of Driver fans the world over were expecting the same after four years in development.</p>
+
+                                                            <p>The truth is, even a few minutes in the company of third Tanner adventure tell you more than a few choice words could ever hope to do. A few hours and you'll be able to write a thesis on the subject. The simple, unpalatable, grisly truth for everyone connected to this important summer blockbusting title is that it's so far away from being the title it deserved to be, it could well be reflected upon as one of the biggest disappointments in the history of videogames. No title has ever been so keenly anticipated, so massively hyped and yet such a catastrophic mess. To play Driv3r on a sunny day in June is about as devastating an error as realising you've just put your winning lottery ticket through the wash. Sometimes playing a bad game can be amusing in a 'what the hell did they <em>do</em>?' kind of way, but in this case you'll be inventing new expletives to try and express exactly how much rage and resentment you feel in every fibre of your body against this terrifying example of botched game development.</p>
+                                                            <h3>Where did it all go wrong?</h3>
+                                                            <table cellspacing="0" cellpadding="0" border="0" width="250" class="illustrationPreview">
+                                                                <colgroup>
+                                                                    <col width="50">
+                                                                        <col width="*">
+                                                                </colgroup>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="padding:8px;">
+                                                                            <a href="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/1.jpg/"><img src="assets/link_view_image.gif" alt="View Shot"></a>
+                                                                            <br>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/1.jpg/"><img src="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/1.jpg/EG11/resize/260x-1/quality/75/format/jpg" width="260" height="195"></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td></td>
+                                                                        <td class="caption">Looks quite good, eh? He's about to hit that lamp post and stop dead. And he won't have seen it until it popped up a split-second prior either...</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <p>So what exactly is <em>wrong</em> with it? It's hard to know where to start, so we won't - yet. The easiest thing for the shocked Driver 3 critic is to try and get into the mindset of what they were trying to do. On a basic level Reflections has simply attempted to add the whole "Hollywood production values" thing to the Driver experience - the first, remember, on the current generation of machines. It shows promise in this regard when you consider that the likes of Michael Madsen, Iggy Pop and Michel Rodriguez amongst others have been roped in to do the voice acting duties, while the settings are suitably exotic, taking in Miami, Nice and Istanbul, which the art team at Reflections has undeniably done a fine job of recreating.</p>
+                                                            <p>Indeed, the appearance of around 70 different vehicles, including an 18 Wheeler, a motorbike (yes!), a fork lift, and all manner of cars from the city runaround to the sporty, gives you plenty of variety to get to grips with. Typically, Driv3r continues the grand tradition of having extra spongy exaggerated handling to guarantee that authentic '70s cop show feel of screeching rubber and flying debris as you powerslide through every corner. This isn't necessarily to everyone's taste, but it guarantees a certain level of comic carnage, with flying limbs and honking horns pretty much a given no matter where you are.</p>
+                                                            <p>On a technical level it's hard not to admire the lengths to which the team has gone to create these vehicles, with an impressive level of destructibility allowing the player to pretty much reduce them to nothing more than a shell, with practically every part able to be damaged and eventually removed entirely depending on just how far you will go in the pursuit of chaos. Driv3r's level of damage physics are impressive - not necessarily aesthetically as dramatic as Burnout's, but in a much more convincing sense in terms of affecting your handling, and to the extent of giving you the ability to shoot out the windshield, the tyres, with individual bullet holes remaining in the car. If pursued, you find that often the best solution is to jump out, shoot the pursuer through the windscreen, drag him out and take off in his own car.</p>
+                                                            <h3>The talent within</h3>
+                                                            <table cellspacing="0" cellpadding="0" border="0" width="250" class="illustrationPreview">
+                                                                <colgroup>
+                                                                    <col width="50">
+                                                                        <col width="*">
+                                                                </colgroup>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="padding:8px;">
+                                                                            <a href="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/2.jpg/"><img src="assets/link_view_image.gif" alt="View Shot"></a>
+                                                                            <br>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/2.jpg/"><img src="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/2.jpg/EG11/resize/260x-1/quality/75/format/jpg" width="260" height="195"></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td></td>
+                                                                        <td class="caption">This caption-writer is suddenly reminded of the mission where you have to drive cars into the back of a moving lorry, which lurches about and constantly throws you off, so much so that when you do eventually succeed it's a total fluke.</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <p>As a pure driving experience you can see where the talent lies. These guys are evidently obsessed with everything to do with the look and the feel of the cars, and have clearly gone to great lengths to make them feel just so - with three intricately designed settings that offer a vivid template for your adventures, each lit dramatically in a variety of lighting and weather conditions.</p>
+                                                            <p>However, it doesn't take very long to see that as fantastic as some of these features are, they don't really add up to being more than a very marketable gloss; to making it an easy game for the marketing bods to sell to people hungry for more Grand Theft Auto. As much as the game lends itself to sexy screenshots or a fantastic looking preview movie that makes Driv3r look like the best thing ever to happen to driving games, any sort of even vaguely cursory inspection reveals a multitude of cardinal gaming sins.</p>
+                                                            <p>Chiefly the problems start and end with some quite startlingly poorly designed levels. The game is broken down into roughly nine levels per city, each playable in turn in a rigid and inflexibly linear progression. This feels like a backward step after years of the GTA approach, in that it presents the player with no choice but to persist with their current mission no matter what, or face ending their adventure entirely. In GTA, the sandbox nature of the game and the branching mission structure always seemed to present the player with an array of options, defusing what could otherwise have been a frustrating dead end. And such enforced cul-de-sacs in Driv3r turn some of the trickier missions from being a minor frustration to be returned to another time with a cooler head, into a relentless hot headed joypad mashing pursuit of what can feel like the impossible. At times, Driv3r's design flaws are so blatantly apparent; you're left wondering whether any serious play testing took place.</p>
+                                                            <h3>Nice in Nice?</h3>
+                                                            <table cellspacing="0" cellpadding="0" border="0" width="250" class="illustrationPreview">
+                                                                <colgroup>
+                                                                    <col width="50">
+                                                                        <col width="*">
+                                                                </colgroup>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="padding:8px;">
+                                                                            <a href="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/3.jpg/"><img src="assets/link_view_image.gif" alt="View Shot"></a>
+                                                                            <br>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/3.jpg/"><img src="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/3.jpg/EG11/resize/260x-1/quality/75/format/jpg" width="260" height="195"></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td></td>
+                                                                        <td class="caption">Ah, the 'PlayMobil boat effect' in full motion. When he stops and tries to climb out the game will kill Tanner arbitrarily. Betcha.</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <p>Unlike our previous proclamations that the driving was fun and the on-foot sections were the real let-down, it emerges as the game unfolds that in fact some of the driving missions can be the biggest culprits of dim-witted design. Chase missions that set unrealistic time limits and fiddly, erratic and irrational collision detection are one such irritation, but pale into insignificance stacked next to the chase at the end of Nice which practically demands ninja gaming skills to even stand the slightest chance of succeeding in, where lamp posts pop up 20 metres in front of you and become immovable obstacles - either stopping you dead or sending you careening through the air when you inevitably strike them - and traffic clogs narrow streets to transform potential enjoyment into a condition that can only be described as Game Rage.</p>
+                                                            <p>Yet, some of the very hardest missions come straight after some inexplicably easy ones. There's little sense of a difficulty curve - Driv3r just peaks and troughs on a whim, and just when you think things are getting better it all goes pear-shaped in spectacular style.</p>
+                                                            <p>The level of pre-scripted events also leaves little room for manoeuvre, with psychic road blocks often magically appearing across the entire city, cued up just moments after you've taken out an entire gang and stolen a car. An on-rails section during the final stages in Istanbul, meanwhile, is comical in its desire to throw police vehicles at you like suicide bombers, while guiding an 18 Wheeler through the streets of Nice has more in common with trying to pilot a runaway snow plough through the mountains of Endor than a beefy artic, with the succession of road blocks only too happy to stay right where they are, leaving you to do a 40 point turn in the road in order to guide your lorry into the docks.</p>
+                                                            <h3>Booby prize</h3>
+                                                            <table cellspacing="0" cellpadding="0" border="0" width="250" class="illustrationPreview">
+                                                                <colgroup>
+                                                                    <col width="50">
+                                                                        <col width="*">
+                                                                </colgroup>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="padding:8px;">
+                                                                            <a href="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/4.jpg/"><img src="assets/link_view_image.gif" alt="View Shot"></a>
+                                                                            <br>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/4.jpg/"><img src="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/4.jpg/EG11/resize/260x-1/quality/75/format/jpg" width="260" height="195"></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td></td>
+                                                                        <td class="caption">At least he died nobly - standing on the same spot occasionally shooting at us as we struggled to strafe our crosshair onto his body.</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <p>The odd level here and there offers a glimpse of what might have been - the superbly tense Booby Trap mission that tasks you with keeping above 50 mph is one such rare flourish of Hollywood action movie-esque thrills, but looking through our notes it's hard to think of one single other mission that wasn't too easy or arbitrarily difficult, as well as being riddled with so many issues that gaining any actual enjoyment out of it was the biggest challenge of all.</p>
+                                                            <p>Where the game really falls apart at the seams are the catastrophically and irredeemably poorly implemented on foot sections. Not only do they just plainly look awkward, with stiff and inappropriate animations and a general lack of polish and detail, but the AI displayed simply takes the biscuit, dunks it in your drink and doesn't even bother to take it out. In more or less every scenario in the entire game, the same thing holds true. Tanner enters room, enemies scream vague "SHOOT HIM!!" type instructions to one another the second the hinges creak and then scatter to their pre-scripted spots. They then remain rooted like startled rabbits until you gratefully dispatch them one by one from afar thanks to the over-generous targeting reticule, which somehow believes it's possible to deliver headshots with a pistol from 100 feet.</p>
+                                                            <p>It's quite possible that these shooting sections are among the worst we have borne witness to in the current generation of console games. They're not just bad, they're inexcusable, lacking anything even remotely approaching the standard gamers have every right to expect and demand in this day and age. Serving up wobbly animated brainless enemies that neither chase nor react, and compounding it with an unresponsive lead character with an unnaturally stiff aim and a total lack of athleticism is bordering on a disgrace. At our most forgiving it's barely competent, and were this combat mechanic in any other game it would be immediately laughed out of the room. That several other professional critics have recklessly overlooked this point and deem this standard not just acceptable, but excellent, provokes the kind of conspiracy theories that you're doubtlessly reading about all over the net. Only a total fool could look at the on foot sections of Driv3r and not come away with at least the sense that something has gone very wrong in the development process for it to end up this way.</p>
+                                                            <h3>Rush job?</h3>
+                                                            <table cellspacing="0" cellpadding="0" border="0" width="250" class="illustrationPreview">
+                                                                <colgroup>
+                                                                    <col width="50">
+                                                                        <col width="*">
+                                                                </colgroup>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="padding:8px;">
+                                                                            <a href="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/5.jpg/"><img src="assets/link_view_image.gif" alt="View Shot"></a>
+                                                                            <br>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/5.jpg/"><img src="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/5.jpg/EG11/resize/260x-1/quality/75/format/jpg" width="260" height="195"></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td></td>
+                                                                        <td class="caption">Head out of here at speed and you're expected to jump a bridge to escape. Except most of the time you end up in the water below.</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <p>If we were to pontificate for a moment on the reasons for such a dramatically flawed execution, we might speculate that the actual implementation of the non-driving portions of the game was left until relatively late in the project. By the time it was apparent that it wasn't going to make the grade it was too late to fix it, and the game was perhaps stitched together into a workable state at the last minute and given an intractable deadline. There's no other explanation that makes any sense - there's no way on earth the folk at Reflections would have looked at their game and been totally happy that it was as good as it could possibly be. Maybe they were happy with the car physics and the environments, but there's just no way they could have been satisfied with the missions. And the review scores appearing from normally over generous sources elsewhere tell us that we're not the only ones that feel dismayed with the end result.</p>
+                                                            <p>But as much as we admire the way the environments look, there are still a bunch of problems that distract you from how good it looks. A dreadful level of pop-up persists on each of the three cities, and often with dire consequences when scenery items appear a second before you crash into them. The aforementioned lamp posts of death in Nice are the most obvious example, but seeing trees and bushes pop up and textures drawn at the last minute onto previously featureless buildings is a horrendous sight. When it does get things right in the beautiful spiralling village in the hills of Nice it slows to a visible crawl. Everything has a price it seems.</p>
+                                                            <p>If those weren't alarming enough, the pedestrian behaviour is pathetic. At one stage a knocked down passer-by ended up on the roof of a van, then proceeded to get up as if nothing had happened and stand gormless on its roof for a couple of minutes while the van wound its way around the countryside - and such incidents are hardly isolated. In Driv3r, laughable and inexcusable bugs are never far away. Take the 'speedboat of death' as one memorable example, whereby jumping onto the front of the boat resulted in instant death on no fewer than four occasions in a row. Did any play testing take place at all? On the missions where you're being chased, it's actually safer if you drive at a very slow speed - then the rampant pursuers can't ram into you. More comically still, we discovered the best way to shake our pursuers on one mission in Miami was to drive into water, where they promptly floated harmlessly. We're not even going to get into the whole 'flying car' thing. You can already download movies though. Over time, the bugs within Driv3r will form the basis of an amusing book, but right now it all hurts too much to bear.</p>
+                                                            <h3>The unemotional engine</h3>
+                                                            <table cellspacing="0" cellpadding="0" border="0" width="250" class="illustrationPreview">
+                                                                <colgroup>
+                                                                    <col width="50">
+                                                                        <col width="*">
+                                                                </colgroup>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="padding:8px;">
+                                                                            <a href="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/6.jpg/"><img src="assets/link_view_image.gif" alt="View Shot"></a>
+                                                                            <br>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/6.jpg/"><img src="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/6.jpg/EG11/resize/260x-1/quality/75/format/jpg" width="260" height="195"></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td></td>
+                                                                        <td class="caption">The spiralling house fronts are certainly a visual highlight, but they occur too late on and at too much of a frame cost to help redeem things.</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <p>With so much emphasis on Hollywood production values, you'd at least expect the cut-scenes to somehow provide some incentive to carry on with a gripping storyline, but in truth it doesn't seem to matter how many times you see them, they remain among the most boring and disengaging in-game scenes we've seen in a long time. With a peculiar graphical style that manages to make most of the character models look inbred, not only does it not work as a spectacle, but the whole yarn is so disconnected that even the remarkably clever synopsis that appears when you resume your game upon reloading can't help spark the whole affair into any sort of life. Tanner as a character is neither cool nor funny nor charming; you just don't care about him in any way, and no matter who's doing the voiceovers, the script is so self-consciously trying to be dark and cool that it seems to bore everyone connected with it. You just won't care why you're doing the missions, or who Dubois is, or why you're chasing after so and so. It's meaningless in the most depressing way.</p>
+                                                            <p>Occasionally the soundtrack threatens to liven up proceedings, but apart from the odd obscure gem hidden within a lengthy cut-scene, you're forced to put up with the sort of repetitive incidental music that was never designed for repeat listening. Get stuck on one of the missions and you'll want to take a machete to the composer. To be fair it wasn't his or her fault that the game persists in artificially drawing things out, but the fact remains hearing music reminiscent of The Professionals for literally hours on end is grating to say the least.</p>
+                                                            <p>As a complete package, it's hard not to pick holes in Driv3r. When we played the preview build, we remained convinced that certain issues would be fixed (as did others, it would seem), but apart from an obvious audio bug, the whole game is exactly the same as it was then. We stopped playing it so as to not spoil it for ourselves or wind ourselves up about problems that may well be put right - but we were being foolishly optimistic. What's apparent is that we've come away from 20 odd hour's worth of play having enjoyed about one hour of that. If you move away entirely from the missions and simply treat it as a free ride experience and upload some cool scenes over Xbox Live then there's at least some enjoyment to be had cruising around each city taking in the sights and checking out all the different vehicles on offer, but that's hardly something many people will be buying the game on the strength of.</p>
+                                                            <h3>Schtop! Driv3r is not ready yet!</h3>
+                                                            <table cellspacing="0" cellpadding="0" border="0" width="250" class="illustrationPreview">
+                                                                <colgroup>
+                                                                    <col width="50">
+                                                                        <col width="*">
+                                                                </colgroup>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="padding:8px;">
+                                                                            <a href="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/7.jpg/"><img src="assets/link_view_image.gif" alt="View Shot"></a>
+                                                                            <br>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/7.jpg/"><img src="https://cdn.gamer-network.net/articles/a/5/5/8/7/0/7.jpg/EG11/resize/260x-1/quality/75/format/jpg" width="260" height="195"></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td></td>
+                                                                        <td class="caption">Nice bike. Just don't drive it into any two-foot walls or anything.</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <p>The sorry truth is that Driv3r is in a shambolic state to release into the market. It's not even an Enter The Matrix situation. Sure, many accused Atari of releasing that before it was ready as well, but at least it was pretty good fun from time to time, no matter how derivative or contrived the package was. In that sense ETM was below average, but Driv3r commits the cardinal sin of rarely even being entertaining on any level. It feels old, its design ethics have long since been usurped, its missions are unbalanced and largely lacking in imagination and no amount of cool vehicle physics and destructibility can mask some serious errors of judgement in the design stage, not to mention some appalling AI, botched third-person controls and all round weak programming.</p>
+                                                            <p>Many would instantly try and compare Driv3r with the Grand Theft Auto games, but in reality it doesn't deserve to be spoken of in the same sentence as Rockstar's classics. True enough, GTA's not perfect either, and has its own issues to address, but Driv3r never even comes close to matching the GTA titles for energy, cool, ambition, design, talent, craft, humour or more crucially entertainment. It's a vastly restrictive game that's not just flawed, but will actively wind up any passionate gamer that comes anywhere near it - something that contradicts the whole concept of videogaming being a form of entertainment.</p>
+                                                            <p>In the wider sense, Driv3r is not just a disappointing game for a team of the talent of Reflections to come up with, but is simply so botched that it's a class-A disaster for Atari. Some hardy folk seem determined to be blinkered to its many crushing flaws, but the rest of you should at the very least try before you buy - for an inflated cost of �44.99 in this country, too. No one should be under any illusions: Driv3r could be the biggest gaming let down of all time. For the good of us all, releasing a game of this importance in such a woefully unfinished state should never be allowed to happen again.</p>
+                                                            <div class="rating">
+                                                                Rating: 3 out of 10</div>
+                                                            <dl class="miscInfo"><dt>Version Reviewed</dt>
+                                                                <dd>Xbox (also available on PS2)</dd><dt>Publisher</dt>
+                                                                <dd>Atari</dd><dt>Developer</dt>
+                                                                <dd>Reflections</dd><dt>Genre</dt>
+                                                                <dd>Mission Based Driving</dd><dt>60Hz mode</dt>
+                                                                <dd>yes</dd><dt>Widescreen mode</dt>
+                                                                <dd>yes</dd><dt>Progressive scan</dt>
+                                                                <dd>no</dd><dt>Surround sound</dt>
+                                                                <dd>yes</dd>
+                                                            </dl>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nologinComments">
+                                                <a href="https://www.eurogamer.net/articles/r_driv3r_x#comments">Click here</a> to read and post comments on this news item.
+                                            </div>
+                                        </td>
+                                        <td><img src="assets/spacer.gif" width="6" height="1" alt=""></td>
+                                        <td>
+                                            <div class="signPost"><img src="assets/spacer.gif" width="150" height="162" alt="XBOX"></div>
+                                            <div class="rightBarBox latestComments">
+                                                <h3 class="rightBarTitle">Latest Comments:</h3>
+
+                                                <a href="https://www.eurogamer.net/article.php?article_id=55946#comments">Vivendi confirms R...</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=55939#comments">Full Spectrum Warr...</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=55964#comments">Brigades announces...</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=55070#comments">Metal Gear Solid:...</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=55969#comments">'Customers do not...</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=55970#comments">Acclaim loses Turo...</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=55967#comments">Talking Headhunter...</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=55959#comments">Wario Ware, Inc.:...</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=55765#comments">GTA San Andreas: m...</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=53430#comments">Megaman Battle Net...</a>
+                                                <a href="https://www.eurogamer.net/article.php?article_id=55539#comments">First details of G...</a>
+
+                                                <div class="moreComments">
+                                                    <a href="https://www.eurogamer.net/">More Comments...</a>
+                                                </div>
+                                            </div>
+                                            <div class="rightBarBox latestComments">
+                                                <h3 class="rightBarTitle">Latest Files:</h3>
+
+                                                <a href="https://www.eurogamer.net">TrackMania Sunrise...</a>
+                                                <small>Video (29 MB)</small>
+
+                                                <a href="https://www.eurogamer.net">Epic Games Unreal...</a>
+                                                <small>Video (62 MB)</small>
+
+                                                <a href="https://www.eurogamer.net">Metal Gear Solid 3...</a>
+                                                <small>Video (45 MB)</small>
+
+                                                <a href="https://www.eurogamer.net">Star Wars: Republi...</a>
+                                                <small>Video (34 MB)</small>
+
+                                                <a href="https://www.eurogamer.net">Brothers In Arms (...</a>
+                                                <small>Video (115 MB)</small>
+
+                                                <div class="moreComments">
+                                                    <a href="https://www.eurogamer.net">More Files...</a>
+                                                </div>
+
+                                            </div>
+                                            <div class="rightBarBox">
+                                                <h3>Latest Screenshots:</h3>
+                                                <div class="delimit">
+                                                    <table cellspacing="0" cellpadding="0" border="0" class="screenzList">
+                                                        <tbody>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=55963">Vivisector</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Mon 05 Jul 10:22</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_pc_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=55957">TrackMania Sunrise</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Fri 02 Jul 15:23</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_pc_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=52045">Vampire: The Masquerade - Bloodlines</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Fri 02 Jul 14:34</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_pc_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=55954">Kreed</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Fri 02 Jul 14:33</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_pc_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=54850">Sly 2: Band of Thieves</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Fri 02 Jul 14:32</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_ps2_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=55953">Gungrave OD</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Fri 02 Jul 14:31</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_ps2_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=55952">Deadlands</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <div class="date">Fri 02 Jul 14:30</div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=55951">ChoroQ</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Fri 02 Jul 14:29</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_ps2_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=54666">Jak 3</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Fri 02 Jul 14:29</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_ps2_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=54995">Forgotten Realms: Demon Stone</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Fri 02 Jul 14:26</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_ps2_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=55269">Battlefield 2</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Fri 02 Jul 14:24</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_pc_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=54698">Athens 2004</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Fri 02 Jul 14:21</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_ps2_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=55937">Pro Evolution Soccer 4</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <div class="date">Thu 01 Jul 13:33</div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=55926">Halo 2</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Wed 30 Jun 17:04</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_xbox_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td colspan="2">
+                                                                    <h4 class="title"><a href="https://www.eurogamer.net/article.php?article_id=55903">U Move Super Sports</a></h4></td>
+                                                            </tr>
+                                                            <tr class="screenzHeader">
+                                                                <td>
+                                                                    <div class="date">Mon 28 Jun 11:39</div>
+                                                                </td>
+                                                                <td><img class="platformIcon" width="24" height="22" src="assets/icon_ps2_tiny_dark_bg.gif"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2"><img src="assets/spacer.gif" width="1" height="4" alt=""></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="moreScreenz"><a href="https://www.eurogamer.net/">More Screenshots...</a></div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="padding: 10px;">
+            &copy; 1999-2004 <a href="https:www.gamer-network.net/">Eurogamer Network Ltd.</a> | <a href="https://www.eurogamer.net">Home</a> | <a href="https://eurogamer.net/contact">Contact</a>.
+        </div>
+    </div>
+</body>
+</html>
