@@ -1,0 +1,517 @@
+div.discussion {
+	margin: 24px 0px;
+	padding: 8px 24px;
+	width: 644px;
+	overflow: hidden;
+	clear: both;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+div.discussion h5 {
+	font-size: 14px;
+	font-weight: normal;
+	border-bottom: 1px solid #d0d0d0;
+	margin-bottom: 8px;
+}
+
+form.commentForm {
+	margin: 12px 0px;
+}
+form.commentForm label {
+	display: block;
+	clear: none;
+	float: left;
+	padding: 2px 6px 0px 0px;
+}
+div.discussion h4 {
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 17px;
+	font-weight: normal;
+	color: #666666;
+}
+
+small.status
+{
+	display: block;
+	float: left;
+	font-size: 7px;
+	margin: 1px 0px 0px 2px;
+	padding: 1px 3px 1px 2px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	text-transform: uppercase;
+	background-color: white;
+	color: white;
+	font-weight: bold;
+	background-color: #89c13a;
+}
+
+small.status.staff
+{
+	background-color: #0071f5;
+}
+
+
+/* ---- Comments system ------------------------------------------------------- */
+
+div.discussion textarea
+{
+	width: 632px;
+	height: 92px;
+	margin-top: 3px;
+	padding: 2px 4px;
+	margin-bottom: 4px;	
+}
+
+div.discussion input
+{
+	background-color: #0069FF;
+	border: 1px solid #0069FF;
+	color: white;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 4px 7px;
+	font-weight: bold;
+}
+
+#comments
+{
+
+}
+
+#comments div.comment
+{
+	position: relative;
+	clear: both;
+	float: left;
+	border-top: 1px solid #d8d8d8;
+	background-image: url(/web/20110228022854im_/http://www.eurogamer.net/img/ArticlePage/comment-divider.gif);
+	background-repeat: repeat-y;
+	width: 100%;
+}
+
+#comments div.comment.strip0,
+#comments div.comment.strip1
+{
+	background-color: transparent;
+	border-top: 1px solid #e0e0e0;
+	padding: 4px 0px;
+}
+
+#comments div.comment.strip1
+{
+	background-color: #fafafa;
+}
+
+#comments div.comment.comment-header
+{
+	border-top: 0;
+	padding: 0;
+	height: 18px;
+	color: #606060;
+	font-weight: bold;
+}
+
+#comments div.comment.comment-header span
+{
+	float: left;
+}
+
+#comments div.comment.comment-header span.right
+{
+	float: right;
+	font-weight: normal;
+	font-style: italic;
+}
+
+#comments div.comment div.buried-message
+{
+	display: none;
+	color: #c0c0c0;
+}
+
+#comments div.comment div.buried-message div,
+#comments div.comment div.buried-message a
+{
+	float: left;
+}
+
+#comments div.comment div.buried-message div.by-you
+{
+	display: none;
+}
+
+#comments div.comment div.buried-message div
+{
+	margin-right: 4px;
+}
+
+#comments div.comment div.buried-message a
+{	
+	color: #999999;
+	text-decoration: underline;
+}
+
+#comments div.comment div.poster.buried1 a
+{
+	color: #999999;
+}
+
+#comments div.comment div.poster a.ignore
+{
+	font-size: 10px;
+}
+
+#comments div.comment div.poster,
+#comments div.comment div.message
+{
+	float: left;
+	padding: 7px 7px 4px 7px;
+	position: relative;
+	z-index: 1;	
+}
+
+#comments div.comment.comment-header div.poster,
+#comments div.comment.comment-header div.message
+{
+	padding-top: 0px;
+}
+
+
+#comments div.comment div.poster
+{
+	width: 150px;
+}
+
+#comments div.comment div.message
+{
+	width: 473px;
+	padding-right: 0px;
+	line-height: 1.3em;
+}
+
+#comments div.comment div.poster.buried1 a.username,
+#comments div.comment div.message.buried1 div.buried-message
+{
+	line-height: 1.4em;
+}
+
+#comments div.comment div.poster-details
+{
+	clear: both;
+}
+
+#comments div.comment div.poster,
+#comments div.comment div.message
+{
+
+}
+
+#comments div.comment div.poster a.username
+{
+	float: left;
+	font-weight: bold;
+	margin-right: 2px;
+}
+
+#comments div.comment div.message div.words
+{
+	padding-right: 4px;
+}
+
+.post-options
+{	
+	clear: both;	
+	font-family: Tahoma;
+	margin-top: 8px;
+}
+
+.post-options a
+{
+	display: block;
+	float: left;
+	padding: 2px 6px 0px 0px;
+}
+
+.post-options a.id
+{
+	float: right;
+}
+
+.datetime,
+.ignore-poster
+{
+	font-size: 90%;
+	color: #5c5c5c;
+	padding-bottom: 3px;
+}
+
+.moderator-tools
+{
+	padding-top: 8px;
+	font-size: 90%;
+}
+
+.moderator-tools a
+{
+	background-color: #eaeaea;
+	padding: 1px 4px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	text-decoration: none;
+}
+
+.moderator-tools a:hover
+{
+	background-color: #c0c0c0;
+}
+
+.editor
+{
+	margin-top: 12px;
+	font-style: italic;
+}
+
+/* ---- Karma buttons --------------------------------------------------------- */
+
+.karma-login-message
+{
+	display: none;
+	padding: 1px 0px 0px 3px;
+}
+
+.karma .karma-login-message a
+{
+	display: inline;
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+
+.karma
+{
+	float: right;
+	padding: 3px 3px 2px 4px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin: -3px 0px 0px 6px;
+	background-color: white;
+	border: 1px solid #e1e1e2;
+	opacity: .5;
+	filter: alpha(opacity = 40);
+}
+
+
+/* ---- Compress the karma positioning on buried comments ---- */
+
+.buried1 .karma
+{
+	margin-top: -4px;
+}
+
+.karma div
+{
+	float: left;
+}
+
+.karma div.buttons
+{
+	width: 36px;
+}
+
+.karma:hover
+{
+	opacity: 1;
+	filter: alpha(opacity = 100);
+}
+
+.karma strong
+{
+	display: block;
+	float: left;
+	padding: 2px 1px 0px 0px;
+	font-size: 90%;
+	font-weight: normal;
+	color: #7f7f7f;
+}
+
+.karma strong.positive
+{
+	color: #41b005;
+}
+
+.karma strong.negative
+{
+	color: #f14e4e;
+}
+
+.karma a
+{
+	display: block;
+	float: left;
+	clear: none;
+	margin-left: 2px;
+	text-decoration: none;
+}
+
+/* ---- Threshold form -------------------------------------------------------- */
+
+form.threshold-form
+{
+	float: right;
+	margin: -3px 0px 0px 0px;
+	padding: 0;
+	font-weight: normal;
+}
+
+form.threshold-form label
+{
+	color: black;
+}
+
+form#comment-form
+{
+	position: relative;
+}
+
+form#comment-form h5
+{
+	margin: 0px 0px 2px 0px;
+	padding: 0px 0px 2px 0px;
+}
+
+form#comment-form label
+{
+	display: block;
+	position: absolute;
+	top: -32px;
+	right: 0px;
+}
+
+/* ---- Allowed tags ---------------------------------------------------------- */
+
+span.allowedtags
+{
+	display: block;
+	float: right;
+	clear: none;
+	padding: 3px 0px 0px 0px;	
+	font-family: Tahoma, sans-serif;
+}
+
+#comments div.comment div.scorers
+{
+	position: relative;
+	width: 200px;
+	border: 1px solid #c0c0c0;
+	position: absolute;
+	background-color: white;
+	left: 106px;
+	bottom: 6px;
+	margin: 0;
+	padding: 4px 7px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	display: none;
+}
+
+#comments div.comment div.scorers h2
+{
+	font-size: 100%;
+	font-weight: bold;
+}
+
+#comments div.comment div.scorers a.close
+{
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 0px 4px 2px 4px;
+}
+
+#comments div.comment div.scorers p
+{
+	margin: 0;
+	padding: 0;
+}
+
+#comments div.comment div.scorers p span,
+#comments div.comment div.scorers p a
+{
+	display: inline;
+	width: auto;
+	float: none;
+	clear: none;
+}
+
+#comments div.comment div.scorers p span
+{
+	font-weight: bold;
+	padding-right: 2px;
+}
+
+#comments div.comment div.scorers p span.Y
+{
+	color: green;
+}
+
+#comments div.comment div.scorers p span.N
+{
+	color: red;
+}
+
+p#comment-success
+{
+	display: none;
+}
+
+#comments div.comment div.message a.show-deleted-comment
+{
+	background-color: #207efa;
+	line-height: 1em;
+	padding: 3px 3px;
+	font-size: 90%;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	color: white;
+	float: right;
+	text-decoration: none;
+}
+
+#comments div.comment div.message p.mod-comment
+{
+	color: #404040;
+}
+
+/*
+     FILE ARCHIVED ON 02:28:54 Feb 28, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:18:58 Aug 14, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 229.959
+  RedisCDXSource: 79.517
+  esindex: 0.013
+  exclusion.robots: 0.293
+  PetaboxLoader3.datanode: 227.232 (4)
+  CDXLines.iter: 19.35 (3)
+  LoadShardBlock: 125.389 (3)
+  PetaboxLoader3.resolve: 47.794
+  exclusion.robots.policy: 0.272
+  load_resource: 154.808
+*/

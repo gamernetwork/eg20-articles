@@ -1,0 +1,73 @@
+#leader,
+#toolbar,
+#nav,
+#footer,
+#comments,
+div.related-section.wide,
+div.mpuAd,
+#lowleader,
+#anticipation,
+#extra,
+.related-game-blocks,
+.related-game-title,
+#newFooter,
+p.aPager,
+#top-tabs,
+#egLogo,
+#blankLogo,
+#search,
+#login,
+.contents,
+.s-hidden,
+.expo,
+img,
+div.discussion,
+p.list,
+#viewer,
+#newFooter ul,
+#banner,
+#toolBar
+{
+	display: none;
+}
+
+body,
+#theTop
+{
+	background-image: none;
+}
+
+h1
+{
+	font-family: Georgia;
+}
+
+p,
+ul,
+h2,
+h3
+{
+	font-family: Arial;
+}
+
+/*
+     FILE ARCHIVED ON 02:28:52 Feb 28, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:19:11 Aug 14, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1115.956
+  RedisCDXSource: 2.601
+  esindex: 0.025
+  exclusion.robots: 0.318
+  PetaboxLoader3.datanode: 1852.072 (4)
+  CDXLines.iter: 19.504 (3)
+  LoadShardBlock: 1083.954 (3)
+  PetaboxLoader3.resolve: 68.421 (2)
+  exclusion.robots.policy: 0.288
+  load_resource: 839.564
+*/
