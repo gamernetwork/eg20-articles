@@ -1,45 +1,50 @@
 @font-face {
 	font-family: 'Proxima';
-	src: url('proximanova-reg-webfont.woff') format('woff');
+	src: url('http://static.eurogamer.net/fonts/proxima/proximanova-reg-webfont.eot#iefix') format('embedded-opentype'),
+			 url('http://static.eurogamer.net/fonts/proxima/proximanova-reg-webfont.woff') format('woff'),
+			 url('http://static.eurogamer.net/fonts/proxima/proximanova-reg-webfont.ttf') format('truetype'),
+			 url('http://static.eurogamer.net/fonts/proxima/proximanova-reg-webfont.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Proxima';
-	src: url('proximanova-sbold-webfont.woff') format('woff');
+	src: url('http://static.eurogamer.net/fonts/proxima/proximanova-sbold-webfont.eot#iefix') format('embedded-opentype'),
+			 url('http://static.eurogamer.net/fonts/proxima/proximanova-sbold-webfont.woff') format('woff'),
+			 url('http://static.eurogamer.net/fonts/proxima/proximanova-sbold-webfont.ttf') format('truetype'),
+			 url('http://static.eurogamer.net/fonts/proxima/proximanova-sbold-webfont.svg') format('svg');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Proxima';
-	src: url('proximanova-bold-webfont.woff') format('woff');
+	src: url('http://static.eurogamer.net/fonts/proxima/proximanova-bold-webfont.eot#iefix') format('embedded-opentype'),
+			 url('http://static.eurogamer.net/fonts/proxima/proximanova-bold-webfont.woff') format('woff'),
+			 url('http://static.eurogamer.net/fonts/proxima/proximanova-bold-webfont.ttf') format('truetype'),
+			 url('http://static.eurogamer.net/fonts/proxima/proximanova-bold-webfont.svg') format('svg');
 	font-weight: 800;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Proxima';
-	src: url('proximanova-regit-webfont.woff') format('woff');
+	src: url('http://static.eurogamer.net/fonts/proxima/proximanova-regit-webfont.eot#iefix') format('embedded-opentype'),
+			 url('http://static.eurogamer.net/fonts/proxima/proximanova-regit-webfont.woff') format('woff'),
+			 url('http://static.eurogamer.net/fonts/proxima/proximanova-regit-webfont.ttf') format('truetype'),
+			 url('http://static.eurogamer.net/fonts/proxima/proximanova-regit-webfont.svg') format('svg');
 	font-weight: normal;
 	font-style: italic;
 }
 
 body
 {
-	text-align: center;
 	font-size: 14px;
 	line-height: 18px;
 	color: #333333;
 	background-image: url(footer.png);	
-	font-family: Proxima, Arial, Verdana, sans-serif;
 	min-width: 1260px;
-}
-
-h1,h2,h3,h4,h5
-{
-	font-family: Proxima, Arial, Verdana, sans-serif;
 }
 
 #page-wrapper
@@ -50,7 +55,6 @@ h1,h2,h3,h4,h5
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-color: white;
-	/*background-image: url(background.jpg);*/
 }
 
 #page
@@ -58,43 +62,40 @@ h1,h2,h3,h4,h5
 	position: relative;
 	width: 1260px;
 	margin: 0 auto;
-	background-color: transparent;
-	text-align: left;
 	clear: both;
 }
 
 #header
 {
 	position: relative;
+	float: left;
 	width: 100%;
-	clear: both;
 	height: 119px;
 	z-index: 12;
-	background-color: black;
+	background-color: #eff1f7;
 	background-image: url(header-bg.png);
-	background-position: top;
+	background-position: top center;
 	background-repeat: repeat-x;
-	box-shadow: .5em 0 1em rgba(0,0,0,.5);
-
+	box-shadow: .5em 0 1em rgba(0,0,0,.25);
 }
 
 #logo img
 {
+	position: relative;
+	display: block;
 	width: 330px;
 	height: 65px;
-}
-
-#language-bar
-{
-	display: none;
 }
 
 #header-content
 {
 	position: relative;
 	margin: 0 auto;
+	clear: both;
 	width: 1260px;
 }
+
+/* ---- Navigation ------------------------------- */
 
 #navigation
 {
@@ -103,9 +104,7 @@ h1,h2,h3,h4,h5
 	left: 0;
 	z-index: 5;
 	width: auto;
-	background-color: transparent;
-	margin: 0;
-	
+	margin: 0;	
 }
 
 #navigation > ul
@@ -113,6 +112,13 @@ h1,h2,h3,h4,h5
 	display: block;
 	float: left;
 	width: 100%;
+}
+
+#navigation > ul > li
+{
+	margin: 0;
+	padding: 0;
+	float: left;
 }
 
 #navigation > ul > li > a
@@ -123,9 +129,12 @@ h1,h2,h3,h4,h5
 	color: white;
 	text-shadow: 0 -1px 0px #096be9;
 	color: white;
+	margin: 0;
 	padding: 7px 0;
 	font-size: 14px;
-	line-height: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 1;
 	background: -webkit-gradient(linear, left top, left bottom, from(#308ff5), to(#186ffc));
 	background: -moz-linear-gradient(top, #308ff5, #186ffc);
 	background: -o-linear-gradient(top, #308ff5, #186ffc);
@@ -208,6 +217,35 @@ h1,h2,h3,h4,h5
 	font-size: 20px;
 }
 
+.followBar {
+	margin: 0 0 0 0;
+	width: 960px;
+	height: 49px;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#616775), to(#474950));
+	background: -moz-linear-gradient(top,  #616775,  #474950);
+	background: -o-linear-gradient(top,  #616775,  #474950);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#616775', endColorstr='#474950');
+}
+.followBar > strong {
+	color: white;
+	text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
+	font-size: 20px;
+	position: absolute;
+	top: 0.8em;
+	left: 0.60em;
+}
+.social > p {
+	padding-top: 2px;
+	padding-right: 6px;
+	font-size: 20px;
+}
+.social > p > b {
+	color: #FFDE15;
+}
+div.social {
+	color: white;
+}
+
 #content
 {
 	position: relative;
@@ -218,7 +256,7 @@ h1,h2,h3,h4,h5
 	margin: 0;
 	padding: 0;
 	background-color: white;	
-	background-image: url(sidebar.png);
+	background-image: url(/web/20170406130109im_/http://littleboy-egnet.eurogamer.net/img/EurogamerPage/sidebar.png);
 	background-repeat: repeat-y;
 	z-index: 5;
 	overflow: visible;
@@ -241,7 +279,6 @@ div.content
 	margin: 45px 0 15px 0;
 	padding: 0 15px;
 	list-style: none;
-	font-family: Proxima, sans-serif;
 	font-size: 14px;
 }
 
@@ -277,13 +314,17 @@ div.content
 	clear: both;
 	width: 1260px;
 	margin: 0 auto;
-	padding: 20px 0 0 0;
+	padding: 20px 0;
 	text-align: left;
-	min-height: 110px;
+	min-height: 90px;
 }
 
 #adleaderboardContainer {
 	padding: 0 0 0 116px;
+}
+
+#leaderboard .advertContainer {
+	width: 100%;
 }
 
 body.skin #leaderboard {
@@ -311,6 +352,13 @@ body.skin #adleaderboardContainer {
 	margin: 0 auto;
 }
 
+#extra-leaderboard.leaderboard {
+    margin: 15px auto 0 auto;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
 #skyscraper
 {
 	position: relative;
@@ -320,6 +368,10 @@ body.skin #adleaderboardContainer {
 	width: 300px;
 	min-height: 600px;
 	z-index: 5;
+}
+
+body.skin #skyscraper {
+	margin-top: 0 !important;
 }
 
 #adad-breakContainer,
@@ -336,16 +388,16 @@ body.skin #adleaderboardContainer {
 {
 	position: absolute;
 	display: block;
-	right: 0;
+	right: 5px;
 	top: 88px;
-	width: 293px;
+	width: 290px;
 	height: 28px;
 	z-index: 4;
 }
 
 #search input[type=text]
 {
-	width: 228px;
+	width: 225px;
 }
 
 #search input
@@ -356,7 +408,7 @@ body.skin #adleaderboardContainer {
 	padding: 6px 5px;
 	margin: 0;
 	border: 0;
-	box-shadow: inset 0 0 10px #b0b0b0;
+	box-shadow: inset 0 0 5px #b0b0b0;
 	border-radius: 5px 0 0 5px;
 	-moz-radius: 5px 0 0 5px;
 	-webkit-border-radius: 5px 0 0 5px;
@@ -364,6 +416,7 @@ body.skin #adleaderboardContainer {
 
 #search input[type=submit]
 {
+	float: right;
 	box-shadow: none;
 	border-radius: 0 5px 5px 0;
 	-moz-radius: 0 5px 5px 0;
@@ -421,19 +474,19 @@ ul#promos li:nth-child(2)
 	border-right: 0;	
 }
 
-ul#promos li > p > a
+ul#promos li > span > a
 {
 	display: block;
 	clear: both;
 	font-size: 16px;
-	line-height: 16px;
+	line-height: 1;
 	font-weight: bold;
 	margin: 0;
 	padding: 0;
 	text-shadow: 0 1px 0px white;
 }
 
-ul#promos li > p > span
+ul#promos li > span > span
 {
 	display: block;
 	font-size: 11px;
@@ -446,10 +499,11 @@ ul#promos li > p > span
 	text-shadow: 0 1px 0px white;
 }
 
-ul#promos li p
+ul#promos li > span
 {
 	margin-left: 10px;
 	margin-right: 10px;
+	display: block;
 }
 
 ul#promos li#boom-box
@@ -485,7 +539,6 @@ ul#promos li#boom-box a
 	right: 10px;
 	background-color: black;
 	color: white;
-	box-shadow: 0 0 4px #909090;
 	text-align: center;
 	padding: 4px 0; 
 	opacity: 0.9;
@@ -528,54 +581,44 @@ ul#promos li#boom-box span span.period
 
 /* ---- Login box -------------------------------- */
 
-#account form#login
+#account #login,
+#account #login *
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#account #login
 {
 	position: absolute;
-	display: none;
-	float: left;
-	clear: both;	
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-	top: 45px;
-	right: 15px;
 	background-color: white;
+	width: 210px;
+	z-index: 6;
 	margin: 0;
-	width: 258px;
-	padding: 10px 0 10px 10px;
-	border: 10px solid black;
-	border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px;
+	padding: .75rem;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.25);
+	display: none;
+	top: 45px;
+	right: 90px;
 	z-index: 5;
 }
 
-#account img.pop-arrow {
+#account #login .arrow
+{
 	position: absolute;
-	top: -27px;
-	left: 0px;
-	width: 20px;
-	height: 15px;
+	top: -10px;
+	left: 10px;
 	background: none;
 	border: none;
 }
 
 #account form#login fieldset
 {
-	width: 50%;
+	width: 100%;
 	float: left;
 	clear: none;
-}
-
-#account form#login strong
-{
-	display: block;
-	float: left;
-	font-weight: bold;
-	color: black;
-	margin-bottom: 12px;
-}
-
-#account form#login input
-{
-	display: block;
-	float: left;
 }
 
 #account form#login label,
@@ -583,26 +626,22 @@ ul#promos li#boom-box span span.period
 {
 	display: block;
 	float: left;
-	clear: none;
+	width: 100%;
 }
 
 #account form#login label
 {
-	clear: left;
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: bold;
 	padding: 0;
-	text-align: left;
 	color: #595b63;
 }
 
 #account form#login input
 {
-	float: left;
-	width: 114px;
-	padding: 4px 2px;
+	padding: .3rem;
 	margin: 0;
-	margin-bottom: 4px;
+	margin-bottom: .5rem;
 }
 
 #account form#login div.facebook-login
@@ -616,23 +655,24 @@ ul#promos li#boom-box span span.period
 {
 	margin: 5px 0 0 0;
 	padding: 5px 6px 4px;
-	width: auto;
+	width: 100%;
 }
 
 #account form#login a.forgotten
 {
 	display: block;
 	float: left;
-	clear: none;
+	width: 100%;
 	font-size: 11px;
 	font-family: Verdana, sans-serif;
-	padding: 8px 0 0 7px;
+	margin: 5px 0 0;
+	text-align: center;
 }
 
 #account div.buttons
 {
 	margin: 0;
-	padding: 0 8px;
+	padding: 0 5px;
 	width: 270px;
 	text-align: center;
 }
@@ -657,25 +697,6 @@ ul#promos li#boom-box span span.period
 	margin: 0 auto;
 }
 
-.notifier p
-{
-	position: relative;
-	max-width: 940px;
-}
-
-.notifier a.tool.plain
-{
-	position: absolute;
-	top: 12px;
-	left: 965px;
-}
-
-.notifier div
-{
-	width: 1240px;
-	padding: 0 10px;
-}
-
 ul#promos li#boom-box div {
 	position: relative;
 	left: 0;
@@ -695,3 +716,28 @@ ul#promos li#boom-box a {
 	-moz-border-radius: 0px;
 	-webkit-border-radius: 0px;
 }
+ul#promos li#boom-box .advertContainer {
+	width: 100%;
+}
+
+/*
+     FILE ARCHIVED ON 13:01:09 Apr 06, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:36:59 Aug 30, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.resolve: 121.88
+  CDXLines.iter: 21.218 (3)
+  RedisCDXSource: 138.859
+  esindex: 0.01
+  PetaboxLoader3.datanode: 203.489 (4)
+  load_resource: 185.967
+  captures_list: 332.184
+  LoadShardBlock: 161.261 (3)
+  exclusion.robots.policy: 0.236
+  exclusion.robots: 0.253
+*/

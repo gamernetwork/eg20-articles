@@ -22,7 +22,7 @@
 {
 	float: none;
 	width: 728px;
-	height: 90px;
+	min-height: 90px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -31,17 +31,19 @@
 
 #content div.related
 {
+	float: right;
+	clear: none;
 	width: 600px;
-	margin: 0 15px 15px;
+	margin: 0 0 15px 0;
 }
 
-#content div.related ul li
+body a.newsletter-promo
 {
-	width: 190px;
+	width: 600px;
 }
 /*
-     FILE ARCHIVED ON 08:25:36 Apr 21, 2014 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 16:06:47 Aug 29, 2019.
+     FILE ARCHIVED ON 13:01:33 Apr 06, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:36:58 Aug 30, 2019.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -49,14 +51,14 @@
 */
 /*
 playback timings (ms):
-  esindex: 0.012
-  PetaboxLoader3.datanode: 88.55 (5)
-  exclusion.robots: 0.181
-  LoadShardBlock: 67.452 (3)
-  CDXLines.iter: 16.344 (3)
-  RedisCDXSource: 9.547
-  captures_list: 97.688
-  exclusion.robots.policy: 0.166
-  PetaboxLoader3.resolve: 190.806 (2)
-  load_resource: 250.785
+  CDXLines.iter: 15.431 (3)
+  LoadShardBlock: 81.49 (3)
+  RedisCDXSource: 2.967
+  captures_list: 105.125
+  PetaboxLoader3.resolve: 164.532
+  load_resource: 216.285
+  PetaboxLoader3.datanode: 88.763 (4)
+  exclusion.robots: 0.233
+  esindex: 0.011
+  exclusion.robots.policy: 0.218
 */
