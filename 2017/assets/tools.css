@@ -1,0 +1,429 @@
+a.button,
+form button[type=submit].tool,
+form input[type=submit]
+{
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	display: block;
+	float: left;
+	background-color: #0069ff;
+	background-repeat: repeat-x;	
+	border: 0;
+	color: white;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	width: auto;
+	cursor: pointer;
+	-webkit-appearance: none;
+	border-top: 1px solid #67aff9;
+	border-bottom: 1px solid #0145a7;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#248af6), to(#0160e7));
+	background-image: -moz-linear-gradient(top, #248af6, #0160e7);
+	background-image: -o-gradient(linear, center top, center bottom, from(#616775), to(#0160e7));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#248af6', endColorstr='#0160e7');
+	border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.5);	
+	-webkit-font-smoothing: antialiased;
+}
+
+a.button:hover,
+form button[type=submit],
+form input[type=submit]:hover
+{
+	text-decoration: none;
+	background-color: #005bdd;
+	transition: 0.2s;
+	-moz-transition: 0.2s;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+}
+
+a.tool,
+form input[type=submit].tool,
+form button[type=submit].tool,
+span.tool,
+form.inline input[type=submit]
+{
+	font-family: Verdana, sans-serif;
+	display: block;
+	float: left;
+	background-color: #EEE;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(white), to(#E9E9E9));
+	background-image: -moz-linear-gradient(top, white, #E9E9E9);
+	background-image: -o-gradient(linear, center top, center bottom, from(white), to(#E9E9E9));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e9e9e9');
+	min-width: 20px;
+	text-align: left;
+	font-weight: normal;
+	text-decoration: none;
+	border: 1px solid #CCCDD3;
+	margin-right: 4px;
+	font-size: 11px;
+	line-height: 1;
+	color: #0069ff;
+	text-shadow: 0px 1px 0px white;
+	border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px;
+	text-decoration: none;
+	padding: 4px 5px 5px;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+#browserMaster.mobile a.tool,
+#browserMaster.mobile form input[type=submit].tool,
+#browserMaster.mobile form button[type=submit],
+#browserMaster.mobile span.tool
+{
+	padding: 6px 6px;
+	height: auto;
+	background-position-x: -302px;
+}
+
+form.inline input[type=submit],
+form.inline button[type=submit]
+{
+	padding-left: 6px;
+}
+
+a.tool:hover,
+form input[type=submit].tool:hover,
+form button[type=submit].tool:hover,
+span.tool:hover
+{
+	text-decoration: none;
+	cursor: pointer;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#E9E9E9), to(white));
+	background-image: -moz-linear-gradient(top, #E9E9E9, white);
+	background-image: -o-gradient(linear, center top, center bottom, from(#E9E9E9), to(white));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E9E9E9', endColorstr='#ffffff');
+}
+
+span.tool {
+	color: black;
+	opacity: 0.5;
+}
+
+form input.disabled
+{
+	opacity: 0.5;
+}
+
+
+a.tool:active,
+a.tool.on,
+form input[type=submit].tool:active
+{
+	color: white;
+	background-color: #525252;
+	text-shadow: 0px 1px 0px black;
+	border: 1px solid #2c2c2c;
+
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#525252), to(#3e3e3e));
+	background-image: -moz-linear-gradient(top, #525252, #3e3e3e);
+	background-image: -o-gradient(linear, center top, center bottom, from(#525252), to(#3e3e3e));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#525252', endColorstr='#3e3e3e');
+}
+
+a.tool.smilie
+{
+	vertical-align: middle;
+	padding-left: 0;
+}
+a.tool.smilie img
+{
+	float: left;
+	margin: 0px 4px;
+	height: 15px
+}
+
+input[type=submit].tool,
+button[type=submit].tool
+{
+	float: none;
+	display: inline;
+}
+
+/* ---- Counts for follow buttons -------------------------- */
+
+a.tool.follow > span:nth-child(3),
+a.tool.unfollow > span:nth-child(3)
+{
+	background-color: white;
+	color: white;
+	border-radius: 2px;
+	padding: 0 2px;
+	color: #4b4c55;
+	border-top: 1px solid #d6d8de;
+}
+
+#content form.inline
+{
+	display: block;
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+}
+
+#content form.inline *
+{
+	display: inline;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#content form.inline.link input[type=submit],
+#content form.inline.link button[type=submit]
+{
+	display: inline;
+	color: #0069ff;
+	padding: inherit;
+	font-family: Proxima, Arial, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	border: none;
+	background-image: none;
+	background-color: transparent;
+	box-shadow: none;
+	-webkit-font-smoothing: antialiased;
+	border-radius: 0;
+}
+
+#content form.inline.link input[type=submit]:hover,
+#content form.inline.link button[type=submit]:hover
+{
+	text-decoration: underline;
+}
+
+
+article .social-buttons,
+article .social-buttons *
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+article .social-buttons,
+article .social-buttons > ul,
+article .social-buttons > ul > li,
+article .social-buttons > ul > li > a,
+article .social-buttons > ul > li > strong
+{
+	position: relative;
+	display: block;
+	float: left;
+	clear: both;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+article .social-buttons
+{
+	padding-bottom: 15px;
+}
+
+article .social-buttons.bottom
+{
+	padding-top: 15px;
+}
+
+article .social-buttons > ul
+{
+
+}
+
+article .social-buttons > ul > li
+{
+	clear: none;
+	width: 25%;
+}
+
+article .social-buttons > ul > li > strong,
+article .social-buttons > ul > li > a
+{
+	line-height: 1;
+	padding: .4em 0 .2em;
+}
+
+article .social-buttons > ul > li:first-of-type
+{
+	width: 100%;
+	clear: both;
+}
+
+article .social-buttons > ul > li:nth-of-type(2) > a
+{
+	border-radius: .25em 0 0 .25em;
+	border-left-width: 0;
+}
+
+article .social-buttons > ul > li:last-of-type > a
+{
+	border-radius: 0 .25em .25em 0;
+}
+
+article .social-buttons > ul > li > strong
+{
+	padding-left: 0;
+	padding-right: 0;
+	color: #808080;
+}
+
+article .social-buttons > ul > li > a
+{
+	background-color: #0069ff;
+	color: white;
+	font-size: .9em;
+	-webkit-font-smoothing: antialiased;
+	text-decoration: none;
+	text-shadow: 0 -1px 1px rgba(0,0,0,.5);
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid rgba(255,255,255,.4);
+	border-bottom: 1px solid rgba(0,0,0,.4);
+	border-left: 1px solid rgba(0,0,0,.1);	
+}
+
+article .social-buttons > ul > li > a > span
+{
+	font-size: .85em;
+}
+
+article .social-buttons > ul > li > a > .count
+{
+	display: none;
+}
+
+article .social-buttons > ul > li > .facebook
+{
+	background-color: #3d5b97;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#3d5b97), to(#324b7c));
+	background-image: -moz-linear-gradient(top, #3d5b97, #324b7c);
+	background-image: -o-gradient(linear, center top, center bottom, from(#3d5b97), to(#324b7c));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d5b97', endColorstr='#324b7c');
+}
+
+article .social-buttons > ul > li > .twitter
+{
+	background-color: #24aeec;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#24aeec), to(#209cd4));
+	background-image: -moz-linear-gradient(top, #24aeec, #209cd4);
+	background-image: -o-gradient(linear, center top, center bottom, from(#24aeec), to(#209cd4));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#24aeec', endColorstr='#209cd4');
+}
+
+article .social-buttons > ul > li > .reddit
+{
+	background-color: #ff4500;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#ff4500), to(#cd3700));
+	background-image: -moz-linear-gradient(top, #ff4500, #cd3700);
+	background-image: -o-gradient(linear, center top, center bottom, from(#ff4500), to(#cd3700));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4500', endColorstr='#cd3700');
+}
+
+article .social-buttons > ul > li > .google
+{
+	background-color: #dd4b39;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#dd4b39), to(#c44333));
+	background-image: -moz-linear-gradient(top, #dd4b39, #c44333);
+	background-image: -o-gradient(linear, center top, center bottom, from(#dd4b39), to(#c44333));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dd4b39', endColorstr='#c44333');
+}
+
+article .social-buttons > ul > li > .wykop
+{
+	background-color: #fb5625;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#fb5625), to(#e14d21));
+	background-image: -moz-linear-gradient(top, #fb5625, #e14d21);
+	background-image: -o-gradient(linear, center top, center bottom, from(#fb5625), to(#e14d21));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb5625', endColorstr='#e14d21');
+}
+
+article .social-buttons > ul > li > a > i:before
+{
+	display: block;
+	clear: both;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	font-size: 1em;
+	line-height: 1;
+}
+
+@media screen and (min-width: 769px)
+{
+	article .social-buttons > ul > li,
+	article .social-buttons > ul > li:first-of-type
+	{
+		width: auto;
+	}
+
+	article .social-buttons > ul > li > strong
+	{
+		padding-right: .4em;
+	}
+	
+	article .social-buttons > ul > li > a
+	{
+		padding: .4em .6em .3em;
+		padding-right: .4em;
+	}
+	
+	article .social-buttons > ul > li > a > i:before
+	{
+		display: inline-block;
+		margin-right: .2em;
+	}
+	
+	article .social-buttons > ul > li > a > span
+	{
+		display: inline;
+		font-size: .95em;
+		font-family: Verdana, sans-serif;
+		line-height: 1;
+	}
+
+	article .social-buttons > ul > li > a > .count
+	{
+		display: inline;
+		margin-left: .5em;
+		background-color: rgba(0,0,0,.2);
+		color: white;
+		border-radius: .2em;
+		font-size: .85em;
+		padding: .15em .25em .15em;
+		line-height: 1;
+	}
+
+	article .social-buttons.top > ul > li > a > .count
+	{
+		margin-top: .1em;
+	}
+}
+/*
+     FILE ARCHIVED ON 08:25:21 Apr 21, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:06:45 Aug 29, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.206
+  CDXLines.iter: 13.809 (3)
+  esindex: 0.014
+  load_resource: 207.1
+  RedisCDXSource: 12.839
+  PetaboxLoader3.datanode: 68.704 (5)
+  captures_list: 92.004
+  PetaboxLoader3.resolve: 114.754 (2)
+  LoadShardBlock: 61.733 (3)
+  exclusion.robots: 0.216
+*/
