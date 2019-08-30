@@ -1,0 +1,64 @@
+#content form textarea
+{
+	margin: 0 0 5px 0;
+}
+
+/* ---- Low leaderboard -------------------------- */
+
+#low-leaderboard
+{
+	position: relative;
+	clear: both;
+	width: 960px;
+	padding: 15px 0;
+	background-color: white;
+	margin: 0;
+	border-top: 5px solid #eff1f7;
+	z-index: 4;
+	text-align: center;
+}
+
+.low-leaderboard
+{
+	float: none;
+	width: 728px;
+	min-height: 90px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* ---- Related stories -------------------------- */
+
+#content div.related
+{
+	float: right;
+	clear: none;
+	width: 600px;
+	margin: 0 0 15px 0;
+}
+
+body a.newsletter-promo
+{
+	width: 600px;
+}
+/*
+     FILE ARCHIVED ON 13:01:33 Apr 06, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:36:58 Aug 30, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  CDXLines.iter: 15.431 (3)
+  LoadShardBlock: 81.49 (3)
+  RedisCDXSource: 2.967
+  captures_list: 105.125
+  PetaboxLoader3.resolve: 164.532
+  load_resource: 216.285
+  PetaboxLoader3.datanode: 88.763 (4)
+  exclusion.robots: 0.233
+  esindex: 0.011
+  exclusion.robots.policy: 0.218
+*/

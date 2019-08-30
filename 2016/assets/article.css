@@ -1,0 +1,1084 @@
+header, nav, section, article, aside, footer {
+   display:block;
+}
+
+article
+{
+	position: relative;
+	clear: both;
+	font-family: "Proxima", sans-serif;
+}
+
+article > section
+{
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+article p,
+article ul
+{
+	color: black;
+	line-height: 1.35;
+	text-shadow: none;
+
+	padding: 0;
+	margin: 0 30px 20px 0;
+}
+
+article ul
+{
+	clear: left;
+	list-style: square;
+	padding-left: 20px;
+}
+
+article ul > li
+{
+	margin: 0;
+	padding: 0 0 5px;
+}
+
+article ul > li:last-of-type
+{
+	padding: 0;
+}
+
+article section > h2
+{
+	clear: both;
+	font-size: 20px;
+	font-weight: bold;
+	margin: .5em 0 .5em;
+}
+
+article section > h2,
+article section strong
+{
+	color: black;
+}
+
+article section object,
+article section iframe
+{
+	display: block;
+	float: left;
+	margin-bottom: 20px;
+}
+
+/* ---- Illustrations ----------------------------- */
+
+article .illustration,
+article .illustrationPreview,
+article .video
+{
+	color: white;
+	margin: 0 0 20px 0;
+	max-width: 100%;
+}
+
+article .illustration > *,
+article .illustrationPreview > *,
+article .video > *
+{
+	display: block;
+	clear: both;
+}
+
+article .video
+{
+	position: relative;
+}
+
+article .video > .container
+{
+	position: relative;
+	float: left;
+	clear: both;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+	overflow: hidden;
+}
+
+article .video > .container > *
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+article .illustration > img,
+article .illustrationPreview > img
+{
+	max-width: 100%;
+	border-radius: 2px 2px 0 0;
+}
+
+article .illustration > img.clickable,
+article .illustrationPreview > img.clickable
+{
+	cursor: pointer;
+}
+
+article.hd .illustration.wide
+{
+	margin-left: -330px;
+}
+
+article.hd .illustration.wide,
+article.hd .illustration.wide > img
+{
+	width: 930px !important;
+	max-width: none;
+}
+
+article .caption
+{
+	display: block;
+	background-color: #0d0d0d;
+	margin: 0;
+	padding: 10px;
+	font-size: 14px;
+	line-height: 1.1;
+	color: white;
+	border-radius: 0 0 2px 2px;
+}
+
+/* ---- IllustrationPreview specific -------------------- */
+
+article .illustrationPreview
+{
+	width: 300px;	
+	clear: both;
+}
+
+article.hd .illustrationPreview,
+article.hd .illustration.right,
+article.hd .illustration.left
+{
+	float: right;
+	clear: none;
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+article.hd .illustrationPreview.left,
+article.hd .illustration.left
+{
+	float: left;
+	margin-right: 20px;
+	margin-left: 0;
+}
+
+article .divider
+{
+	float: left;
+	clear: both;
+	width: 100%;
+	height: 4px;
+	background-color: #eff1f7;
+	border: 1px solid #d5d6dc;
+	border-radius: 2px;
+	margin: 0 0 16px 0;
+}
+
+/* ---- Podcast ----------------------------------------- */
+
+article > section > .podcast,
+article > section > .podcast object,
+article > section > .podcast embed
+{
+	float: none;
+	clear: both;
+	margin: 0;
+	width: 290px;
+	text-align: left;
+}
+
+article > section > .podcast
+{
+	margin: 0 0 20px 0;
+}
+
+/* ---- Pullquotes -------------------------------------- */
+
+article .pullquote,
+article .pullquote *
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+article .pullquote
+{
+	margin: 0 25px 20px;
+	text-align: center;
+}
+
+article.hd .pullquote.left,
+article.hd .pullquote.right
+{
+	width: 300px;
+	border-top: 2px solid #E4E6EB;
+	padding-top: 10px;
+	margin: 3px 0 20px;
+}
+
+article.hd .pullquote.left
+{
+	position: absolute;
+	margin-left: -330px;
+	text-align: right;
+	padding-left: 45px;
+}
+
+article.hd .pullquote.right
+{
+	float: right;
+	margin-left: 20px;
+	text-align: left;
+}
+
+article .pullquote p
+{
+	line-height: 1.1;
+	font-size: 24px;
+	font-weight: 900;
+	margin: 0 0 4px 0;
+	padding: 0;
+}
+
+article .pullquote p.citation:before
+{
+	content: "\2013";
+}
+
+article .pullquote p.citation
+{
+	font-size: 18px;
+}
+
+article .video
+{
+	margin: 0 0 20px 0;
+	float: left;
+	width: 100%;
+}
+
+article.hd .video.left
+{
+	clear: none;
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+}
+
+/* --------------- TODO --------------------------------- */
+
+article div.video object
+{
+	margin-bottom: 0;
+}
+
+article blockquote.twitter-tweet
+{
+	border-color: rgb(238, 238, 238) rgb(221, 221, 221) rgb(187, 187, 187);
+	border-width: 1px;
+	border-style: solid;
+	box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 3px;
+	padding: 1em;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0 0 25px;
+	border-radius: 5px;
+	float: left;
+}
+article iframe.twitter-tweet {
+	float: none;
+}
+
+article blockquote.twitter-tweet > p
+{
+	font: 18px/24px Georgia,"Times New Roman",Palatino,serif;
+}
+
+article .twitter-tweet-rendered
+{
+	clear: both !important;
+	margin: 0 0 25px !important;
+}
+
+article img.inline-icon
+{
+	padding-left: 4px;
+}
+
+article ol
+{
+	margin: 0 40px 20px 30px;
+}
+
+article ol,
+article ol > li
+{
+	list-style-type: decimal;
+}
+
+article > ul {
+	margin: 20px 40px 20px 20px;
+	list-style-type: disc;
+}
+
+article > p
+{
+	margin-bottom: 14px;
+}
+
+article p.score
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	color: #808080;
+	margin: 0 15px 25px 0;
+	padding: 0;
+	float: left;
+}
+
+article p.score big
+{
+	margin: 0 -4px 0 4px;
+	padding: 0;
+	font-size: 48px;
+	font-weight: bold;
+	color: black;
+	line-height: 38px;
+}
+
+article p.score span
+{
+	margin-left: -5px;
+}
+
+article div.scoring-policy-wrapper
+{
+    text-align: right;
+}
+
+article a.scoring-policy.de
+{
+    float: none;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+
+article p span.whoistalking
+{
+	font-weight: bold;
+}
+
+
+#content article table
+{
+	clear: both;
+	border: 1px solid #e0e0e0;
+}
+
+article table th,
+article table td
+{
+	padding: .5em;
+	text-align: left;
+}
+
+/* ---- Sidebar ----------------------------------------- */
+
+article aside,
+article aside *
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+article aside
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	clear: both;
+	margin: 0 0 20px;
+	color: #404040;
+	background-color: white;
+	border: 1px solid #dadada;
+	border-radius: .3em;
+	box-shadow: none;
+	overflow: hidden;
+}
+
+article aside.active
+{
+	border-bottom: 4px solid #404040;
+}
+
+article aside > .toggle > i:before
+{
+	transition: .2s;
+}
+
+article aside.active > .toggle > i:before
+{
+	opacity: 1;
+	-webkit-transform: rotate(180deg);
+}
+
+article aside > .toggle,
+article aside > .toggle > i,
+article aside > .toggle > i:before
+{
+	position: relative;
+	display: inline-block;
+	color: black !important;
+	padding: 0;
+	font-size: 1em;
+	line-height: 2.5em;
+	text-align: right;
+}
+
+
+article aside > .toggle
+{
+	display: block;
+	position: absolute;
+	z-index: 4;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3em;
+	text-decoration: none;
+	opacity: .75;
+	transition: .2s;
+	padding: 0 1em;
+}
+
+article aside > h2
+{
+	position: relative;
+	z-index: 3;
+	margin: 0;
+	padding: .5em .65em 1.1em;
+	font-size: 1.15em;
+	font-weight: normal;
+	clear: both;
+	color: #404040;
+	background-image: url(title.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	margin-bottom: -0.7em;
+	border-radius: .25em .25em 0 0;
+}
+
+article aside.active > h2
+{
+	border-radius: .25em .25em 0 0;
+}
+
+article aside > div
+{
+	display: block;
+	float: left;
+	width: 100%;
+	padding: 1em;
+	display: none;
+}
+
+article aside > div object,
+article aside > div iframe
+{
+	max-width: 100%;
+	background-color: black;
+}
+
+article aside > div > ul
+{
+	padding-left: 0;
+}
+
+article aside > div *:last-child
+{
+	margin-bottom: 0;
+}
+
+article aside.active > div
+{
+	display: block;
+}
+
+@media screen and (min-width: 769px)
+{	
+	article aside > h2
+	{
+		border-radius: 0;
+	}
+	
+	article aside > .toggle
+	{
+		display: none;
+	}
+	
+	article aside > div
+	{
+		display: block;
+	}
+}
+
+article.hd aside
+{
+	position: absolute;
+	left: -330px;
+	width: 300px;
+}
+
+article.hd aside.right
+{
+	position: relative;
+	left: auto;
+	float: right;
+	margin-left: 20px;
+}
+
+article aside > div > .illustration,
+article aside > div > .illustration > img,
+article aside > div > .illustrationPreview,
+article aside > div > .illustrationPreview > img
+{
+	display: block;
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	margin-left: 0 !important;
+}
+
+article aside ul li,
+article aside ol li
+{
+	margin: 0 0 5px 18px;
+	padding: 0;
+	list-style-position: outside;
+}
+
+article aside ul li
+{
+	list-style-type: disc;
+}
+
+article aside ol li
+{
+	line-height: 1.4em;
+	font-size: 14px;
+}
+
+article aside p
+{
+	margin-right: 0;
+}
+
+article aside table
+{
+	box-shadow: none;
+}
+
+/* ---- Image gallery ---------------------------- */
+
+#content div.image-gallery
+{
+	clear: both;
+	margin: 0px auto 20px;
+	padding: 0;
+	text-align: left;
+}
+
+#content div.image-gallery div.illustration,
+#content div.image-gallery div.illustrationPreview
+{
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+	width: 50%;
+	background-color: transparent;
+}
+
+#content div.image-gallery div.illustration img,
+#content div.image-gallery div.illustrationPreview img
+{
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#content div.image-gallery p.caption
+{
+	float: none;
+	clear: both;
+	width: auto;
+}
+
+/* ---- Paging ---------------------------- */
+
+article div.pager
+{
+	position: relative;
+	float: left;
+	clear: both;
+	width: 100%;
+	margin: 0;
+	padding: 0 0 15px;
+}
+
+article div.pager > a
+{
+	margin-right: .6em;
+}
+
+article div.pager > a > i
+{
+	display: inline-block;
+	width: .75em;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	opacity: .25;
+	transition: .3s;
+}
+
+article div.pager > a:hover > i
+{
+	opacity: 1;
+}
+
+/* ---- Staff -------------------------- */
+
+article .staff {
+	position: relative;
+	clear: both;
+	border-bottom: 1px solid #e4e6eb;
+	margin-bottom: 10px;
+	padding: 5px 0 0 140px;
+	min-height: 160px;
+}
+
+article .staff:last-child {
+	border-bottom: none;
+}
+
+article .staff,
+article .staff .illustration,
+article .staff ul,
+article .staff p.bio {
+	float: left;
+}
+
+article > .staff h2 {
+	margin-bottom: 0px;
+}
+
+article .staff h5 {
+	font-size: 14px;
+	font-weight: normal; 
+	margin: 0px 0px 10px 0px;
+}
+
+article .staff .illustration {
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	width: 126px !important;
+}
+
+article .staff .illustration img {
+	width: 100%;
+	height: auto;
+}
+
+/* ---- Promotions -------------------------------------- */
+
+article a.promotion
+{
+	position: absolute;
+	left: -330px;
+	margin: 0;
+}
+
+a.promotion
+{
+	position: relative;
+	display: block;
+	float: left;
+	width: 300px;
+	overflow: hidden;
+	margin: 15px 0 0;
+	padding: 0;
+	text-decoration: none;
+	cursor: pointer;
+	text-shadow: none;
+	background-color: transparent;
+	border: 1px solid #dadada;
+	border-radius: .3em;
+}
+
+a.promotion.comments
+{
+	clear: both;
+	position: relative;
+	margin-top: 5px;
+	left: 0;
+}
+
+a.promotion img
+{
+	position: relative;
+	display: block;
+	bottom: 0;
+	left: 0;
+	width: 300px;
+	border-radius: 2px;
+}
+
+a.promotion span.details
+{
+	position: absolute;
+	display: block;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+	padding: 7px 10px 10px !important;
+	border-top: 1px solid #7C8088;
+	box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.25);	
+	background-color: #505660;
+	color: #89D5FF;
+	z-index: 2;
+	font-family: "Proxima", Arial, sans-serif;
+	font-weight: 900;
+	font-size: 18px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.25);
+	line-height: 1.2;
+}
+
+a.promotion span.details span
+{
+	display: block;
+	font-weight: normal;
+	font-size: 11px;
+	font-family: Verdana, sans-serif;
+	line-height: 1.3;
+	color: white;
+}
+
+/* ---- Boxout ------------------------------------------ */
+
+article .boxout,
+article .boxout *
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+article .boxout
+{
+	position: absolute;
+	width: 300px;
+	margin: 0 0 0 -330px;
+	padding: 10px;
+	background-color: white;
+	border-bottom: 4px solid #404040;
+	box-shadow: 0 0 4px rgba(0,0,0,0.25);
+	border-radius: .25em;
+}
+
+article .boxout.inside
+{
+	position: relative;
+	float: right;
+	margin: 0 0 30px 30px;
+}
+
+article .boxout h4
+{
+	background-color: #393939;
+	color: white;
+	margin: -10px -10px 0 -10px;
+	padding: 10px;
+	font-size: 20px;
+	text-shadow: 0px -1px 0px rgba(0,0,0,1);
+	border-radius: 3px 3px 0px 0px;
+}
+
+article .boxout h4 a {
+	color: #89D5FF;
+}
+
+article .boxout ul
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	list-style: none;
+}
+
+article .boxout ul li
+{
+	list-style: none;
+	clear: both;
+	margin: 0;
+	padding: 10px 0 9px;
+	background-color: white;
+	border-bottom: 1px solid #eff1f7;
+}
+
+article .boxout ul li:last-child
+{
+	border-bottom: none;
+}
+
+article .boxout ul li.video img
+{
+	width: 100%;
+}
+
+article .boxout ul li.screens img
+{
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0 5px 5px 0;
+}
+
+article .boxout ul li.screens img:nth-child(3n)
+{
+	margin-right: 0;
+}
+
+article .boxout ul li.screens img:nth-child(3n+1)
+{
+	clear: left;
+}
+
+article .boxout ul li h5,
+article .boxout ul li p
+{
+	clear: left;
+}
+
+article .boxout ul li h5
+{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	line-height: 17px;
+	color: black;
+	letter-spacing: normal;
+}
+
+article .boxout ul li p
+{
+	font-size: 14px;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+}
+
+/* ---- Inner-caption illustrations --------------------- */
+
+article .illustration.inner-caption
+{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	box-shadow: inset 0 0 50px #303030;	
+	clear: both;
+	background-color: transparent;
+}
+
+article .illustration.inner-caption,
+article .illustration.inner-caption img
+{
+	width: 100% !important;
+	height: auto !important;
+	border-radius: 2px;
+}
+
+article .illustration.inner-caption img
+{
+	position: relative;
+}
+
+article .illustration.inner-caption .caption
+{
+	z-index: 1;
+	position: absolute;
+	max-width: 265px;
+	border-radius: 4px;
+	opacity: 0.9;
+	bottom: 0;
+	right: 0;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	margin: 15px;
+	padding: 15px;
+}
+
+article .illustration.inner-caption .caption span
+{
+	display: block;
+}
+
+article .illustration.inner-caption.top .caption
+{
+	top: 0;
+	bottom: auto;
+}
+
+article .illustration.inner-caption.bottom .caption
+{
+	bottom: 0;
+}
+
+article .illustration.inner-caption.left .caption
+{
+	right: auto;
+	left: 0;
+}
+
+article .illustration.inner-caption.right .caption
+{
+	right: 0;
+}
+
+article ul.slim li
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0;
+	list-style-type: none;
+}
+
+article ul.dialogue li
+{
+	margin: 0 0 5px 0px;
+	padding: 0;
+	list-style-type: none;
+	font-family: Courier New, courier, fixed;
+}
+
+article .endnote p
+{
+	font-style: italic;
+	color: #808080;
+}
+
+article .endnote p:last-of-type
+{
+	margin-bottom: 0;
+}
+
+aside .video-block {
+	position: relative;
+	left: -15px;
+}
+
+.hreview
+{
+	display: none;
+}
+
+
+
+article > .rating-bottom
+{
+    display: inline-block;
+  	float: right;
+  	margin-right: 30px;
+  	height: 37px;
+}
+
+article > .summary,
+article > .summary *
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+article #prod-buy {
+	float: left;
+	margin: 0 0 14px;
+	display: none;
+}
+article .amazon-policy {
+	font-size: 11px;
+	top: -5px;
+  	position: relative;
+}
+article #prod-buy p {
+	margin: 0;
+}
+.affiliate_disclaimer {
+	color:black;
+	font-size:0.929em;
+	max-width:100%;
+	line-height: 1.35;
+}
+
+.promoted-link {
+    padding: 20px;
+    margin: 0 0 20px;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    background: #efefef;
+}
+
+.promoted-link a {
+    font-weight: bold;
+}
+
+.link {
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	padding: .5rem 0;
+}
+/*
+     FILE ARCHIVED ON 13:01:33 Apr 06, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:36:58 Aug 30, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.datanode: 646.144 (4)
+  exclusion.robots.policy: 0.35
+  PetaboxLoader3.resolve: 56.66
+  RedisCDXSource: 38.116
+  exclusion.robots: 0.369
+  CDXLines.iter: 18.83 (3)
+  captures_list: 676.553
+  LoadShardBlock: 612.571 (3)
+  load_resource: 98.75
+  esindex: 0.015
+*/

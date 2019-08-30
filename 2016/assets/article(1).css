@@ -1,0 +1,97 @@
+article
+{
+	font-size: 14px;
+}
+
+article > p,
+article > ul,
+article > section > p,
+article > section > ul
+{
+	margin-right: 30px;
+}
+
+article > section.conclusion
+{
+	clear: none;
+	width: auto;
+	float: right;
+	margin-right: 15px;
+}
+
+article > .summary
+{
+	position: relative;
+	clear: both;
+	border-bottom: 1px solid #e0e0e0;
+	font-weight: bold;
+	margin-bottom: 1rem;	
+	padding: .25rem 0 1rem;
+}
+
+article > .summary.recommended,
+article > .summary.essential,
+article > .summary.avoid
+{
+	padding: .75rem;
+	margin-right: 2rem;
+	min-height: 5.5rem;
+	border-radius: .2rem .2rem 0 0;
+	border-bottom-width: 4px;
+}
+
+article > .summary.recommended
+{
+	background-color: #efefef;
+	border-color: #a5a7aa;
+}
+
+article > .summary.essential
+{
+	background-color: rgba(172,138,61, .14);
+	border-color: #d8ae33;
+}
+
+article > .summary.avoid
+{
+	background-color: rgba(235,28,36, .14);
+	border-color: #eb1c24;
+}
+
+article > .summary > img
+{
+	position: relative;
+	margin: -3.25rem -1.5rem 0 1.5rem;
+	float: right;
+	width: auto;
+	max-height: 160px;
+}
+
+article > .summary > p
+{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 1.1;
+}
+/*
+     FILE ARCHIVED ON 13:01:33 Apr 06, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:36:58 Aug 30, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  esindex: 0.012
+  captures_list: 54.31
+  PetaboxLoader3.datanode: 55.597 (4)
+  exclusion.robots: 0.222
+  LoadShardBlock: 31.496 (3)
+  PetaboxLoader3.resolve: 71.779
+  RedisCDXSource: 0.621
+  load_resource: 142.268
+  exclusion.robots.policy: 0.205
+  CDXLines.iter: 17.218 (3)
+*/
