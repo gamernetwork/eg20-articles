@@ -1,0 +1,312 @@
+#content div.inline
+{
+	position: relative;
+	float: right;
+	clear: right;
+	width: auto;
+	background-color: black;
+	color: white;
+	margin: 0 0 20px;
+	padding: 0;
+	overflow: hidden;
+	font-size: 13px;
+	line-height: 1;
+	min-width: 300px;
+	border-radius: 2px;
+}
+
+#content div.inline.large
+{
+	width: 100%;
+	clear: both;
+}
+
+#content div.inline.small
+{
+	margin-left: 20px;
+}
+
+#content div.inline a.fallback
+{
+	display: block;
+	color: white;
+	padding: 10px;
+}
+
+#content div.inline .title
+{
+	padding: 0.8em 0;
+	margin: 0 10px 10px;
+	border-bottom: 1px solid #404040;
+	font-weight: bold;
+	font-size: 1.45em;
+	line-height: 1;
+	color: white;
+	text-align: center;
+}
+
+#content div.inline.small .frame
+{
+	height: 250px;
+}
+
+#content div.inline .frame
+{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+	background-color: black;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;	
+}
+
+#content div.inline .frame *
+{
+	background-color: white;
+	display: block;
+	margin: 0 auto;
+}
+
+#content div.inline .frame iframe
+{
+	float: none;
+	width: 300px;
+	height: 250px;
+	margin: 0 auto;
+}
+
+#content div.inline .caption
+{
+	clear: both;
+	margin: 0;
+	padding: 0 1em 1em;
+}
+
+#content div.inline .caption span
+{
+	font-weight: bold;
+	font-style: normal;
+}
+
+#content div.inline .pager
+{
+	position: relative;
+	margin: 0;
+	padding: 10px 0;
+}
+
+#content div.inline .pager
+{
+	float: left;
+	width: 100%;
+}
+
+#content div.inline .pager a.tool
+{
+	text-decoration: none;
+	text-shadow: none;
+	display: block;
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 6px 8px;
+	border-radius: 5px;
+	text-shadow: 0 1px white;
+	background-color: #f4f4f4;
+	border: 1px solid #cccdd3;
+	color: #0069ff;
+	background-image: none;
+}
+
+#content div.inline .pager a.tool.previous
+{
+	border-radius: 5px 0 0 5px;
+	margin-left: 10px;
+}
+
+#content div.inline .pager a.tool.next
+{
+	border-radius: 0 5px 5px 0;
+	border-left: 1px solid black;
+	margin-right: 5px;
+}
+
+#content div.inline .pager a.tool.plain
+{
+	float: right;
+	margin-right: 10px;
+}
+
+#content div.inline.grid
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px 0 0 10px;
+}
+
+#content div.inline.grid .title
+{
+	padding-top: 6px;
+	margin-left: 0;
+}
+
+#content div.inline.grid img
+{
+	float: left;
+	clear: none;
+	margin: 0 10px 10px 0;
+}
+
+#content div.inline.grid img:hover
+{
+	cursor: pointer;
+}
+
+.grid-box
+{
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	z-index: 101;
+	background-color: black;
+	cursor: pointer;
+	box-shadow: 0 0 15px black;
+}
+
+.grid-box img
+{
+	position: relative;
+	display: block;
+}
+
+.grid-box ul
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	opacity: 1;
+	margin: 0;
+	padding: 0;
+}
+
+.grid-box ul li
+{
+	float: left;
+	width: 33.3%;
+	margin: 0;
+	padding: 0;
+}
+
+.grid-box ul li span
+{
+	display: block;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.grid-box ul li a
+{
+	margin: 10px;
+	padding: 4px 6px;
+	line-height: 1.1;
+}
+
+.grid-box ul li:last-child a
+{
+	float: right;
+}
+
+.grid-blanket
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 100;
+	background-color: black;
+	opacity: 0.75;
+}
+
+.grid-loader
+{
+	position: fixed;
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	color: black;
+	font-weight: bold;
+	z-index: 102;
+	font-size: 16px;
+	line-height: 1;
+	opacity: 0.7;
+}
+
+.grid-box a.original
+{
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: white;
+	color: #474950;
+	border-radius: 5px;
+	padding: 5px 8px 6px;
+	opacity: 0.6;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease-in;
+}
+
+.grid-box a.original:hover
+{
+	opacity: 1;
+}
+
+.grid-box a.original img,
+.grid-box a.original span
+{
+	display: inline;
+	float: none;
+	clear: none;
+	vertical-align: middle;
+}
+
+.grid-box a.original img
+{
+	background-color: transparent;
+	height: 15px;
+}
+
+.grid-box a.original span
+{
+	padding-left: 5px;
+	font-weight: bold;
+}
+/*
+     FILE ARCHIVED ON 08:25:40 Apr 21, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:06:47 Aug 29, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  CDXLines.iter: 15.465 (3)
+  LoadShardBlock: 103.898 (3)
+  RedisCDXSource: 0.668
+  captures_list: 123.442
+  PetaboxLoader3.resolve: 369.76 (3)
+  load_resource: 354.66
+  PetaboxLoader3.datanode: 71.148 (5)
+  exclusion.robots: 0.21
+  esindex: 0.011
+  exclusion.robots.policy: 0.196
+*/
