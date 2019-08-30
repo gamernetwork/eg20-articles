@@ -246,24 +246,3 @@ var Zoomer = Class.create({
 		}
 	}	
 });
-/*
-     FILE ARCHIVED ON 09:47:53 Oct 17, 2012 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:16:50 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  CDXLines.iter: 15.026 (3)
-  LoadShardBlock: 209.378 (3)
-  RedisCDXSource: 9.678
-  exclusion.robots.policy: 0.147
-  captures_list: 237.194
-  load_resource: 13.223
-  PetaboxLoader3.datanode: 38.792 (4)
-  exclusion.robots: 0.159
-  esindex: 0.011
-  PetaboxLoader3.resolve: 163.656
-*/

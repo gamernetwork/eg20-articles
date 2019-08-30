@@ -53,23 +53,3 @@ h);c.f.sd(h)};a.cancelRecs=function(h,d,b){OBR.c.log("cancel recommendation by d
 outbrain_rater.returnedHtmlData=function(c,a){OBR.f.pb(c,a)};outbrain_rater.returnedCancelOdbData=function(c){OBR.f.Af(c)};outbrain.returnedHtmlData=function(c,a){OBR.f.pb(c,a)};outbrain.returnedIrdJsonData=function(c,a){OBR.W.Kb(c,a)};outbrain.returnedJsonData=function(c,a){OBR.f.qc(c,a)};outbrain.returnedError=function(c){OBR.c.log("Callback error"+c)};outbrain.callRecs=function(c,a){OBR.f.oc(c,a)};outbrain.callClick=function(c,a){OBR.f.mc(c,a)};
 outbrain.callWhatIs=function(c,a,h,d,b,e){OBR.e.L(OBR.e.j.ta,function(){OBR.xb.Ib(c,a,h,d,b,e)},this)};outbrain.recClicked=function(c,a){OBR.f.yc(c,a)};outbrain.imageError=function(c){OBR.a.Mb(c)};outbrain.closeModal=function(){try{OBR.modal.hideModal()}catch(c){}};
 
-/*
-     FILE ARCHIVED ON 07:30:46 Jun 07, 2013 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:45:56 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  RedisCDXSource: 32.271
-  PetaboxLoader3.resolve: 80.0 (2)
-  exclusion.robots.policy: 0.163
-  LoadShardBlock: 339.531 (6)
-  esindex: 0.018
-  CDXLines.iter: 152.136 (3)
-  load_resource: 99.31
-  PetaboxLoader3.datanode: 205.049 (7)
-  exclusion.robots: 0.176
-*/

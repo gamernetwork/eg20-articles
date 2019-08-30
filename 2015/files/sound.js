@@ -57,24 +57,3 @@ if(Prototype.Browser.Gecko && navigator.userAgent.indexOf("Win") > 0){
   else
     Sound.play = function(){};
 } 
-/*
-     FILE ARCHIVED ON 01:33:22 Aug 21, 2015 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:08:58 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots.policy: 0.224
-  PetaboxLoader3.datanode: 266.178 (5)
-  LoadShardBlock: 207.579 (3)
-  exclusion.robots: 0.241
-  load_resource: 233.144
-  RedisCDXSource: 7.433
-  captures_list: 1097.814
-  PetaboxLoader3.resolve: 128.292 (2)
-  CDXLines.iter: 86.32 (3)
-  esindex: 0.014
-*/

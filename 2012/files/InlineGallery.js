@@ -576,24 +576,3 @@ document.observe(
 		
 	}
 );
-/*
-     FILE ARCHIVED ON 09:47:53 Oct 17, 2012 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:16:50 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots.policy: 0.155
-  CDXLines.iter: 11.075 (3)
-  esindex: 0.011
-  load_resource: 151.798
-  RedisCDXSource: 1.587
-  PetaboxLoader3.datanode: 293.994 (4)
-  captures_list: 295.395
-  PetaboxLoader3.resolve: 126.565
-  LoadShardBlock: 280.093 (3)
-  exclusion.robots: 0.167
-*/

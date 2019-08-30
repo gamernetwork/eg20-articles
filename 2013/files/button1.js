@@ -34,23 +34,3 @@
   document.write(write_string);
 })()
 
-/*
-     FILE ARCHIVED ON 06:47:25 Jun 07, 2013 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:45:56 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  esindex: 0.009
-  exclusion.robots: 0.155
-  load_resource: 394.399
-  exclusion.robots.policy: 0.142
-  PetaboxLoader3.resolve: 357.456
-  LoadShardBlock: 690.772 (6)
-  RedisCDXSource: 57.618
-  CDXLines.iter: 81.305 (3)
-  PetaboxLoader3.datanode: 706.385 (7)
-*/

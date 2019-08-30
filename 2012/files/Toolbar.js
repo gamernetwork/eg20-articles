@@ -188,24 +188,3 @@ function rtrim(str, chars) {
 	return str.replace(new RegExp("[" + chars + "]+$", "g"), "");
 }
 
-/*
-     FILE ARCHIVED ON 09:47:51 Oct 17, 2012 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:16:50 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots.policy: 0.281
-  esindex: 0.017
-  PetaboxLoader3.resolve: 45.442
-  RedisCDXSource: 2.71
-  load_resource: 57.445
-  exclusion.robots: 0.3
-  LoadShardBlock: 116.399 (3)
-  CDXLines.iter: 23.793 (3)
-  PetaboxLoader3.datanode: 88.766 (4)
-  captures_list: 148.337
-*/

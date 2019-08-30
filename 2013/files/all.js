@@ -150,23 +150,3 @@ __d("legacy:fb.xfbml",["Assert","sdk.domReady","sdk.Event","sdk.feature","FB","I
 void(0);
 }).call({}, window.inDapIF ? parent.window : window);
 } catch (e) {new Image().src="https:\/\/web.archive.org\/web\/20130607080551\/http:\/\/www.facebook.com\/" + 'common/scribe_endpoint.php?c=jssdk_error&m='+encodeURIComponent('{"error":"LOAD", "extra": {"name":"'+e.name+'","line":"'+(e.lineNumber||e.line)+'","script":"'+(e.fileName||e.sourceURL||e.script)+'","stack":"'+(e.stackTrace||e.stack)+'","message":"'+e.message+'"}}');}
-/*
-     FILE ARCHIVED ON 08:05:51 Jun 07, 2013 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:46:04 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  PetaboxLoader3.datanode: 213.479 (7)
-  CDXLines.iter: 88.973 (3)
-  LoadShardBlock: 200.483 (6)
-  PetaboxLoader3.resolve: 194.896
-  exclusion.robots: 0.116
-  exclusion.robots.policy: 0.106
-  load_resource: 248.858
-  RedisCDXSource: 13.358
-  esindex: 0.012
-*/

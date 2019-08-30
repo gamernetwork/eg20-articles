@@ -182,23 +182,3 @@ if (FB.Dom && FB.Dom.addCssRules) { FB.Dom.addCssRules(".fb_hidden{position:abso
 if (FB.resolveSoft) FB.resolveSoft();
 })(window.inDapIF ? parent.window : window);
 } catch (e) {new Image().src="https:\/\/web.archive.org\/web\/20121017095134\/http:\/\/www.facebook.com\/" + 'common/scribe_endpoint.php?c=jssdk_error&m='+encodeURIComponent('{"error":"LOAD", "extra": {"name":"'+e.name+'","line":"'+(e.lineNumber||e.line)+'","script":"'+(e.fileName||e.sourceURL||e.script)+'","stack":"'+(e.stackTrace||e.stack)+'","message":"'+e.message+'"}}');}
-/*
-     FILE ARCHIVED ON 09:51:34 Oct 17, 2012 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:16:56 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  esindex: 0.008
-  exclusion.robots.policy: 0.155
-  PetaboxLoader3.datanode: 589.99 (7)
-  exclusion.robots: 0.172
-  LoadShardBlock: 491.34 (6)
-  PetaboxLoader3.resolve: 267.942
-  RedisCDXSource: 7.155
-  load_resource: 389.991
-  CDXLines.iter: 103.883 (3)
-*/

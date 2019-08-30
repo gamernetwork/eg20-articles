@@ -122,24 +122,3 @@ function boomboxPlacement(img, url, date, cta, site) {
 
 };
 
-/*
-     FILE ARCHIVED ON 09:47:48 Oct 17, 2012 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:16:49 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  esindex: 0.008
-  exclusion.robots: 0.153
-  captures_list: 126.771
-  exclusion.robots.policy: 0.141
-  load_resource: 121.697
-  PetaboxLoader3.resolve: 90.146
-  LoadShardBlock: 111.983 (3)
-  RedisCDXSource: 1.115
-  CDXLines.iter: 11.461 (3)
-  PetaboxLoader3.datanode: 134.905 (4)
-*/

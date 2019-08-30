@@ -219,24 +219,3 @@ function number_format (number, decimals, dec_point, thousands_sep) {
   }
   return s.join(dec);
 }
-/*
-     FILE ARCHIVED ON 23:07:25 Aug 20, 2015 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:09:01 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  esindex: 0.019
-  LoadShardBlock: 49.119 (3)
-  CDXLines.iter: 21.589 (3)
-  PetaboxLoader3.datanode: 68.673 (5)
-  RedisCDXSource: 6.806
-  captures_list: 82.707
-  load_resource: 90.761
-  exclusion.robots.policy: 0.266
-  PetaboxLoader3.resolve: 55.778 (2)
-  exclusion.robots: 0.284
-*/

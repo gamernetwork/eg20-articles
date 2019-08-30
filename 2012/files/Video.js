@@ -177,24 +177,3 @@ function playVideoAt( id, pos ) {
 	return false;
 }
 
-/*
-     FILE ARCHIVED ON 09:47:51 Oct 17, 2012 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:16:50 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  load_resource: 90.416
-  exclusion.robots: 0.167
-  exclusion.robots.policy: 0.158
-  PetaboxLoader3.datanode: 552.589 (4)
-  PetaboxLoader3.resolve: 95.11 (2)
-  LoadShardBlock: 611.329 (3)
-  CDXLines.iter: 13.904 (3)
-  esindex: 0.008
-  RedisCDXSource: 23.067
-  captures_list: 651.419
-*/

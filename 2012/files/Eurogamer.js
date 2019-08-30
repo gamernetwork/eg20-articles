@@ -887,24 +887,3 @@ CookieNotifier = Class.create(
 
 	}
 });
-/*
-     FILE ARCHIVED ON 09:47:49 Oct 17, 2012 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:16:50 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  load_resource: 107.964
-  LoadShardBlock: 86.018 (3)
-  exclusion.robots.policy: 0.174
-  PetaboxLoader3.datanode: 76.882 (4)
-  PetaboxLoader3.resolve: 76.919
-  exclusion.robots: 0.184
-  CDXLines.iter: 15.128 (3)
-  esindex: 0.011
-  RedisCDXSource: 5.276
-  captures_list: 109.735
-*/

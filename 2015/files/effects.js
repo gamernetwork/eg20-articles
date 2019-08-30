@@ -1121,23 +1121,3 @@ $w('getInlineOpacity forceRerendering setContentZoom collectTextNodes collectTex
 );
 
 Element.addMethods(Effect.Methods);
-/*
-     FILE ARCHIVED ON 23:44:32 Aug 20, 2015 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:08:57 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  esindex: 0.009
-  exclusion.robots: 0.219
-  load_resource: 475.435
-  exclusion.robots.policy: 0.19
-  PetaboxLoader3.resolve: 247.33 (2)
-  LoadShardBlock: 201.276 (6)
-  RedisCDXSource: 22.529
-  CDXLines.iter: 77.118 (3)
-  PetaboxLoader3.datanode: 256.224 (8)
-*/

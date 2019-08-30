@@ -972,23 +972,3 @@ Element.findChildren = function(element, only, recursive, tagName) {
 Element.offsetSize = function (element, type) {
   return element['offset' + ((type=='vertical' || type=='height') ? 'Height' : 'Width')];
 };
-/*
-     FILE ARCHIVED ON 01:33:21 Aug 21, 2015 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:08:57 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  CDXLines.iter: 58.77 (3)
-  LoadShardBlock: 285.276 (6)
-  RedisCDXSource: 9.026
-  PetaboxLoader3.datanode: 336.87 (8)
-  PetaboxLoader3.resolve: 256.089 (2)
-  load_resource: 343.436
-  exclusion.robots: 0.111
-  esindex: 0.012
-  exclusion.robots.policy: 0.101
-*/

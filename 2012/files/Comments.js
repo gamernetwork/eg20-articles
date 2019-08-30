@@ -775,23 +775,3 @@ Comments = Class.create(
 		}
 	}
 });
-/*
-     FILE ARCHIVED ON 09:47:50 Oct 17, 2012 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:16:50 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  PetaboxLoader3.datanode: 61.738 (4)
-  exclusion.robots.policy: 0.129
-  LoadShardBlock: 55.332 (3)
-  exclusion.robots: 0.139
-  esindex: 0.009
-  load_resource: 19.134
-  CDXLines.iter: 14.526 (3)
-  RedisCDXSource: 1.134
-  captures_list: 73.759
-*/

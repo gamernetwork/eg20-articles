@@ -183,24 +183,3 @@ function playVideoAt( id, pos ) {
 	return false;
 }
 
-/*
-     FILE ARCHIVED ON 23:07:20 Aug 20, 2015 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:08:52 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  PetaboxLoader3.datanode: 59.617 (5)
-  esindex: 0.009
-  PetaboxLoader3.resolve: 150.479 (2)
-  RedisCDXSource: 0.56
-  captures_list: 48.938
-  CDXLines.iter: 12.579 (3)
-  exclusion.robots: 0.13
-  load_resource: 209.462
-  exclusion.robots.policy: 0.12
-  LoadShardBlock: 33.111 (3)
-*/

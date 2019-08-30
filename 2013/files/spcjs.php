@@ -59,24 +59,3 @@ var OA_fo = '';
 OA_fo += "<"+"script type=\'text/javascript\' src=\'http://ads.eurogamer.net/delivery/fl.js\'><"+"/script>\n";
 document.write(OA_fo);
 
-/*
-     FILE ARCHIVED ON 04:27:46 May 28, 2013 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:45:58 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots.policy: 0.175
-  CDXLines.iter: 15.549 (3)
-  esindex: 0.011
-  load_resource: 74.029
-  RedisCDXSource: 28.815
-  PetaboxLoader3.datanode: 87.387 (4)
-  captures_list: 125.63
-  PetaboxLoader3.resolve: 43.032
-  LoadShardBlock: 78.079 (3)
-  exclusion.robots: 0.189
-*/

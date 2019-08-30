@@ -756,24 +756,3 @@ document.observe("dom:loaded", function() {
 		}
 	);
 });
-/*
-     FILE ARCHIVED ON 23:06:35 Aug 20, 2015 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:08:52 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  PetaboxLoader3.datanode: 84.847 (5)
-  exclusion.robots.policy: 0.131
-  LoadShardBlock: 42.15 (3)
-  exclusion.robots: 0.139
-  esindex: 0.006
-  load_resource: 182.138
-  CDXLines.iter: 11.648 (3)
-  RedisCDXSource: 47.398
-  captures_list: 103.569
-  PetaboxLoader3.resolve: 136.534 (2)
-*/

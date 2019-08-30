@@ -66,24 +66,3 @@ var Scriptaculous = {
 };
 
 Scriptaculous.load();
-/*
-     FILE ARCHIVED ON 23:07:58 Aug 20, 2015 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:08:54 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots.policy: 0.173
-  exclusion.robots: 0.186
-  esindex: 0.013
-  RedisCDXSource: 4.907
-  load_resource: 125.52
-  PetaboxLoader3.datanode: 584.32 (6)
-  captures_list: 1433.142
-  PetaboxLoader3.resolve: 70.879 (2)
-  LoadShardBlock: 636.564 (4)
-  CDXLines.iter: 92.172 (4)
-*/

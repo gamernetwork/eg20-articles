@@ -7035,24 +7035,3 @@ Object.extend(Element.ClassNames.prototype, Enumerable);
   });
 })();
 
-/*
-     FILE ARCHIVED ON 23:07:06 Aug 20, 2015 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:08:54 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots.policy: 0.264
-  esindex: 0.008
-  PetaboxLoader3.resolve: 85.986 (2)
-  RedisCDXSource: 34.189
-  load_resource: 158.119
-  exclusion.robots: 0.282
-  LoadShardBlock: 356.626 (4)
-  CDXLines.iter: 146.974 (4)
-  PetaboxLoader3.datanode: 322.971 (6)
-  captures_list: 1876.28
-*/

@@ -181,24 +181,3 @@ function getMenuName( objId ) {
 
 menuload = true;
 
-/*
-     FILE ARCHIVED ON 09:37:58 Aug 11, 2004 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 13:55:44 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  LoadShardBlock: 47.72 (3)
-  esindex: 0.016
-  exclusion.robots: 0.127
-  RedisCDXSource: 13.902
-  load_resource: 944.306
-  captures_list: 77.992
-  CDXLines.iter: 12.962 (3)
-  exclusion.robots.policy: 0.118
-  PetaboxLoader3.resolve: 888.55
-  PetaboxLoader3.datanode: 83.603 (4)
-*/

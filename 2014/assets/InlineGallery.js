@@ -588,24 +588,3 @@ document.observe(
 		
 	}
 );
-/*
-     FILE ARCHIVED ON 08:26:00 Apr 21, 2014 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 16:06:50 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  esindex: 0.008
-  exclusion.robots: 0.137
-  captures_list: 243.708
-  exclusion.robots.policy: 0.128
-  load_resource: 132.935
-  PetaboxLoader3.resolve: 199.742 (3)
-  LoadShardBlock: 224.721 (3)
-  RedisCDXSource: 0.439
-  CDXLines.iter: 15.446 (3)
-  PetaboxLoader3.datanode: 119.687 (5)
-*/

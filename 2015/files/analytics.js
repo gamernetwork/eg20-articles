@@ -41,23 +41,3 @@ N.N=function(){"ga"!=gb&&J(49);var a=O[gb];if(!a||42!=a.answer){N.L=a&&a.l;N.loa
 Ba||!Ed(new Od)||(J(36),Ba=!0);(O.gaplugins=O.gaplugins||{}).Linker=Dc;b=Dc[z];Yd.set("linker",Dc);X("decorate",b,b.ca,20);X("autoLink",b,b.S,25);Yd.set("displayfeatures",fd);Yd.set("adfeatures",fd);a=a&&a.q;ka(a)?Z.D[G](N,a):J(50)}};N.da=function(){for(var a=N.getAll(),b=0;b<a[y];b++)a[b].get(V)};
 (function(){var a=N.N;if(!rc(a)){J(16);var b=!1,c=function(){if(!b&&rc(a)){b=!0;var d=c,e=M;e.removeEventListener?e.removeEventListener("visibilitychange",d,!1):e.detachEvent&&e.detachEvent("onvisibilitychange",d)}};L(M,"visibilitychange",c)}})();function La(a){var b=1,c=0,d;if(a)for(b=0,d=a[y]-1;0<=d;d--)c=a.charCodeAt(d),b=(b<<6&268435455)+c+(c<<14),c=b&266338304,b=0!=c?b^c>>21:b;return b};})(window);
 
-/*
-     FILE ARCHIVED ON 23:09:05 Aug 20, 2015 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:09:06 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots.policy: 0.267
-  esindex: 0.015
-  PetaboxLoader3.resolve: 132.495 (2)
-  RedisCDXSource: 77.593
-  load_resource: 142.732
-  exclusion.robots: 0.29
-  LoadShardBlock: 311.905 (6)
-  CDXLines.iter: 143.323 (3)
-  PetaboxLoader3.datanode: 203.446 (7)
-*/

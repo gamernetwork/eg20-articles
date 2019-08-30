@@ -273,24 +273,3 @@ Control.Slider = Class.create({
     this.event = null;
   }
 });
-/*
-     FILE ARCHIVED ON 01:33:22 Aug 21, 2015 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:08:57 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  PetaboxLoader3.datanode: 55.698 (5)
-  RedisCDXSource: 17.231
-  LoadShardBlock: 40.373 (3)
-  PetaboxLoader3.resolve: 117.836 (2)
-  exclusion.robots: 0.214
-  captures_list: 664.383
-  exclusion.robots.policy: 0.2
-  load_resource: 184.063
-  CDXLines.iter: 61.348 (3)
-  esindex: 0.007
-*/

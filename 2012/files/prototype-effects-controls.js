@@ -8170,24 +8170,3 @@ Form.Element.DelayedObserver = Class.create({
     this.callback(this.element, $F(this.element));
   }
 });
-/*
-     FILE ARCHIVED ON 09:47:49 Oct 17, 2012 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:16:49 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  load_resource: 37.183
-  esindex: 0.012
-  exclusion.robots: 0.209
-  LoadShardBlock: 183.791 (3)
-  PetaboxLoader3.datanode: 92.641 (4)
-  RedisCDXSource: 8.505
-  CDXLines.iter: 16.203 (3)
-  PetaboxLoader3.resolve: 104.639
-  exclusion.robots.policy: 0.194
-  captures_list: 211.984
-*/

@@ -153,24 +153,3 @@
 	// expose core
 	$.writeCapture = wc;
 })(jQuery,writeCapture.noConflict());
-/*
-     FILE ARCHIVED ON 09:47:49 Oct 17, 2012 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:16:50 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots.policy: 0.251
-  PetaboxLoader3.datanode: 340.04 (4)
-  LoadShardBlock: 315.084 (3)
-  exclusion.robots: 0.271
-  load_resource: 228.664
-  RedisCDXSource: 19.401
-  captures_list: 359.176
-  PetaboxLoader3.resolve: 201.003
-  CDXLines.iter: 20.122 (3)
-  esindex: 0.013
-*/

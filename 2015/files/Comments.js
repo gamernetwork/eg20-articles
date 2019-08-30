@@ -840,24 +840,3 @@ Comments = Class.create(
 	}
 });
 
-/*
-     FILE ARCHIVED ON 23:07:17 Aug 20, 2015 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:09:00 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  load_resource: 152.503
-  LoadShardBlock: 257.311 (3)
-  exclusion.robots.policy: 0.128
-  PetaboxLoader3.datanode: 142.685 (5)
-  PetaboxLoader3.resolve: 60.937 (2)
-  exclusion.robots: 0.138
-  CDXLines.iter: 11.139 (3)
-  esindex: 0.007
-  RedisCDXSource: 34.032
-  captures_list: 305.284
-*/

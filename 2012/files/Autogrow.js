@@ -48,24 +48,3 @@ function Autogrow(obj, focus)
 		growByRef(obj);
 	}
 };
-/*
-     FILE ARCHIVED ON 09:47:48 Oct 17, 2012 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:16:50 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots.policy: 0.191
-  CDXLines.iter: 15.085 (3)
-  esindex: 0.017
-  load_resource: 181.149
-  RedisCDXSource: 9.17
-  PetaboxLoader3.datanode: 136.924 (4)
-  captures_list: 66.711
-  PetaboxLoader3.resolve: 77.373
-  LoadShardBlock: 38.895 (3)
-  exclusion.robots: 0.207
-*/

@@ -843,24 +843,3 @@
 	
 })(this.writeCaptureSupport,this);
 
-/*
-     FILE ARCHIVED ON 09:47:48 Oct 17, 2012 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:16:49 Aug 29, 2019.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots.policy: 0.281
-  esindex: 0.014
-  PetaboxLoader3.resolve: 81.513 (2)
-  RedisCDXSource: 1.924
-  load_resource: 91.977
-  exclusion.robots: 0.302
-  LoadShardBlock: 90.117 (3)
-  CDXLines.iter: 22.858 (3)
-  PetaboxLoader3.datanode: 51.15 (4)
-  captures_list: 119.733
-*/
