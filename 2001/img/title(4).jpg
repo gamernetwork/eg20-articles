@@ -1,0 +1,705 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:egex="http://www.eurogamer.net/xhtml-extensions" xml:lang="en" lang="en">
+	<head>
+		<title>Eurogamer.net - Page not found!</title>
+				<link rel="stylesheet" type="text/css" href="styles/common.css?version4.2-31" />
+<link rel="stylesheet" type="text/css" href="styles/relocatable_menu.css?version4.2-31" />
+
+		<script  type="text/javascript">
+				preload = false;
+				function mon( obj ) {
+						if( preload == true ) {
+								doswap( obj, 'on' );
+						}
+				}
+				function moff( obj ) {
+						if( preload == true ) {
+								doswap( obj, 'off' );
+						}
+				}
+
+		</script><script  type="text/javascript" src="scripts/preload.js" ></script>
+
+		<script  type="text/javascript">
+			focussed = false;
+			openMenu = "";
+			highlightColour = "#666666";
+			normalColour = "transparent";
+			menuIn = 0;
+			sup = 0;
+			menuload = false;
+			function allOk() {
+				if( sup == 0 ) {
+					if( preload && menuload ) {
+						//do tests;
+						if(
+							( navigator.appName == "Microsoft Internet Explorer"
+								&& ( navigator.appVersion.indexOf( "MSIE 5" ) >= 0
+									|| navigator.appVersion.indexOf( "MSIE 6" ) >= 0
+								)
+							)
+							|| ( navigator.appName == "Netscape"
+								&& ( navigator.appVersion.indexOf( "5" ) == 0
+								)
+							)
+							|| ( navigator.appName == "Opera"
+								&& ( navigator.appVersion.indexOf( "7" ) == 0
+								)
+							)
+							|| navigator.appName == "Safari"
+						) {
+							sup = 1;
+						} else {
+							sup = -1;
+						}
+					}
+				}
+				
+				if( sup == -1 ) {
+					return false;
+				} else if( sup == 1 ) {
+					return true;
+				}
+			}
+			
+			function menuClicked( fireObj, wEvent ) {
+				if( allOk() ) {
+					return s_menuClicked( fireObj, wEvent );
+				}
+			}
+			function menuMouseOver( fireObj, wEvent ) {
+				if( allOk() ) {
+					return s_menuMouseOver( fireObj, wEvent );
+				}
+			}
+			function closeAll() {
+				if( allOk() ) {
+					return s_closeAll();
+				}
+			}
+			function mmmOut(  ) {
+				if( allOk() ) {
+					return s_mmmOut();
+				}
+			}
+
+		</script><script  type="text/javascript" src="scripts/relocatable_menu.js" ></script>
+<link rel="stylesheet" type="text/css" href="styles/relocatable_menu.css?version4.2-31" />
+<link href="http://www.eurogamer.net/rss/eurogamer_frontpage_feed.rss" rel="alternate" type="application/rss+xml" title="rss" /><link rel="Alternate Stylesheet" type="text/css" href="styles/boring.css?version4.2-31" title="Stylesheet for boring people" />
+	</head>
+	<body id="theTop"  onclick="closeAll(); return true;"  onmouseover="mmmOut();"  >
+			<div id="pageMastah">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<col width="829" />
+				<col width="6" />
+				<col width="160" />
+				<tbody>
+					<tr>
+						<td colspan="1">
+								<table id="headerTable" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td
+							><a href="index.php"><img src="img/common/logo_eurogamer_modern.gif" width="304" height="77" alt="Eurogamer"
+							/></a
+						></td>
+											<td class="adBanner"
+						><iframe id="ad66c35c" name="ad66c35c" src="http://195.157.98.210/adframe.php?n=ad66c35c&amp;what=zone:8"
+							framespacing="0" frameborder="no" scrolling="no" width="468" height="60"
+								><a href="http://195.157.98.210/adclick.php?n=ad66c35c" target="_blank"
+								><img width="468" height="60" src="http://195.157.98.210/adview.php?what=zone:8&amp;n=ad66c35c" border="0" alt=""
+							/></a
+						></iframe></td>
+					</tr>
+				</table>
+			<table id="quickNavBar" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+														<td
+								><a href="index.php" title="Let's all go home shall we?"
+									><img name="img/common/link_home" src="img/common/link_home_off.gif"
+										onmouseover="return mon( this )" onmouseout="return moff( this )"										width="47" height="54" alt="HOME"
+								/></a
+							></td>
+							<td
+								><img src="img/spacer.gif" width="4" height="1" alt=""
+							/></td>
+											<td
+								><a href="index.php?filter=PS2" title="Click here to view information for the Sony PlayStation2 only"
+									><img name="img/common/link_ps2" src="img/common/link_ps2_off.gif"
+										onmouseover="return mon( this )" onmouseout="return moff( this )"										width="47" height="54" alt="PS2"
+								/></a
+							></td>
+							<td
+								><img src="img/spacer.gif" width="4" height="1" alt=""
+							/></td>
+											<td
+								><a href="index.php?filter=XBOX" title="Click here to view information for the Microsoft XBox only"
+									><img name="img/common/link_xbox" src="img/common/link_xbox_off.gif"
+										onmouseover="return mon( this )" onmouseout="return moff( this )"										width="47" height="54" alt="XBOX"
+								/></a
+							></td>
+							<td
+								><img src="img/spacer.gif" width="4" height="1" alt=""
+							/></td>
+											<td
+								><a href="index.php?filter=CUBE" title="Click here to view information for the Nintendo GameCube only"
+									><img name="img/common/link_cube" src="img/common/link_cube_off.gif"
+										onmouseover="return mon( this )" onmouseout="return moff( this )"										width="47" height="54" alt="CUBE"
+								/></a
+							></td>
+							<td
+								><img src="img/spacer.gif" width="4" height="1" alt=""
+							/></td>
+											<td
+								><a href="index.php?filter=PC" title="Click here to view information about PC games only"
+									><img name="img/common/link_pc" src="img/common/link_pc_off.gif"
+										onmouseover="return mon( this )" onmouseout="return moff( this )"										width="47" height="54" alt="PC"
+								/></a
+							></td>
+							<td
+								><img src="img/spacer.gif" width="4" height="1" alt=""
+							/></td>
+											<td
+								><a href="index.php?filter=GBA" title="Click here to view information for the Nintendo GameBoy Advance only"
+									><img name="img/common/link_gba" src="img/common/link_gba_off.gif"
+										onmouseover="return mon( this )" onmouseout="return moff( this )"										width="47" height="54" alt="GBA"
+								/></a
+							></td>
+							<td
+								><img src="img/spacer.gif" width="4" height="1" alt=""
+							/></td>
+											<td
+								><a href="http://www.simplygames.com/index.asp?aid=1000" title="Click here to buy games from Simply Games"
+									><img name="img/common/link_simply_games" src="img/common/link_simply_games_off.gif"
+										onmouseover="return mon( this )" onmouseout="return moff( this )"										width="137" height="54" alt="SIMPLY"
+								/></a
+							></td>
+							<td
+								><img src="img/spacer.gif" width="4" height="1" alt=""
+							/></td>
+							<td width="100%"
+				><form style="display: block; padding: 0px; margin: 0px; margin-right: 0px; text-align: right;" method="POST" action="/404.php?&amp;login=user&amp;referer=%2F404.php%3F"
+				><table cellspacing="0" cellpadding="0" border="0" width="100%">
+					<tr>
+						<td class="memberLogin" width="100%">
+							<div class="loginTitle">Member Login</div>
+							<label><input type="text" class="textbox" style="width: 100px;" name="user" value="username" onfocus="if( this.value =='username' ) this.value=''" /></label>
+							<label><input type="password" class="textbox" style="width: 100px;" name="password" value="password" onfocus="if( this.value =='password' ) this.value=''" /></label>
+						</td>
+						<td
+							><input type="image" name="img/common/link_login" src="img/common/link_login_off.gif"
+								onmouseover="return mon( this )" onmouseout="return moff( this )"
+								width="44" height="54" alt="Log in"
+						/></td>
+					</tr>
+				</table
+				></form
+			></td>
+			<td
+				><img src="img/spacer.gif" width="4" height="1" alt=""
+			/></td>
+			<td class="memberSignup"
+				><img src="img/common/label_get_account.gif" width="82" height="54" alt="Not got an account?  They're free!"
+			/></td>
+			<td
+				><a href="user_profile_create.php" title="Sign Up"
+					><img name="img/common/link_signup" src="img/common/link_signup_off.gif"
+						onmouseover="return mon( this )" onmouseout="return moff( this )"
+						width="53" height="54" alt="Sign up"
+				/></a
+			></td>
+								</tr>
+					</table
+					>					<table cellspacing="0" cellpadding="0" border="0" width="100%" id="menuAndSearchBar">
+						<tbody>
+							<tr>
+													<td width="100%"
+									><div id="menuBar"
+										onclick="return( menuClicked( this, event ) );"
+										onmouseover="return( menuMouseOver( this, event ) );"
+										><table onmouseout="event.cancelBubble = true" cellpadding="0" cellspacing="0" border="0">
+											<tbody>
+												<tr>
+																<td
+														><div class="header" id="mh-News">
+															<a href="news_archive.php?showoptions=true&filter=" title="News from the gaming world">News</a>
+															<div class="menu" id="m-News">
+																<table cellspacing="0" cellpadding="0" border="0">
+																																							<tr>
+																							<td nowrap="nowrap"><a href="news_archive.php?filter=&select=latest">Latest</a></td>
+																						</tr>
+																																											<tr>
+																					<td><img src="img/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----" /></td>
+																				</tr>
+																																										<tr>
+																							<td nowrap="nowrap"><a href="news_archive.php?select=latest">All Platform Latest</a></td>
+																						</tr>
+																																											<tr>
+																					<td><img src="img/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----" /></td>
+																				</tr>
+																																										<tr>
+																							<td nowrap="nowrap"><a href="contact.php">Send Us News</a></td>
+																						</tr>
+																																							</table>
+															</div
+														></div
+													></td>
+																	<td
+														><div class="header" id="mh-Reviews">
+															<a href="review_archive.php?showoptions=true&filter=" title="Game reviews">Reviews</a>
+															<div class="menu" id="m-Reviews">
+																<table cellspacing="0" cellpadding="0" border="0">
+																																							<tr>
+																							<td nowrap="nowrap"><a href="review_archive.php?filter=&select=latest">Latest</a></td>
+																						</tr>
+																																													<tr>
+																							<td nowrap="nowrap"><a href="review_archive.php?filter=&select=archive">Archive</a></td>
+																						</tr>
+																																											<tr>
+																					<td><img src="img/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----" /></td>
+																				</tr>
+																																										<tr>
+																							<td nowrap="nowrap"><a href="review_archive.php?select=latest">All Platform Latest</a></td>
+																						</tr>
+																																													<tr>
+																							<td nowrap="nowrap"><a href="review_archive.php?select=archive">All Platform Archive</a></td>
+																						</tr>
+																																											<tr>
+																					<td><img src="img/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----" /></td>
+																				</tr>
+																																										<tr>
+																							<td nowrap="nowrap"><a href="scoring_policy.php">The Eurogamer scoring system</a></td>
+																						</tr>
+																																							</table>
+															</div
+														></div
+													></td>
+																	<td
+														><div class="header" id="mh-Previews">
+															<a href="preview_archive.php?showoptions=true&filter=" title="Game previews">Previews</a>
+															<div class="menu" id="m-Previews">
+																<table cellspacing="0" cellpadding="0" border="0">
+																																							<tr>
+																							<td nowrap="nowrap"><a href="preview_archive.php?filter=&select=latest">Latest</a></td>
+																						</tr>
+																																													<tr>
+																							<td nowrap="nowrap"><a href="preview_archive.php?filter=&select=archive">Archive</a></td>
+																						</tr>
+																																											<tr>
+																					<td><img src="img/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----" /></td>
+																				</tr>
+																																										<tr>
+																							<td nowrap="nowrap"><a href="preview_archive.php?select=latest">All Platform Latest</a></td>
+																						</tr>
+																																													<tr>
+																							<td nowrap="nowrap"><a href="preview_archive.php?select=archive">All Platform Archive</a></td>
+																						</tr>
+																																											<tr>
+																					<td><img src="img/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----" /></td>
+																				</tr>
+																																										<tr>
+																							<td nowrap="nowrap"><a href="release-dates.php">Release Dates</a></td>
+																						</tr>
+																																							</table>
+															</div
+														></div
+													></td>
+																	<td
+														><div class="header" id="mh-Features">
+															<a href="article_archive.php?showoptions=true&filter=" title="Features">Features</a>
+															<div class="menu" id="m-Features">
+																<table cellspacing="0" cellpadding="0" border="0">
+																																							<tr>
+																							<td nowrap="nowrap"><a href="article_archive.php?filter=&select=latest">Latest</a></td>
+																						</tr>
+																																													<tr>
+																							<td nowrap="nowrap"><a href="article_archive.php?filter=&select=archive">Archive</a></td>
+																						</tr>
+																																											<tr>
+																					<td><img src="img/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----" /></td>
+																				</tr>
+																																										<tr>
+																							<td nowrap="nowrap"><a href="article_archive.php?select=latest">All Platform Latest</a></td>
+																						</tr>
+																																													<tr>
+																							<td nowrap="nowrap"><a href="article_archive.php?select=archive">All Platform Archive</a></td>
+																						</tr>
+																																							</table>
+															</div
+														></div
+													></td>
+																	<td
+														><div class="header" id="mh-Screenshots">
+															<a href="screenshot_archive.php?showoptions=true&filter=" title="Screenshots">Screenshots</a>
+															<div class="menu" id="m-Screenshots">
+																<table cellspacing="0" cellpadding="0" border="0">
+																																							<tr>
+																							<td nowrap="nowrap"><a href="screenshot_archive.php?filter=&select=latest">Latest</a></td>
+																						</tr>
+																																													<tr>
+																							<td nowrap="nowrap"><a href="screenshot_archive.php?filter=&select=archive">Archive</a></td>
+																						</tr>
+																																											<tr>
+																					<td><img src="img/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----" /></td>
+																				</tr>
+																																										<tr>
+																							<td nowrap="nowrap"><a href="screenshot_archive.php?select=latest">All Platform Latest</a></td>
+																						</tr>
+																																													<tr>
+																							<td nowrap="nowrap"><a href="screenshot_archive.php?select=archive">All Platform Archive</a></td>
+																						</tr>
+																																							</table>
+															</div
+														></div
+													></td>
+																	<td
+														><div class="header" id="mh-Forum">
+															<a href="forum_threads.php?showoptions=true" title="Reader forum.">Forum</a>
+															<div class="menu" id="m-Forum">
+																<table cellspacing="0" cellpadding="0" border="0">
+																																							<tr>
+																							<td nowrap="nowrap"><a href="forum_threads.php?forum_id=1">Enter the Forum</a></td>
+																						</tr>
+																																													<tr>
+																							<td nowrap="nowrap"><a href="comment_policy.php">Forum Guidelines</a></td>
+																						</tr>
+																																							</table>
+															</div
+														></div
+													></td>
+																	<td
+														><div class="header" id="mh-Files">
+															<a href="file_service_faq.php?showoptions=true" title="File download service">Files</a>
+															<div class="menu" id="m-Files">
+																<table cellspacing="0" cellpadding="0" border="0">
+																																							<tr>
+																							<td nowrap="nowrap"><a href="file_service_files.php">Files</a></td>
+																						</tr>
+																																											<tr>
+																					<td><img src="img/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----" /></td>
+																				</tr>
+																																										<tr>
+																							<td nowrap="nowrap"><a href="file_service_faq.php">About</a></td>
+																						</tr>
+																																							</table>
+															</div
+														></div
+													></td>
+																	<td
+														><div class="header" id="mh-About">
+															<a href="http://www.eurogamer.biz/" title="Information about Eurogamer">About</a>
+															<div class="menu" id="m-About">
+																<table cellspacing="0" cellpadding="0" border="0">
+																																							<tr>
+																							<td nowrap="nowrap"><a href="http://www.eurogamer.biz/">Information About Eurogamer</a></td>
+																						</tr>
+																																													<tr>
+																							<td nowrap="nowrap"><a href="staff.php">Eurogamer Staff</a></td>
+																						</tr>
+																																											<tr>
+																					<td><img src="img/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----" /></td>
+																				</tr>
+																																										<tr>
+																							<td nowrap="nowrap"><a href="contact.php">Contacting Eurogamer</a></td>
+																						</tr>
+																																													<tr>
+																							<td nowrap="nowrap"><a href="http://www.eurogamer.biz/media_advert.php">Advertising</a></td>
+																						</tr>
+																																											<tr>
+																					<td><img src="img/spacer.gif" width="100" height="1" style="border-top: 1px solid #808080; margin: 3px 12px;" alt="-----" /></td>
+																				</tr>
+																																										<tr>
+																							<td nowrap="nowrap"><a href="comment_policy.php">Comments Policy</a></td>
+																						</tr>
+																																							</table>
+															</div
+														></div
+													></td>
+																</tr>
+											</tbody>
+										</table
+									></div
+								></td>
+											<td width="4"
+									><img src="img/spacer.gif" width="4" height="1" alt=""
+								/></td>
+								<td class="searcher" width="168"
+									><form method="get" action="search.php"
+										><table cellspacing="0" cellpadding="0" border="0">
+											<tr>
+												<td
+													><input type="text" class="textbox" style="width: 150px;" name="terms" value="Keywords"
+													onfocus="if( this.value == 'Keywords' ) this.value=''; return true;"
+												/></td>
+												<td
+													><img src="img/spacer.gif" width="4" height="1" alt=""
+												/></td>
+												<td
+													><input type="image" width="59" height="18" alt="Search"
+														name="img/common/link_search" src="img/common/link_search_off.gif"
+														onmouseover="return mon( this );" onmouseout="return moff( this );"
+												/></td>
+											</tr>
+										</table
+									></form
+								></td>
+										</tr>
+						</table>
+									<div class="contentArea platformBG"
+					><table cellspacing="0" cellpadding="0" border="0" width="829">
+						<colgroup><col width="673" /><col width="6" /><col width="150" /></colgroup>
+						<tbody>
+							<tr>
+								<td width="100%" class="writingGoesHere">
+							<div margin="12px" class="cuteMessage">
+					<table cellspacing="0" cellpadding="0" border="0">
+						<tr>
+							<td style="background-image: url( 'img/notify/left_border.gif' )"><img src="img/notify/mr_mugs.gif" width="122" height="100" alt="Mr Mugs Says" /></td>
+							<td style="background-image: url( 'img/notify/top_border.gif' ); background-repeat: repeat-x; padding: 46px 12px; padding-bottom: 20px;">
+					<h2>404 Page Not Found.</h2>
+		<p>Sorry, we can't find the page you're after.  It may have been moved, deleted, or it may have never even existed.  Sorry we couldn't
+		be more helpful -- maybe you could try our <a href="index.php">Front Page Headlines</a> and try to find what you're after from there.</p>
+
+									</td>
+							<td style="background-image: url( 'img/notify/right_border.gif' )"><img src="img/notify/top_right_corner.gif" width="18" height="26" /></td>
+						</tr>
+						<tr>
+							<td><img src="img/notify/bottom_left_corner.gif" width="122" height="21" alt="" /></td>
+							<td><img src="img/notify/bottom_border.gif" width="100%" height="21" alt="" /></td>
+							<td><img src="img/notify/bottom_right_corner.gif" width="18" height="21" /></td>
+						</tr>
+					</table>
+				</div>
+											</td>
+								<td
+									><img src="img/spacer.gif" width="6" height="1" alt=""
+								/></td>
+								<td>
+													<div class="rightExtra"
+					><a href="release-dates.php"><img src="img/common/release_dates_button.gif" alt="Out Now! Release Dates 2005" width="151" height="140"
+				/></a></div>
+							<div class="rightBarBoxStopIt latestComments">
+					<h3 class="rightBarTitle">
+						Latest Comments:
+					</h3>
+				
+					<a href="article_discussion.php?article_id=58932#comments">Namco reveals new...</a>
+<a href="article_discussion.php?article_id=58931#comments">Nintendo 3D rumour...</a>
+<a href="article_discussion.php?article_id=58918#comments">Metal Gear Acid</a>
+<a href="article_discussion.php?article_id=58923#comments">New Burnout PSP in...</a>
+<a href="article_discussion.php?article_id=58925#comments">Eurogamer to relau...</a>
+<a href="article_discussion.php?article_id=58929#comments">Dragon Ball Z: Bud...</a>
+<a href="article_discussion.php?article_id=58861#comments">World Tour Soccer</a>
+<a href="article_discussion.php?article_id=58926#comments">Mourning</a>
+<a href="article_discussion.php?article_id=58862#comments">Xbox back in the r...</a>
+<a href="article_discussion.php?article_id=55855#comments">No online play for...</a>
+<a href="article_discussion.php?article_id=58917#comments">Star Wars Galaxies...</a>
+
+					<div class="moreComments">
+						<a href="comments_latest.php">More Comments...</a>
+					</div>
+				</div
+			>				<div class="rightBarBoxStopIt latestComments">
+					<h3 class="rightBarTitle">
+						Latest Files:
+					</h3>
+				
+								<a href="file_service_files.php?action=show_file&amp;file_id=191">Alan Wake teaser t...</a>
+			<small>Video (18 MB)</small>
+		
+			<a href="file_service_files.php?action=show_file&amp;file_id=190">Shouting at puppie...</a>
+			<small>Video (2 MB)</small>
+		
+			<a href="file_service_files.php?action=show_file&amp;file_id=189">Fahrenheit - May '...</a>
+			<small>Video (28 MB)</small>
+		
+			<a href="file_service_files.php?action=show_file&amp;file_id=188">TimeShift - May '0...</a>
+			<small>Video (14 MB)</small>
+		
+			<a href="file_service_files.php?action=show_file&amp;file_id=187">SSX On Tour traile...</a>
+			<small>Video (6 MB)</small>
+		
+
+					<div class="moreComments">
+						<a href="file_service_files.php">More Files...</a>
+					</div>
+				
+				</div
+			><div class="rightBarBox">
+<h3>
+				Latest Screenshots:
+			</h3>
+<div class="delimit"><table cellspacing="0" cellpadding="0" border="0" class="screenzList"><tbody>
+<tr class="screenzHeader"><td colspan="2"><h4 class="title"><a href="article.php?article_id=58929">Dragon Ball Z: Budokai Tenkaichi</a></h4></td></tr>
+<tr class="screenzHeader">
+<td>
+<div class="date">Fri 06 May 12:56</div>
+<div><a href="article_discussion?article_id=58929">3 comments</a></div>
+</td>
+<td><img class="platformIcon" width="24" height="22" src="img/platforms/icon_ps2_tiny_dark_bg.gif"></td>
+</tr>
+<tr><td colspan="2"><img src="img/spacer.gif" width="1" height="4" alt=""></td></tr>
+<tr class="screenzHeader"><td colspan="2"><h4 class="title"><a href="article.php?article_id=58926">Mourning</a></h4></td></tr>
+<tr class="screenzHeader">
+<td>
+<div class="date">Fri 06 May 12:33</div>
+<div><a href="article_discussion?article_id=58926">4 comments</a></div>
+</td>
+<td><img class="platformIcon" width="24" height="22" src="img/platforms/icon_pc_tiny_dark_bg.gif"></td>
+</tr>
+<tr><td colspan="2"><img src="img/spacer.gif" width="1" height="4" alt=""></td></tr>
+<tr class="screenzHeader"><td colspan="2"><h4 class="title"><a href="article.php?article_id=57979">ParaWorld</a></h4></td></tr>
+<tr class="screenzHeader">
+<td>
+<div class="date">Fri 06 May 12:30</div>
+<div><a href="article_discussion?article_id=57979">14 comments</a></div>
+</td>
+<td><img class="platformIcon" width="24" height="22" src="img/platforms/icon_pc_tiny_dark_bg.gif"></td>
+</tr>
+<tr><td colspan="2"><img src="img/spacer.gif" width="1" height="4" alt=""></td></tr>
+<tr class="screenzHeader"><td colspan="2"><h4 class="title"><a href="article.php?article_id=54652">Blitzkrieg 2</a></h4></td></tr>
+<tr class="screenzHeader">
+<td>
+<div class="date">Fri 06 May 12:18</div>
+<div><a href="article_discussion?article_id=54652">7 comments</a></div>
+</td>
+<td><img class="platformIcon" width="24" height="22" src="img/platforms/icon_pc_tiny_dark_bg.gif"></td>
+</tr>
+<tr><td colspan="2"><img src="img/spacer.gif" width="1" height="4" alt=""></td></tr>
+<tr class="screenzHeader"><td colspan="2"><h4 class="title"><a href="article.php?article_id=58913">Shattered Union</a></h4></td></tr>
+<tr class="screenzHeader">
+<td>
+<div class="date">Fri 06 May 11:18</div>
+<div><a href="article_discussion?article_id=58913">8 comments</a></div>
+</td>
+<td><img class="platformIcon" width="24" height="22" src="img/platforms/icon_pc_tiny_dark_bg.gif"></td>
+</tr>
+<tr><td colspan="2"><img src="img/spacer.gif" width="1" height="4" alt=""></td></tr>
+<tr class="screenzHeader"><td colspan="2"><h4 class="title"><a href="article.php?article_id=58226">Fable: The Lost Chapters</a></h4></td></tr>
+<tr class="screenzHeader">
+<td>
+<div class="date">Fri 06 May 10:40</div>
+<div><a href="article_discussion?article_id=58226">7 comments</a></div>
+</td>
+<td><img class="platformIcon" width="24" height="22" src="img/platforms/icon_pc_tiny_dark_bg.gif"></td>
+</tr>
+<tr><td colspan="2"><img src="img/spacer.gif" width="1" height="4" alt=""></td></tr>
+<tr class="screenzHeader"><td colspan="2"><h4 class="title"><a href="article.php?article_id=58922">Mage Knight Apocalypse</a></h4></td></tr>
+<tr class="screenzHeader">
+<td>
+<div class="date">Fri 06 May 10:26</div>
+<div><a href="article_discussion?article_id=58922">2 comments</a></div>
+</td>
+<td><img class="platformIcon" width="24" height="22" src="img/platforms/icon_pc_tiny_dark_bg.gif"></td>
+</tr>
+<tr><td colspan="2"><img src="img/spacer.gif" width="1" height="4" alt=""></td></tr>
+<tr class="screenzHeader"><td colspan="2"><h4 class="title"><a href="article.php?article_id=57828">Bet On Soldier</a></h4></td></tr>
+<tr class="screenzHeader">
+<td>
+<div class="date">Thu 05 May 14:43</div>
+<div><a href="article_discussion?article_id=57828">8 comments</a></div>
+</td>
+<td><img class="platformIcon" width="24" height="22" src="img/platforms/icon_pc_tiny_dark_bg.gif"></td>
+</tr>
+<tr><td colspan="2"><img src="img/spacer.gif" width="1" height="4" alt=""></td></tr>
+<tr class="screenzHeader"><td colspan="2"><h4 class="title"><a href="article.php?article_id=58373">Asheron's Call 2: Legions</a></h4></td></tr>
+<tr class="screenzHeader">
+<td>
+<div class="date">Thu 05 May 14:21</div>
+<div><a href="article_discussion?article_id=58373">2 comments</a></div>
+</td>
+<td><img class="platformIcon" width="24" height="22" src="img/platforms/icon_pc_tiny_dark_bg.gif"></td>
+</tr>
+<tr><td colspan="2"><img src="img/spacer.gif" width="1" height="4" alt=""></td></tr>
+<tr class="screenzHeader"><td colspan="2"><h4 class="title"><a href="article.php?article_id=58907">WWII Tank Commander</a></h4></td></tr>
+<tr class="screenzHeader">
+<td>
+<div class="date">Thu 05 May 11:01</div>
+<div><a href="article_discussion?article_id=58907">2 comments</a></div>
+</td>
+<td><img class="platformIcon" width="24" height="22" src="img/platforms/icon_pc_tiny_dark_bg.gif"></td>
+</tr>
+<tr><td colspan="2"><img src="img/spacer.gif" width="1" height="4" alt=""></td></tr>
+<tr class="screenzHeader"><td colspan="2"><h4 class="title"><a href="article.php?article_id=58902">Alan Wake</a></h4></td></tr>
+<tr class="screenzHeader"><td colspan="2">
+<div class="date">Wed 04 May 16:42</div>
+<div><a href="article_discussion?article_id=58902">28 comments</a></div>
+</td></tr>
+<tr><td colspan="2"><img src="img/spacer.gif" width="1" height="4" alt=""></td></tr>
+<tr class="screenzHeader"><td colspan="2"><h4 class="title"><a href="article.php?article_id=58403">7 Sins</a></h4></td></tr>
+<tr class="screenzHeader"><td colspan="2">
+<div class="date">Wed 04 May 15:05</div>
+<div><a href="article_discussion?article_id=58403">21 comments</a></div>
+</td></tr>
+<tr><td colspan="2"><img src="img/spacer.gif" width="1" height="4" alt=""></td></tr>
+<tr class="screenzHeader"><td colspan="2"><h4 class="title"><a href="article.php?article_id=58897">Doom: The Movie</a></h4></td></tr>
+<tr class="screenzHeader"><td colspan="2">
+<div class="date">Wed 04 May 13:30</div>
+<div><a href="article_discussion?article_id=58897">19 comments</a></div>
+</td></tr>
+<tr><td colspan="2"><img src="img/spacer.gif" width="1" height="4" alt=""></td></tr>
+<tr class="screenzHeader"><td colspan="2"><h4 class="title"><a href="article.php?article_id=58892">Fallen Lords: Condemnation</a></h4></td></tr>
+<tr class="screenzHeader">
+<td>
+<div class="date">Wed 04 May 11:17</div>
+<div><a href="article_discussion?article_id=58892">2 comments</a></div>
+</td>
+<td><img class="platformIcon" width="24" height="22" src="img/platforms/icon_pc_tiny_dark_bg.gif"></td>
+</tr>
+<tr><td colspan="2"><img src="img/spacer.gif" width="1" height="4" alt=""></td></tr>
+<tr class="screenzHeader"><td colspan="2"><h4 class="title"><a href="article.php?article_id=58891">Professional Manager 2006</a></h4></td></tr>
+<tr class="screenzHeader">
+<td>
+<div class="date">Wed 04 May 11:16</div>
+<div><a href="article_discussion?article_id=58891">3 comments</a></div>
+</td>
+<td><img class="platformIcon" width="24" height="22" src="img/platforms/icon_pc_tiny_dark_bg.gif"></td>
+</tr>
+<tr><td colspan="2"><img src="img/spacer.gif" width="1" height="4" alt=""></td></tr>
+</tbody></table></div>
+<div class="moreScreenz"><a href="screenshot_archive.php?select=latest">More Screenshots...</a></div>
+</div>
+								</td>
+							</tr>
+						</tbody>
+					</table
+				></div>
+									</td>
+						<td
+							><img src="img/spacer.gif" width="6" height="1" alt=""
+						/></td>
+						<td class="rightArea"><div class="adButton"
+	><iframe id="a85df4b5" name="a85df4b5" src="http://195.157.98.210/adframe.php?n=a85df4b5&amp;what=zone:16"
+		framespacing="0" frameborder="no" scrolling="no" width="150" height="150"
+		><a href="http://195.157.98.210/adclick.php?n=a85df4b5" target="_blank"
+			><img width="150" height="150" src="http://195.157.98.210/adview.php?what=zone:16&amp;n=a85df4b5" border="0" alt="" 
+		/></a
+	></iframe
+></div>
+<div class="adButton"
+	><iframe id="a24a82df" name="a24a82df" src="http://195.157.98.210/adframe.php?n=a24a82df&amp;what=zone:24"
+		framespacing="0" frameborder="no" scrolling="no" width="150" height="150"
+		><a href="http://195.157.98.210/adclick.php?n=a24a82df" target="_blank"
+			><img width="150" height="150" src="http://195.157.98.210/adview.php?what=zone:24&amp;n=a24a82df" border="0" alt=""
+		/></a
+	></iframe
+></div>
+<div style="text-align: left; margin-top: 6px;"
+	><iframe id="a260d3f1" name="a260d3f1" src="http://195.157.98.210/adframe.php?n=a260d3f1&amp;what=zone:15"
+		framespacing="0" frameborder="no" scrolling="no" width="160" height="600"
+			><a href="http://195.157.98.210/adclick.php?n=a260d3f1" target="_blank"
+			><img width="150" height="600" src="http://195.157.98.210/adview.php?what=zone:15&amp;n=a260d3f1" border="0" alt=""
+		/></a>
+	</iframe
+></div>
+</td>
+						<td><img src="img/spacer.gif" width="1" height="1" alt="" /></td>
+					</tr>
+				</tbody>
+			</table>
+						<div style="padding: 10px;">
+				&copy; 1999-2005 <a href="http://www.eurogamer.biz/">Eurogamer Network Ltd.</a> | <a href="http://www.eurogamer.net">Home</a> | <a href="contact.php">Contact</a> | <a href="http://www.eurogamer.net/rss/eurogamer_frontpage_feed.rss">RSS Feed</a>.
+			</div>
+			<script language="JavaScript" type="text/javascript"
+	src="http://195.157.98.210/adlayer.php?what=zone:22&amp;layerstyle=simple&amp;align=right&amp;valign=top&amp;padding=2&amp;closetime=20&amp;padding=2&amp;shifth=0&amp;shiftv=0&amp;closebutton=f&amp;bordercolor=000000&amp;backcolor=FFFFFF"
+></script>
+</div>	</body>
+</html>
